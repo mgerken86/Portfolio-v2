@@ -1,9 +1,13 @@
 import './ResumePage.css'
+import resume from '../../images/resume.jpeg'
 
 export default function ResumePage() {
     return (
         <div className="resumePage">
-            <h1>Resume Page</h1>
+            <img 
+            className='resumeImg'
+            src={resume} 
+            alt="resume" />
         </div>
     )
 }

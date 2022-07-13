@@ -1,5 +1,12 @@
 .projectsPage {
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
     background: linear-gradient(var(--lavender), var(--cobaltBlue), var(--spaceCadet));
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsPage h1 {
+    font-size: 6em;
+    color: var(--spaceCadet)
 }
