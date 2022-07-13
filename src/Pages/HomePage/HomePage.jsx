@@ -1,4 +1,5 @@
 import './HomePage.css'
+import { Link } from 'react-router-dom'
 import markImg from '../../images/mark.png'
 
 export default function HomePage() {
@@ -17,6 +18,9 @@ export default function HomePage() {
                 The speed of evolution in the tech industry excites me, and my passion for knowledge motivates me to adapt my skill-set to match the demands of the industry.
 
             </div>
+            <Link to="/projects" style={{ textDecoration: 'none' }}>
+                <span className='arrowIcon'>⬇︎</span>
+            </Link>
         </div>
     )
 }

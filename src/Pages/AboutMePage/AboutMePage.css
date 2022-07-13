@@ -2,4 +2,7 @@
     width: 100vw;
     height: 200vh;
     background: linear-gradient(var(--cultured), var(--sage), var(--catawba));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
