@@ -1,0 +1,19 @@
+.navBar {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 5em;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.navBtn {
+    padding: .3em;
+    background-color: black;
+    color: white;
+}

@@ -5,7 +5,6 @@ export default function HomePage() {
     return (
         <div className="homePage">
             <h1>Mark Gerken</h1>
-
             <div className='markImgContainer'>
                 <img
                     className='markImg'
