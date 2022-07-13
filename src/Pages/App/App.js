@@ -7,6 +7,7 @@ import AboutMePage from '../AboutMePage/AboutMePage'
 function App() {
   return (
     <div className="App">
+      <h1>Testing Vercel Git</h1>
       <HomePage/>
       <ProjectsPage/>
       <ResumePage/>
