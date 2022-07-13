@@ -2,7 +2,19 @@
     --manatee: #8d99ae;
     --cultured: #edf2f4;
     --catawba: #773344;
+    --violet: #270454;
+    --spaceCadet: #183059;
     --cobaltBlue: #004BA8;
+    --shadowBlue: #6C8EAD;
     --sage: #D1CAA1; 
     --cream: #F4FEC1;
+    --purpleNavy: #424874;
+    --lavender: #DCD6F7;
+    --bluePurple: #A6B1E1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }

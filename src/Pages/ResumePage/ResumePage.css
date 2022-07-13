@@ -1,4 +1,5 @@
 .resumePage {
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
+    background: linear-gradient(var(--spaceCadet), var(--shadowBlue), var(--cultured));
 }

@@ -1,4 +1,5 @@
 .homePage {
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
+    background: linear-gradient(var(--violet), var(--purpleNavy), var(--lavender));
 }
