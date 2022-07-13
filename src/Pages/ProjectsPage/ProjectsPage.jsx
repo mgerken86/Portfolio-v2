@@ -7,6 +7,7 @@ export default function ProjectsPage() {
     const [projects, setProjects] = useState(projectsArr)
     return (
         <div className="projectsPage">
+            <div className='projectsContainer'>
             <h1>Projects</h1>
             {projects.map((project, idx) => {
                 return <ProjectCard
@@ -14,6 +15,7 @@ export default function ProjectsPage() {
                     key={idx}
                 />
             })}
+            </div>
         </div>
     )
 }
