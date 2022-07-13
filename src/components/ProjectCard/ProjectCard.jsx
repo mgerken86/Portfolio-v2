@@ -9,10 +9,18 @@ export default function ProjectCard({ project }) {
             <h5>Description: {project.description}</h5>
             <h5>Technologies Used: {project.technologies}</h5>
             <div className='linksContainer'>
-                <a href={project.link}>
+                <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <button className='projectBtn'>Browse To Project</button>
                 </a>
-                <a href={project.github}>
+                <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <img
                         className='githubIcon'
                         src={githubIcon} alt=""
