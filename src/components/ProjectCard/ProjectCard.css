@@ -1,5 +1,39 @@
 .projectCardDiv {
     display: flex;
-    width: 70vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
     height: 25vh;
+    border: 3px solid var(--catawba);
+}
+
+.projectCardDiv h2 {
+    color: var(--sage);
+    font-size: 2em;
+}
+.projectCardDiv h5 {
+    color: white;
+}
+
+.linksContainer {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectBtn {
+    background-color: var(--catawba);
+    padding: 1em;
+    color: var(--sage);
+}
+.projectBtn:hover {
+    cursor: pointer;
+    background-color: var(--sage);
+    color: var(--catawba);
+}
+
+.githubIcon {
+    width: 3em;
 }
