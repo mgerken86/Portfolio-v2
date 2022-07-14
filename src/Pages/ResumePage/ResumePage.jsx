@@ -4,7 +4,7 @@ import resume from '../../images/resume.jpeg'
 
 export default function ResumePage() {
     return (
-        <div className="resumePage">
+        <div className="resumePage page">
             {/* <Link to="/projects" style={{ textDecoration: 'none' }}>
                 <span className='arrowIcon'>⬆︎</span>
             </Link> */}

@@ -7,7 +7,7 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard'
 export default function ProjectsPage() {
     const [projects, setProjects] = useState(projectsArr)
     return (
-        <div className="projectsPage">
+        <div className="projectsPage page">
             {/* <Link to="/" style={{ textDecoration: 'none' }}>
                 <span className='arrowIcon'>⬆︎</span>
             </Link> */}

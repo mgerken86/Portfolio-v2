@@ -3,7 +3,7 @@ import './AboutMePage.css'
 
 export default function AboutMePage() {
     return (
-        <div className="aboutMePage" style={{ textDecoration: 'none' }}>
+        <div className="aboutMePage page" style={{ textDecoration: 'none' }}>
             {/* <Link to="/resume">
                 <span className='arrowIcon'>⬆︎</span>
             </Link> */}
