@@ -8,9 +8,9 @@ export default function ProjectsPage() {
     const [projects, setProjects] = useState(projectsArr)
     return (
         <div className="projectsPage">
-            <Link to="/" style={{ textDecoration: 'none' }}>
+            {/* <Link to="/" style={{ textDecoration: 'none' }}>
                 <span className='arrowIcon'>⬆︎</span>
-            </Link>
+            </Link> */}
             <h1>Projects</h1>
             <div className='projectsContainer'>
                 {projects.map((project, idx) => {
@@ -20,9 +20,9 @@ export default function ProjectsPage() {
                     />
                 })}
             </div>
-            <Link to="/resume" style={{ textDecoration: 'none' }}>
+            {/* <Link to="/resume" style={{ textDecoration: 'none' }}>
                 <span className='arrowIcon'>⬇︎</span>
-            </Link>
+            </Link> */}
         </div>
     )
 }

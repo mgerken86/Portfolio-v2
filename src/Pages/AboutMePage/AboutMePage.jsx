@@ -4,9 +4,9 @@ import './AboutMePage.css'
 export default function AboutMePage() {
     return (
         <div className="aboutMePage" style={{ textDecoration: 'none' }}>
-            <Link to="/resume">
+            {/* <Link to="/resume">
                 <span className='arrowIcon'>⬆︎</span>
-            </Link>
+            </Link> */}
             <h1>About Me Page</h1>
         </div>
     )

@@ -4,7 +4,7 @@
     background: linear-gradient(var(--lavender), var(--cobaltBlue), var(--spaceCadet));
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .projectsPage h1 {
