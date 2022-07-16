@@ -44,6 +44,7 @@ export default function NavBar() {
                     </span>
                 </Link>
             </div>
+            <div id='navGradient'></div>
         </nav>
     )
 }

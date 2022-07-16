@@ -1,18 +1,12 @@
 import './HomePage.css'
-import { Link } from 'react-router-dom'
-import markImg from '../../images/mark.png'
+
 
 export default function HomePage() {
     return (
         <main id="home">
             <div className="homePage page">
                 <h1>Mark Gerken</h1>
-                <div className='markImgContainer'>
-                    <img
-                        className='markImg'
-                        src={markImg}
-                        alt="mark" />
-                </div>
+                
                 <div className='brandStatement'>
                     I'm a Software Engineer with a background in Administrative Management, Program Development, and Facilitation.
                     My insatiable curiosity keeps me seeking out puzzles, problems, and challenges that force me to find solutions through creativity, critical thinking, perseverance, and collaboration.

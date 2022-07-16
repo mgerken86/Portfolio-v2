@@ -1,14 +1,9 @@
 .navBar {
     position: fixed;
-    /* left: 0;
-    top: 30%;
-    width: 4em;
-    height: 40vh; */
     top: 0;
     height: 6vh;
     display: flex;
     width: 100vw;
-    /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
     padding: 1em;
@@ -23,11 +18,18 @@
 .navRoutes1, .navRoutes2 {
     width: 50vw;
     display: flex;
-    gap: 1.2em;
-    margin: 0 1em;
 }
 .navRoutes1 {
-    justify-content: flex-start;
+    justify-content: center;
+    gap: 1.5em;
+}
+#navGradient {
+    width: 50vw;
+    height: .25vh;
+    background: linear-gradient(90deg, var(--pink), var(--teal));
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 
@@ -36,17 +38,21 @@
     padding: .3em;
     /* background-color: rgba(0, 0, 0, .4);
     background-color: rgba(0, 0, 0, 1); */
-    background-color: var(--lavender);
+    /* background-color: var(--teal); */
+    background: linear-gradient(var(--pink), var(--teal));
     color: var(--violet);
+    color: black;
     font-weight: bold;
     border-radius: 10px;
+    /* border: 2px solid var(--blue1); */
 }
 .navBtn:hover {
     cursor: pointer;
     color: var(--cultured);
-    background-color: var(--spaceCadet);
-    border: 2px solid var(--lavender);
-    padding: .4em;
+    color: black;
+    background: var(--pink);
+    /* border: 2px solid var(--salmon); */
+    /* padding: .4em; */
 }
 
 /* .navBar a {
@@ -60,7 +66,9 @@
     border: 2px solid var(--cream);
 } */
 .active span {
-    color: var(--cultured);
-    background-color: var(--spaceCadet);
-    border: 2px solid var(--lavender);
+    color: var(--violet);
+    color: black;
+    background: var(--pink);
+    /* background: linear-gradient(90deg, var(--blue1), var(--salmon)); */
+    /* border: 2px solid var(--salmon); */
 }

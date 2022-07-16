@@ -26,13 +26,6 @@
     box-sizing: border-box; 
 }
 
-.arrowIcon {
-    width: 2em;
-    height: 2em;
-    font-size: 1em;
-    color: white;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, .1);
-    border-radius: 50%;
-    text-align: center;
+#home, #projects, #resume, #about {
+    background-color: var(--violet);
 }

@@ -1,7 +1,6 @@
 #resume {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(var(--spaceCadet), var(--cobaltBlue), var(--bluePurple), var(--lavender));
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
