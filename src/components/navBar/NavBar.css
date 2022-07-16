@@ -5,40 +5,52 @@
     width: 4em;
     height: 40vh; */
     top: 0;
-    height: 10vh;
+    height: 6vh;
     display: flex;
     width: 100vw;
     /* flex-direction: column; */
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 1em;
     /* background-color: rgba(255, 255, 255, .6); */
+    background-color: black;
     /* background: linear-gradient(90deg, var(--violet), var(--cobaltBlue), var(--catawba)); */
-    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.8), rgba(0,0,0,.6), rgba(0,0,0,.4), rgba(0,0,0,.2), rgba(0,0,0,.0));
+    /* background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.8), rgba(0,0,0,.6), rgba(0,0,0,.4), rgba(0,0,0,.2), rgba(0,0,0,.0)); */
     /* border-radius: 0 30px 30px 0; */
 }
 
-.navRoutes {
-    width: 30vw;
+.navRoutes1, .navRoutes2 {
+    width: 50vw;
     display: flex;
-    justify-content: center;
     gap: 1.2em;
+    margin: 0 1em;
+}
+.navRoutes1 {
+    justify-content: flex-start;
+}
+.navRoutes2 {
+    justify-content: flex-end;
 }
 
 .navBtn {
+    display: inline-block;
     padding: .3em;
-    background-color: rgba(0, 0, 0, .4);
-    background-color: rgba(0, 0, 0, 1);
-    /* background-color: var(--cultured); */
-    color: var(--cultured);
+    /* background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, 1); */
+    background-color: var(--lavender);
+    color: var(--violet);
     border-radius: 10px;
 }
-
-.navBar a {
-    color: var(--cultured);
+.navBtn:hover {
+    cursor: pointer;
 }
 
-.active button {
-    background-color: var(--cultured);
-    color: var(--violet);
+/* .navBar a {
+    color: var(--lavender);
+    background-color: var(--violet);
+} */
+
+.active span {
+    color: var(--catawba);
+    background-color: var(--cream);
 }
