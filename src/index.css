@@ -68,6 +68,7 @@
     }
     #outerCont {
         width: 100vw !important;
+        height: 40vh;
     }
     #middleCont {
         width: 100vw !important;
