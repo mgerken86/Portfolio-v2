@@ -38,6 +38,7 @@
     background-color: rgba(0, 0, 0, 1); */
     background-color: var(--lavender);
     color: var(--violet);
+    font-weight: bold;
     border-radius: 10px;
 }
 .navBtn:hover {
@@ -55,6 +56,7 @@
     border: 2px solid var(--cream);
 } */
 .active span {
-    color: var(--violet);
-    background-color: var(--lavender);
+    color: var(--lavender);
+    background-color: var(--violet);
+    border: 2px solid var(--cultured);
 }
