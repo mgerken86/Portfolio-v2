@@ -34,9 +34,6 @@
 }
 
 @media only screen and (max-width: 950px) {
-    .homePage {
-        max-height: 85vh !important;
-    }
     .navRoutes1, .navRoutes2 {
         min-width: 100vw;
     }
