@@ -9,7 +9,7 @@
     width: 100vw;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: 1em 0;
     background-color: rgba(0, 0, 0, .9);
     z-index: 2;
     /* background-color: black; */

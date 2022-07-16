@@ -30,6 +30,50 @@
 
 #home, #projects, #resume, #about {
     /* background-color: var(--violet); */
-    background: linear-gradient(var(--violet), var(--maroon));
     /* background-color: black; */
+}
+
+@media only screen and (max-width: 950px) {
+    .homePage {
+        max-height: 85vh !important;
+    }
+    .navRoutes1, .navRoutes2 {
+        min-width: 100vw;
+    }
+
+    .navBtn {
+        padding: 0.1em !important;
+    }
+    .typewriter, .nameH1 {
+        font-size: 8vw !important;
+    }
+    .navBar, .footer {
+        height: 8vh !important;
+    }
+
+    #outerCont {
+        width: 90vw !important;
+    }
+    #middleCont {
+        width: 89vw !important;
+    }
+    #innerCont {
+        width: 82vw !important;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .nameH1 {
+        font-size: 14vw !important;
+    }
+    #outerCont {
+        width: 100vw !important;
+    }
+    #middleCont {
+        width: 100vw !important;
+    }
+    #innerCont {
+        width: 100vw !important;
+        height: 25vh !important;
+    }
 }
