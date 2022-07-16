@@ -7,22 +7,18 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard'
 export default function ProjectsPage() {
     const [projects, setProjects] = useState(projectsArr)
     return (
-        <div className="projectsPage page">
-            {/* <Link to="/" style={{ textDecoration: 'none' }}>
-                <span className='arrowIcon'>⬆︎</span>
-            </Link> */}
-            <h1>Projects</h1>
-            <div className='projectsContainer'>
-                {projects.map((project, idx) => {
-                    return <ProjectCard
-                        project={project}
-                        key={idx}
-                    />
-                })}
+        <main id="projects">
+            <div className="projectsPage page">
+                <h1>Projects</h1>
+                <div className='projectsContainer'>
+                    {projects.map((project, idx) => {
+                        return <ProjectCard
+                            project={project}
+                            key={idx}
+                        />
+                    })}
+                </div>
             </div>
-            {/* <Link to="/resume" style={{ textDecoration: 'none' }}>
-                <span className='arrowIcon'>⬇︎</span>
-            </Link> */}
-        </div>
+        </main>
     )
 }

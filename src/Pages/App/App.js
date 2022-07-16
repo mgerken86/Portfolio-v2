@@ -1,10 +1,10 @@
-import './App.css';
+import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import HomePage from '../HomePage/HomePage'
 import ProjectsPage from '../ProjectsPage/ProjectsPage'
 import ResumePage from '../ResumePage/ResumePage'
 import AboutMePage from '../AboutMePage/AboutMePage'
-import NavBar from '../../components/navBar/NavBar';
+import NavBar from '../../components/navBar/NavBar'
 
 
 function App() {
@@ -12,13 +12,13 @@ function App() {
     <div className="App">
       <NavBar />
       <main id='pagesContainer'>
-        <HomePage />
-        <ProjectsPage id="projects" />
-        <ResumePage id="resume" />
-        <AboutMePage id="about" />
+        <HomePage/>
+        <ProjectsPage/>
+        <ResumePage/>
+        <AboutMePage/>
       </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

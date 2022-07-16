@@ -1,4 +1,4 @@
-.homePage {
+#home {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(var(--violet), var(--purpleNavy), var(--lavender));
@@ -6,7 +6,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    /* margin-top: 4vh; */
+}
+
+.homePage {
+    height: 90vh;
+    margin-top: 8vh;
 }
 
 .homePage h1 {

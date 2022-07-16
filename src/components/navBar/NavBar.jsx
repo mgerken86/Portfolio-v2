@@ -36,7 +36,7 @@ export default function NavBar() {
                     activeClass='active'
                     smooth
                     spy
-                    to="/about">
+                    to="about">
                     <button className='navBtn'>
                         About
                     </button>

@@ -29,10 +29,16 @@
     padding: .3em;
     background-color: rgba(0, 0, 0, .4);
     background-color: rgba(0, 0, 0, 1);
-    background-color: var(--cultured);
-    color: var(--violet);
+    /* background-color: var(--cultured); */
+    color: var(--cultured);
+    border-radius: 10px;
 }
 
 .navBar a {
     color: var(--cultured);
+}
+
+.active button {
+    background-color: var(--cultured);
+    color: var(--violet);
 }

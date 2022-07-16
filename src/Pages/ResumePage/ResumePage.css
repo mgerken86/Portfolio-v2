@@ -1,4 +1,4 @@
-.resumePage {
+#resume {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(var(--spaceCadet), var(--shadowBlue), var(--cultured));
@@ -6,6 +6,11 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.resumePage {
+    height: 90vh;
+    margin-top: 8vh;
 }
 
 .resumePage h1 {
