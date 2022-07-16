@@ -43,6 +43,10 @@
 }
 .navBtn:hover {
     cursor: pointer;
+    color: var(--cultured);
+    background-color: var(--spaceCadet);
+    border: 2px solid var(--lavender);
+    padding: .4em;
 }
 
 /* .navBar a {
@@ -56,7 +60,7 @@
     border: 2px solid var(--cream);
 } */
 .active span {
-    color: var(--lavender);
-    background-color: var(--violet);
-    border: 2px solid var(--cultured);
+    color: var(--cultured);
+    background-color: var(--spaceCadet);
+    border: 2px solid var(--lavender);
 }

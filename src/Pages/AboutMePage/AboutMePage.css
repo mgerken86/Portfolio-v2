@@ -1,7 +1,7 @@
 .aboutMePage {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(var(--lavender), var(--cobaltBlue), var(--spaceCadet));
+    background: linear-gradient(var(--lavender), var(--bluePurple), var(--cobaltBlue), var(--spaceCadet));
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
