@@ -5,6 +5,7 @@ import ProjectsPage from '../ProjectsPage/ProjectsPage'
 import ResumePage from '../ResumePage/ResumePage'
 import AboutMePage from '../AboutMePage/AboutMePage'
 import NavBar from '../../components/navBar/NavBar'
+import Footer from '../../components/Footer/Footer'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <ResumePage/>
         <AboutMePage/>
       </main>
+      <Footer />
     </div>
   )
 }

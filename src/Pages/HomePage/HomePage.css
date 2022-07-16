@@ -1,7 +1,7 @@
 #home {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(var(--violet), var(--purpleNavy), var(--lavender));
+    background: linear-gradient(var(--spaceCadet), var(--cobaltBlue), var(--lavender));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,7 @@
 }
 
 .homePage h1 {
-    color: var(--lavender);
+    color: var(--cultured);
     font-size: 5em;
 }
 

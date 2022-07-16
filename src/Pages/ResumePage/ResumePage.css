@@ -1,7 +1,7 @@
 #resume {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(var(--spaceCadet), var(--shadowBlue), var(--cultured));
+    background: linear-gradient(var(--spaceCadet), var(--cobaltBlue), var(--lavender));
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
