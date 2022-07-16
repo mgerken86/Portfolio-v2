@@ -68,268 +68,418 @@
 .typewriter:after {
     content: '';
     /* color: var(--pink); */
-    animation: write 25s linear;
-    animation-fill-mode: forwards;
+    animation: write 15s infinite linear;
 }
 
 @keyframes write {
-    .5% {
+    1% {
         content: ' P';
     }
-    1% {
+    2% {
         content: ' Pr';
     }
-    1.5% {
+    3% {
         content: ' Pro';
     }
-    2% {
+    4% {
         content: 'Prob';
     }
-    2.5% {
+    5% {
         content: ' Probl';
     }
-    3% {
+    6% {
         content: ' Proble';
     }
-    3.5% {
+    7% {
         content: ' Problem';
     }
-    4% {
+    8% {
         content: ' Problem ';
     }
-    4.5% {
+    9% {
         content: ' Problem S';
     }
-    5% {
+    10% {
         content: ' Problem So';
     }
-    5.5% {
+    11% {
         content: ' Problem Sol';
     }
-    6% {
+    12% {
         content: ' Problem Solv';
     }
-    6.5% {
+    13% {
         content: ' Problem Solve';
     }
-    7% {
+    14% {
         content: ' Problem Solver';
         color: var(--pink);
     }
 
 
-    9% {
+    18% {
         content: ' Problem Solve';
-    }
+        color: var(--pink);
 
-    9.25% {
+    }
+    18.25% {
         content: ' Problem Solv';
-    }
+        color: var(--pink);
 
-    9.5% {
+    }
+    18.5% {
         content: ' Problem Sol';
-    }
+        color: var(--pink);
 
-    9.75% {
+    }
+    18.75% {
         content: ' Problem So';
-    }
+        color: var(--pink);
 
-    10% {
+    }
+    19% {
         content: ' Problem S';
-    }
+        color: var(--pink);
 
-    10.25% {
+    }
+    19.25% {
         content: ' Problem ';
-    }
+        color: var(--pink);
 
-    10.5% {
+    }
+    19.5% {
         content: ' Problem';
-    }
+        color: var(--pink);
 
-    10.75% {
+    }
+    19.75% {
         content: ' Proble';
-    }
+        color: var(--pink);
 
-    11% {
+    }
+    20% {
         content: ' Probl';
+        color: var(--pink);
+
     }
-    11.25% {
+    20.25% {
         content: ' Prob';
+        color: var(--pink);
+
     }
-    11.5% {
+    20.5% {
         content: ' Pro';
+        color: var(--pink);
+
     }
-    11.75% {
+    20.75% {
         content: ' Pr';
+        color: var(--pink);
+
     }
-    12% {
+    21% {
         content: ' P';
+        color: var(--pink);
+
     }
-    12.25% {
+    21.25% {
         content: ' ';
         color: var(--teal);
     }
 
 
-    14.25% {
+    25.25% {
         content: ' T';
     }
-    14.75% {
+    26.25% {
         content: ' Te';
     }
-    15.25% {
+    27.25% {
         content: ' Tea';
     }
-    15.75% {
+    28.25% {
         content: ' Team';
     }
-    16.25% {
+    29.25% {
         content: ' Team ';
     }
-    16.75% {
+    30.25% {
         content: ' Team P';
     }
-    17.25% {
+    31.25% {
         content: ' Team Pl';
     }
-    17.75% {
+    32.25% {
         content: ' Team Pla';
     }
-    18.25% {
+    33.25% {
         content: ' Team Play';
     }
-    18.75% {
+    34.25% {
         content: ' Team Playe';
     }
-    19.25% {
+    35.25% {
         content: ' Team Player';
         color: var(--pink);
     }
-    21.25% {
+    39.25% {
         content: ' Team Playe';
+        color: var(--pink);
+
     }
-    21.25% {
+    40% {
         content: ' Team Play';
+        color: var(--pink);
+
     }
-    21.5% {
+    40.25% {
         content: ' Team Pla';
+        color: var(--pink);
+
     }
-    21.75% {
+    40.5% {
         content: ' Team Pl';
+        color: var(--pink);
+
     }
-    22% {
+    40.75% {
         content: ' Team P';
+        color: var(--pink);
+
     }
-    22.25% {
+    41% {
         content: ' Team ';
+        color: var(--pink);
+
     }
-    22.5% {
+    41.25% {
         content: ' Team';
+        color: var(--pink);
+
     }
-    22.75% {
+    41.5% {
         content: ' Tea';
+        color: var(--pink);
+
     }
-    23% {
+    41.75% {
         content: ' Te';
+        color: var(--pink);
+
     }
-    23.5% {
+    42% {
         content: ' T';
+        color: var(--pink);
+
     }
-    24% {
+    42.25% {
         content: ' ';
-    }
-    24% {
-        content: ' C';
         color: var(--teal);
     }
-    24% {
+
+
+    46.25% {
+        content: ' C';
+    }
+    47.25% {
         content: ' Cr';
     }
-    24% {
+    48.25% {
         content: ' Cri';
     }
-    24% {
+    49.25% {
         content: ' Crit';
     }
-    24% {
+    50.25% {
         content: ' Criti';
     }
-    24% {
+    51.25% {
         content: ' Critic';
     }
-    24% {
+    52.25% {
         content: ' Critica';
     }
-    24% {
+    53.25% {
         content: ' Critical';
     }
-    24% {
+    54.25% {
         content: ' Critical ';
     }
-    24% {
+    55.25% {
         content: ' Critical T';
     }
-    24% {
+    56.25% {
         content: ' Critical Th';
     }
-    24% {
+    57.25% {
         content: ' Critical Thi';
     }
-    24% {
+    58.25% {
         content: ' Critical Thin';
     }
-    24% {
+    59.25% {
         content: ' Critical Think';
     }
-    24% {
+    60.25% {
         content: ' Critical Thinke';
     }
-    24% {
+    61.25% {
         content: ' Critical Thinker';
+        color: var(--pink);
     }
-    
 
 
+    65.25% {
+        content: ' Critical Thinke';
+        color: var(--pink);
 
-    91% {
+    }
+    65.5% {
+        content: ' Critical Think';
+        color: var(--pink);
+
+    }
+    65.75% {
+        content: ' Critical Thin';
+        color: var(--pink);
+
+    }
+    66% {
+        content: ' Critical Thi';
+        color: var(--pink);
+
+    }
+    66.25% {
+        content: ' Critical Th';
+        color: var(--pink);
+
+    }
+    66.5% {
+        content: ' Critical T';
+        color: var(--pink);
+
+    }
+    66.75% {
+        content: ' Critical ';
+        color: var(--pink);
+
+    }
+    67% {
+        content: ' Critical';
+        color: var(--pink);
+
+    }
+    67.25% {
+        content: ' Critica';
+        color: var(--pink);
+
+    }
+    67.5% {
+        content: ' Critic';
+    }
+    67.75% {
+        content: ' Criti';
+    }
+    68% {
+        content: ' Crit';
+    }
+    68.25% {
+        content: ' Cri';
+    }
+    68.5% {
+        content: ' Cr';
+    }
+    68.75% {
+        content: ' C';
+    }
+    69% {
+        content: ' ';
+        color: var(--teal);
+    }
+
+
+    71% {
         content: ' D';
     }
-
-    92% {
+    72% {
         content: ' De';
     }
-
-    93% {
+    73% {
         content: ' Dev';
     }
-
-    94% {
+    74% {
         content: ' Deve';
     }
-
-    95% {
+    75% {
         content: ' Devel';
     }
-
-    96% {
+    76% {
         content: ' Develo';
     }
-
-    97% {
+    77% {
         content: ' Develop';
     }
-
-    98% {
+    78% {
         content: ' Develope';
     }
-
-    99% {
-        content: ' Developer';
-    }
-
-    100% {
+    79% {
         content: ' Developer';
         color: var(--pink);
     }
+
+    84% {
+        content: ' Developer';
+        color: var(--pink);
+    }
+    89% {
+        content: ' Developer';
+        color: var(--pink);
+    }
+
+    94% {
+        content: ' Develope';
+        color: var(--pink);
+
+    }
+    94.25% {
+        content: ' Develop';
+        color: var(--pink);
+
+    }
+    94.5% {
+        content: ' Develo';
+        color: var(--pink);
+
+    }
+    94.75% {
+        content: ' Devel';
+        color: var(--pink);
+
+    }
+    95% {
+        content: ' Deve';
+        color: var(--pink);
+
+    }
+    95.25% {
+        content: ' Dev';
+        color: var(--pink);
+
+    }
+    95.5% {
+        content: ' De';
+        color: var(--pink);
+
+    }
+    95.75% {
+        content: ' D';
+        color: var(--pink);
+
+    }
+    96% {
+        content: ' ';
+        color: var(--teal);
+    }
+    
 
 }
