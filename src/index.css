@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Roboto+Slab:wght@600&family=Titillium+Web:wght@700&display=swap');
+
 :root {
     --cultured: #edf2f4;
     /* purples */
@@ -27,6 +29,7 @@
 }
 
 #home, #projects, #resume, #about {
-    background-color: var(--violet);
-    background-color: black;
+    /* background-color: var(--violet); */
+    background: linear-gradient(var(--violet), var(--maroon));
+    /* background-color: black; */
 }

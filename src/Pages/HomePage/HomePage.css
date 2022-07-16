@@ -4,17 +4,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .homePage {
     height: 90vh;
-    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #outerCont {
-    width: 90vw;
-    height: 80vh;
+    width: 75vw;
+    height: 65vh;
     background: linear-gradient(90deg, var(--teal), var(--pink));
     display: flex;
     justify-content: center;
@@ -23,17 +26,20 @@
 }
 
 .nameH1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: var(--teal);
     position: absolute;
     top: 8vh;
-    left: 15vw;
+    left: 7vw;
     font-size: 5vw;
     /* font-size: 5em; */
 }
 
 #middleCont {
-    width: 89vw;
-    height: 79vh;
+    width: 74vw;
+    height: 64vh;
     background-color: var(--violet);
     background-color: black;
     display: flex;
@@ -42,8 +48,8 @@
 }
 
 #innerCont {
-    width: 81vw;
-    height: 41vh;
+    width: 61vw;
+    height: 31vh;
     background: linear-gradient(90deg, var(--pink), var(--teal));
     display: flex;
     justify-content: center;
@@ -51,16 +57,19 @@
 }
 
 #homeImg {
-    width: 80vw;
-    height: 40vh;
+    width: 60vw;
+    height: 30vh;
 }
 
 
 .typewriter {
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: var(--teal);
     position: absolute;
     bottom: 8vh;
-    right: 15vw;
+    right: 7vw;
     font-size: 5vw;
 }
 

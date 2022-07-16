@@ -1,4 +1,7 @@
 .navBar {
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    /* font-family: 'Roboto Slab', serif; */
     position: fixed;
     top: 0;
     height: 6vh;
@@ -37,39 +40,19 @@
 .navBtn {
     display: inline-block;
     padding: .3em;
-    /* background-color: rgba(0, 0, 0, .4);
-    background-color: rgba(0, 0, 0, 1); */
-    /* background-color: var(--teal); */
     background: linear-gradient(var(--pink), var(--teal));
-    color: var(--violet);
     color: black;
-    font-weight: bold;
     border-radius: 10px;
-    /* border: 2px solid var(--blue1); */
 }
 .navBtn:hover {
     cursor: pointer;
-    color: var(--cultured);
     color: black;
     background: var(--pink);
-    /* border: 2px solid var(--salmon); */
-    /* padding: .4em; */
+
 }
 
-/* .navBar a {
-    color: var(--lavender);
-    background-color: var(--violet);
-} */
-
-/* .active span {
-    color: var(--spaceCadet);
-    background-color: var(--cultured);
-    border: 2px solid var(--cream);
-} */
 .active span {
     color: var(--violet);
     color: black;
     background: var(--pink);
-    /* background: linear-gradient(90deg, var(--blue1), var(--salmon)); */
-    /* border: 2px solid var(--salmon); */
 }
