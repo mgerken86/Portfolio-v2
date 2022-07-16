@@ -11,18 +11,12 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <div id='pagesContainer'>
-        {/* <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/resume" element={<ResumePage />} />
-          <Route path="/about" element={<AboutMePage />} />
-        </Routes> */}
-      </div>
-      <HomePage />
-      <ProjectsPage />
-      <ResumePage />
-      <AboutMePage />
+      <main id='pagesContainer'>
+        <HomePage />
+        <ProjectsPage id="projects" />
+        <ResumePage id="resume" />
+        <AboutMePage id="about" />
+      </main>
     </div>
   );
 }

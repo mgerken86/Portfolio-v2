@@ -4,7 +4,9 @@ import markImg from '../../images/mark.png'
 
 export default function HomePage() {
     return (
-        <div className="homePage page">
+        <div 
+        id="home"
+        className="homePage page">
             <br />
             <h1>Mark Gerken</h1>
             <div className='markImgContainer'>

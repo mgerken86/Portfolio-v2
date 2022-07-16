@@ -8,6 +8,11 @@
     align-items: center;
 }
 
+.resumePage h1 {
+    font-size: 5em;
+    color: var(--cultured);
+}
+
 .resumeImg {
     height: 90vh;
     width: 70vw;

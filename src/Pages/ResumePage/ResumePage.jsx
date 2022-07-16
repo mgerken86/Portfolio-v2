@@ -8,6 +8,7 @@ export default function ResumePage() {
             {/* <Link to="/projects" style={{ textDecoration: 'none' }}>
                 <span className='arrowIcon'>⬆︎</span>
             </Link> */}
+            <h1>Resume</h1>
             <img 
             className='resumeImg'
             src={resume} 

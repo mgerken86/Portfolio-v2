@@ -21,7 +21,8 @@
 .navRoutes {
     width: 30vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1.2em;
 }
 
 .navBtn {
@@ -29,5 +30,9 @@
     background-color: rgba(0, 0, 0, .4);
     background-color: rgba(0, 0, 0, 1);
     background-color: var(--cultured);
+    color: var(--violet);
+}
+
+.navBar a {
     color: var(--cultured);
 }
