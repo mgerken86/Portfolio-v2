@@ -1,17 +1,23 @@
 :root {
-    --manatee: #8d99ae;
     --cultured: #edf2f4;
-    --catawba: #773344;
-    --violet: #270454;
-    --spaceCadet: #183059;
-    --cobaltBlue: #004BA8;
-    --shadowBlue: #6C8EAD;
-    --sage: #D1CAA1; 
-    --cream: #F4FEC1;
-    --purpleNavy: #424874;
-    --lavender: #DCD6F7;
-    --bluePurple: #A6B1E1;
-    --grayBlue: #e3eaeb;
+    /* purples */
+    --violet: #19042d;
+    --dPurple: #26002e;
+    --purple: #300638;
+    --purple1: #380b43;
+    --lPurple: #420e48;
+    --maroon: #591e4e;
+    /* pinks */
+    --redPink: #a74957;
+    --salmon: #ff7278;
+    --pink: #ffaeaa;
+    /* blues */
+    --dBlue: #34405a;
+    --blue: #256488;
+    --blue1: #3aadc8;
+    --teal: #43facc;
+
+
 }
 
 * {
