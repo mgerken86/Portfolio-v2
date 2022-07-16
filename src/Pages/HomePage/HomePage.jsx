@@ -1,16 +1,23 @@
 import './HomePage.css'
-
+import wallpaper from '../../images/coding-wallpaper.jpeg'
 
 export default function HomePage() {
     return (
         <main id="home">
             <div className="homePage page">
-                <h1>Mark Gerken</h1>
-                
-                <div className='brandStatement'>
-                    I'm a Software Engineer with a background in Administrative Management, Program Development, and Facilitation.
-                    My insatiable curiosity keeps me seeking out puzzles, problems, and challenges that force me to find solutions through creativity, critical thinking, perseverance, and collaboration.
-                    The speed of evolution in the tech industry excites me, and my passion for knowledge motivates me to adapt my skill-set to match the demands of the industry.
+                <div id='outerCont'>
+                    <h1 className='nameH1'>Hi, I'm Mark</h1>
+                    <div id="middleCont">
+                        <div id="innerCont">
+                            <img
+                                src={wallpaper}
+                                id="homeImg"
+                                alt="property of https://wallpapersafari.com/w/ZcVzSn" />
+                        </div>
+                    </div>
+                    <h1 className='typewriter'>
+                        I am a 
+                    </h1>
                 </div>
             </div>
         </main >

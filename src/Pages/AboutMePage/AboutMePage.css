@@ -5,3 +5,9 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+.markImg {
+    height: 25em;
+    width: 25em;
+    border-radius: 50%;
+}

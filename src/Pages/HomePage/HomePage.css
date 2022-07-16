@@ -12,22 +12,211 @@
     margin-top: 8vh;
 }
 
-.homePage h1 {
-    color: var(--lavender);
-    font-size: 5em;
+#outerCont {
+    width: 90vw;
+    height: 80vh;
+    background: linear-gradient(90deg, var(--teal), var(--pink));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-.markImg {
-    height: 25em;
-    width: 25em;
-    border-radius: 50%;
+.nameH1 {
+    color: var(--teal);
+    position: absolute;
+    top: 8vh;
+    left: 15vw;
+    font-size: 5vw;
+    /* font-size: 5em; */
 }
 
-.brandStatement {
-    background-color: rgba(39, 4, 84, .4);
-    color: white;
-    font-size: 1.1em;
-    width: 70vw;
-    padding: 1em;
-    border-radius: 2em;
+#middleCont {
+    width: 89vw;
+    height: 79vh;
+    background-color: var(--violet);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#innerCont {
+    width: 81vw;
+    height: 41vh;
+    background: linear-gradient(90deg, var(--pink), var(--teal));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeImg {
+    width: 80vw;
+    height: 40vh;
+}
+
+
+.typewriter {
+    color: var(--teal);
+    position: absolute;
+    bottom: 8vh;
+    right: 15vw;
+    font-size: 5vw;
+}
+
+/* Animations for typewriter effect */
+.typewriter:after {
+    content: '';
+    color: var(--pink);
+    animation: write 15s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes write {
+    1% {
+        content: ' P';
+    }
+
+    2% {
+        content: ' Pr';
+    }
+
+    3% {
+        content: ' Pro';
+    }
+
+    4% {
+        content: 'Prob';
+    }
+
+    5% {
+        content: ' Probl';
+    }
+
+    6% {
+        content: ' Proble';
+    }
+
+    7% {
+        content: ' Problem';
+    }
+
+    8% {
+        content: ' Problem ';
+    }
+
+    9% {
+        content: ' Problem S';
+    }
+
+    10% {
+        content: ' Problem So';
+    }
+    11% {
+        content: ' Problem Sol';
+    }
+    12% {
+        content: ' Problem Solv';
+    }
+    13% {
+        content: ' Problem Solve';
+    }
+    14% {
+        content: ' Problem Solver';
+    }
+
+
+
+    15% {
+        content: ' Problem Solve';
+    }
+
+    15.5% {
+        content: ' Problem Solv';
+    }
+
+    16% {
+        content: ' Problem Sol';
+    }
+
+    16.5% {
+        content: ' Problem So';
+    }
+
+    16% {
+        content: ' Problem S';
+    }
+
+    17% {
+        content: ' Problem ';
+    }
+
+    17.5% {
+        content: ' Problem';
+    }
+
+    18% {
+        content: ' Proble';
+    }
+
+    18.5% {
+        content: ' Probl';
+    }
+    19% {
+        content: ' Prob';
+    }
+    19.5% {
+        content: ' Pro';
+    }
+    20% {
+        content: ' Pr';
+    }
+    20.5% {
+        content: ' P';
+    }
+    21% {
+        content: ' ';
+    }
+
+
+    91% {
+        content: ' D';
+    }
+
+    92% {
+        content: ' De';
+    }
+
+    93% {
+        content: ' Dev';
+    }
+
+    94% {
+        content: ' Deve';
+    }
+
+    95% {
+        content: ' Devel';
+    }
+
+    96% {
+        content: ' Develo';
+    }
+
+    97% {
+        content: ' Develop';
+    }
+
+    98% {
+        content: ' Develope';
+    }
+
+    99% {
+        content: ' Developer';
+    }
+
+    100% {
+        content: ' Developer';
+        color: var(--pink);
+    }
+
 }
