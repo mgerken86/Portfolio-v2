@@ -35,6 +35,7 @@
     width: 89vw;
     height: 79vh;
     background-color: var(--violet);
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,116 +67,228 @@
 /* Animations for typewriter effect */
 .typewriter:after {
     content: '';
-    color: var(--pink);
-    animation: write 15s linear;
+    /* color: var(--pink); */
+    animation: write 25s linear;
     animation-fill-mode: forwards;
 }
 
 @keyframes write {
-    1% {
+    .5% {
         content: ' P';
     }
-
-    2% {
+    1% {
         content: ' Pr';
     }
-
-    3% {
+    1.5% {
         content: ' Pro';
     }
-
-    4% {
+    2% {
         content: 'Prob';
     }
-
-    5% {
+    2.5% {
         content: ' Probl';
     }
-
-    6% {
+    3% {
         content: ' Proble';
     }
-
-    7% {
+    3.5% {
         content: ' Problem';
     }
-
-    8% {
+    4% {
         content: ' Problem ';
     }
+    4.5% {
+        content: ' Problem S';
+    }
+    5% {
+        content: ' Problem So';
+    }
+    5.5% {
+        content: ' Problem Sol';
+    }
+    6% {
+        content: ' Problem Solv';
+    }
+    6.5% {
+        content: ' Problem Solve';
+    }
+    7% {
+        content: ' Problem Solver';
+        color: var(--pink);
+    }
+
 
     9% {
-        content: ' Problem S';
+        content: ' Problem Solve';
+    }
+
+    9.25% {
+        content: ' Problem Solv';
+    }
+
+    9.5% {
+        content: ' Problem Sol';
+    }
+
+    9.75% {
+        content: ' Problem So';
     }
 
     10% {
-        content: ' Problem So';
-    }
-    11% {
-        content: ' Problem Sol';
-    }
-    12% {
-        content: ' Problem Solv';
-    }
-    13% {
-        content: ' Problem Solve';
-    }
-    14% {
-        content: ' Problem Solver';
-    }
-
-
-
-    15% {
-        content: ' Problem Solve';
-    }
-
-    15.5% {
-        content: ' Problem Solv';
-    }
-
-    16% {
-        content: ' Problem Sol';
-    }
-
-    16.5% {
-        content: ' Problem So';
-    }
-
-    16% {
         content: ' Problem S';
     }
 
-    17% {
+    10.25% {
         content: ' Problem ';
     }
 
-    17.5% {
+    10.5% {
         content: ' Problem';
     }
 
-    18% {
+    10.75% {
         content: ' Proble';
     }
 
-    18.5% {
+    11% {
         content: ' Probl';
     }
-    19% {
+    11.25% {
         content: ' Prob';
     }
-    19.5% {
+    11.5% {
         content: ' Pro';
     }
-    20% {
+    11.75% {
         content: ' Pr';
     }
-    20.5% {
+    12% {
         content: ' P';
     }
-    21% {
+    12.25% {
+        content: ' ';
+        color: var(--teal);
+    }
+
+
+    14.25% {
+        content: ' T';
+    }
+    14.75% {
+        content: ' Te';
+    }
+    15.25% {
+        content: ' Tea';
+    }
+    15.75% {
+        content: ' Team';
+    }
+    16.25% {
+        content: ' Team ';
+    }
+    16.75% {
+        content: ' Team P';
+    }
+    17.25% {
+        content: ' Team Pl';
+    }
+    17.75% {
+        content: ' Team Pla';
+    }
+    18.25% {
+        content: ' Team Play';
+    }
+    18.75% {
+        content: ' Team Playe';
+    }
+    19.25% {
+        content: ' Team Player';
+        color: var(--pink);
+    }
+    21.25% {
+        content: ' Team Playe';
+    }
+    21.25% {
+        content: ' Team Play';
+    }
+    21.5% {
+        content: ' Team Pla';
+    }
+    21.75% {
+        content: ' Team Pl';
+    }
+    22% {
+        content: ' Team P';
+    }
+    22.25% {
+        content: ' Team ';
+    }
+    22.5% {
+        content: ' Team';
+    }
+    22.75% {
+        content: ' Tea';
+    }
+    23% {
+        content: ' Te';
+    }
+    23.5% {
+        content: ' T';
+    }
+    24% {
         content: ' ';
     }
+    24% {
+        content: ' C';
+        color: var(--teal);
+    }
+    24% {
+        content: ' Cr';
+    }
+    24% {
+        content: ' Cri';
+    }
+    24% {
+        content: ' Crit';
+    }
+    24% {
+        content: ' Criti';
+    }
+    24% {
+        content: ' Critic';
+    }
+    24% {
+        content: ' Critica';
+    }
+    24% {
+        content: ' Critical';
+    }
+    24% {
+        content: ' Critical ';
+    }
+    24% {
+        content: ' Critical T';
+    }
+    24% {
+        content: ' Critical Th';
+    }
+    24% {
+        content: ' Critical Thi';
+    }
+    24% {
+        content: ' Critical Thin';
+    }
+    24% {
+        content: ' Critical Think';
+    }
+    24% {
+        content: ' Critical Thinke';
+    }
+    24% {
+        content: ' Critical Thinker';
+    }
+    
+
 
 
     91% {

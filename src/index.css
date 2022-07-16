@@ -28,4 +28,5 @@
 
 #home, #projects, #resume, #about {
     background-color: var(--violet);
+    background-color: black;
 }

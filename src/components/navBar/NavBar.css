@@ -8,6 +8,7 @@
     align-items: center;
     padding: 1em;
     background-color: rgba(0, 0, 0, .9);
+    z-index: 2;
     /* background-color: black; */
     
     /* background: linear-gradient(90deg, var(--violet), var(--cobaltBlue), var(--catawba)); */
