@@ -12,6 +12,12 @@
     position: relative;
     /* max-height: 100%; */
 }
+.evenJob {
+    box-shadow: 1em 1em var(--pink);
+}
+.oddJob {
+    box-shadow: -1em 1em var(--teal);
+}
 
 .jobImageContainer {
     max-width: 60vw !important;
@@ -24,27 +30,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    object-fit: contain;
+    object-fit: fill;
     max-width: 100%;
     max-height: 50vh;
+    /* height: 100%; */
 }
 
-#jobTitle {
-    width: 100%;
+.jobTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
     height: 8vh;
     font-size: 2em;
-    color: var(--cultured);
+    color: var(--bPurple);
     position: absolute;
-    background-color: black;
-    bottom: 0;
+    /* background-color: black; */
+    bottom: 3em;
+    right: 0;
     left: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.evenJob {
-    /* background-color: var(--pink); */
-    /* width: 40vw; */
+.evenJob h5{
+    background: linear-gradient(90deg, var(--pink), var(--teal));    /* width: 40vw; */
 }
-.oddJob {
-    /* background-color: var(--teal); */
+.oddJob h5 {
+    background: linear-gradient(90deg, var(--teal), var(--pink));
     /* width: 40vw; */
 }
