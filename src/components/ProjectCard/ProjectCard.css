@@ -1,7 +1,7 @@
 .projectCardDiv {
     display: flex;
     width: 80vw;
-    height: 25vh;
+    min-height: 25vh;
     border: 3px solid var(--blue1);
     background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
 }

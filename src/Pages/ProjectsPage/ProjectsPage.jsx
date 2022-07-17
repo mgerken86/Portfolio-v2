@@ -4,6 +4,7 @@ import './ProjectsPage.css'
 import { projectsArr } from '../../utilities/projectData'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
 
+
 export default function ProjectsPage() {
     const [projects, setProjects] = useState(projectsArr)
     return (
@@ -19,6 +20,7 @@ export default function ProjectsPage() {
                     })}
                 </div>
             </div>
+            <video src="/pubImages/trucker-vid.mp4" autoPlay muted></video>
         </main>
     )
 }
