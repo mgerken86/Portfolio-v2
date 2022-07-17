@@ -36,6 +36,10 @@ export const experienceArr = [
         employer: "The Spot Bouldering Gym",
         dates: 'Oct 2017 - current',
         img: '/pubImages/coaching.png',
-        duties: []
+        duties: [
+            'Encouraged youth athletes to cultivate strong work ethic by demonstrating diligence, patience, and respect for others.',
+            'Established clear benchmarks for performance and monitored individual and team progress.',
+            'Created structure and innovative fitness programs to be executed in small to large group atmospheres.'
+        ]
     },
 ]   
