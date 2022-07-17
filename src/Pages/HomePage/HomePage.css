@@ -18,6 +18,15 @@
     align-items: center;
 }
 
+.nameH1 {
+    color: var(--teal);
+    position: absolute;
+    top: -30%;
+    left: 0;
+    /* font-size: 5vh; */
+    font-size: 5vw;
+}
+
 #outerCont {
     width: 60vw;
     height: 45vh;
@@ -26,15 +35,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-}
-
-.nameH1 {
-    color: var(--teal);
-    position: absolute;
-    top: 10vh;
-    left: 7vw;
-    /* font-size: 5vh; */
-    font-size: 5vw;
 }
 
 #middleCont {
@@ -70,8 +70,8 @@
     font-family: 'Roboto Slab', serif;
     color: var(--teal);
     position: absolute;
-    bottom: 10vh;
-    right: 7vw;
+    bottom: -30%;
+    right: 0;
     font-size: 5vw;
 }
 
@@ -520,22 +520,12 @@
     #innerCont {
         width: 82vw !important;
     }
-    .typewriter {
-        bottom: 7vh;
-        width: 100vw;
-        left: 0;
-        right: 0;
-    }
-    .nameH1 {
-        width: 100vw;
-        left: 0;
-        right: 0;
-    }
+   
 }
 
 @media only screen and (max-width: 660px) {
     .nameH1 {
-        font-size: 13vw !important;
+        font-size: 10vw !important;
     }
     #outerCont {
         height: 40vh !important;
