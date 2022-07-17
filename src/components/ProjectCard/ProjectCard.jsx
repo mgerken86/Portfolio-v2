@@ -7,7 +7,7 @@ export default function ProjectCard({ project }) {
 
     return (
         <div className="projectCardDiv">
-            {showVideo == false ? <>
+            {!showVideo ? <>
                 <div id="lColumn">
                     <h2>{project.name}</h2>
                     <h5>{project.description}</h5>

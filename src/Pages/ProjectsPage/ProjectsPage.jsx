@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import './ProjectsPage.css'
 import { projectsArr } from '../../utilities/projectData'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
