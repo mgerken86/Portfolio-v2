@@ -1,6 +1,7 @@
 import './NavBar.css'
 import { Link } from 'react-scroll'
 import { FaHome, FaCode, FaFileAlt, FaUserAlt } from 'react-icons/fa'
+import { IconContext } from 'react-icons'
 
 
 export default function NavBar() {
@@ -13,7 +14,7 @@ export default function NavBar() {
                     spy
                     to="home">
                     <span className='navBtn'>
-                        <FaHome /> Home
+                        <FaHome/> Home
                     </span>
                 </Link>
                 <Link
@@ -22,7 +23,7 @@ export default function NavBar() {
                     spy
                     to="projects">
                     <span className='navBtn'>
-                        <FaCode /> Projects
+                        <FaCode/> Projects
                     </span>
                 </Link>
                 <Link
@@ -31,7 +32,7 @@ export default function NavBar() {
                     spy
                     to="resume">
                     <span className='navBtn'>
-                        <FaFileAlt /> Resume
+                        <FaFileAlt/> Resume
                     </span>
                 </Link>
                 <Link
@@ -40,7 +41,7 @@ export default function NavBar() {
                     spy
                     to="about">
                     <span className='navBtn'>
-                        <FaUserAlt /> About
+                        <FaUserAlt/> About
                     </span>
                 </Link>
             </div>
