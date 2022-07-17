@@ -5,8 +5,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /* background: linear-gradient(var(--violet), var(--maroon)); */
-    background-color: black;
 }
 
 .resumePage {

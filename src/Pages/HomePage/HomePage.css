@@ -5,8 +5,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background: linear-gradient(var(--violet), var(--maroon)); */
-    background-color: black;
 }
 
 .homePage {
@@ -17,9 +15,13 @@
     justify-content: center;
     align-items: center;
 }
+#teal {
+    color: var(--teal);
+    font-family: 'Roboto Slab', serif;
+}
 
 .nameH1 {
-    color: var(--teal);
+    color: var(--cultured);
     position: absolute;
     top: -20%;
     left: 3vw;
@@ -82,6 +84,7 @@
     /* width: 60vw;
     height: 30vh; */
     width: 90%;
+    max-width: 1000px;
     max-height: 55vh;
     /* height: 100%; */
 }
@@ -91,7 +94,7 @@
     font-family: 'Titillium Web', sans-serif;
     font-family: 'League Spartan', sans-serif;
     font-family: 'Roboto Slab', serif;
-    color: var(--teal);
+    color: var(--cultured);
     position: absolute;
     bottom: -20%;
     right: 3vw;
@@ -186,13 +189,15 @@
 /* Animations for typewriter effect */
 .typewriter:after {
     content: '';
-    /* color: var(--pink); */
     animation: write 15s infinite linear;
+    color: var(--cultured);
 }
 
 @keyframes write {
     1% {
         content: ' P';
+        color: var(--cultured);
+
     }
 
     2% {
@@ -209,6 +214,7 @@
 
     5% {
         content: ' Probl';
+
     }
 
     6% {
@@ -245,96 +251,98 @@
 
     14% {
         content: ' Problem Solver';
-        color: var(--pink);
+        color: var(--teal);
     }
 
 
     18% {
         content: ' Problem Solve';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     18.25% {
         content: ' Problem Solv';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     18.5% {
         content: ' Problem Sol';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     18.75% {
         content: ' Problem So';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     19% {
         content: ' Problem S';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     19.25% {
         content: ' Problem ';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     19.5% {
         content: ' Problem';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     19.75% {
         content: ' Proble';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     20% {
         content: ' Probl';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     20.25% {
         content: ' Prob';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     20.5% {
         content: ' Pro';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     20.75% {
         content: ' Pr';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     21% {
         content: ' P';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     21.25% {
         content: ' ';
-        color: var(--teal);
+        color: var(--cultured);
     }
 
 
     25.25% {
         content: ' T';
+        color: var(--cultured);
+
     }
 
     26.25% {
@@ -351,6 +359,7 @@
 
     29.25% {
         content: ' Team ';
+
     }
 
     30.25% {
@@ -375,77 +384,79 @@
 
     35.25% {
         content: ' Team Player';
-        color: var(--pink);
+        color: var(--teal);
     }
 
     39.25% {
         content: ' Team Playe';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     40% {
         content: ' Team Play';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     40.25% {
         content: ' Team Pla';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     40.5% {
         content: ' Team Pl';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     40.75% {
         content: ' Team P';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     41% {
         content: ' Team ';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     41.25% {
         content: ' Team';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     41.5% {
         content: ' Tea';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     41.75% {
         content: ' Te';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     42% {
         content: ' T';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     42.25% {
         content: ' ';
-        color: var(--teal);
+        color: var(--cultured);
     }
 
 
     46.25% {
         content: ' C';
+        color: var(--cultured);
+
     }
 
     47.25% {
@@ -506,96 +517,110 @@
 
     61.25% {
         content: ' Critical Thinker';
-        color: var(--pink);
+        color: var(--teal);
     }
 
 
     65.25% {
         content: ' Critical Thinke';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     65.5% {
         content: ' Critical Think';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     65.75% {
         content: ' Critical Thin';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     66% {
         content: ' Critical Thi';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     66.25% {
         content: ' Critical Th';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     66.5% {
         content: ' Critical T';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     66.75% {
         content: ' Critical ';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     67% {
         content: ' Critical';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     67.25% {
         content: ' Critica';
-        color: var(--pink);
+        color: var(--teal);
 
     }
 
     67.5% {
         content: ' Critic';
+        color: var(--teal);
+
     }
 
     67.75% {
         content: ' Criti';
+        color: var(--teal);
+
     }
 
     68% {
         content: ' Crit';
+        color: var(--teal);
+
     }
 
     68.25% {
         content: ' Cri';
+        color: var(--teal);
+
     }
 
     68.5% {
         content: ' Cr';
+        color: var(--teal);
+
     }
 
     68.75% {
         content: ' C';
+        color: var(--teal);
+
     }
 
     69% {
         content: ' ';
-        color: var(--teal);
+        color: var(--cultured);
     }
 
 
     71% {
         content: ' D';
+        color: var(--cultured);
+
     }
 
     72% {
@@ -628,69 +653,69 @@
 
     79% {
         content: ' Developer';
-        color: var(--salmon);
+        color: var(--pink);
     }
 
     84% {
         content: ' Developer';
-        color: var(--salmon);
+        color: var(--pink);
     }
 
     89% {
         content: ' Developer';
-        color: var(--salmon);
+        color: var(--pink);
     }
 
     94% {
         content: ' Develope';
-        color: var(--salmon);
+        color: var(--pink);
 
     }
 
     94.25% {
         content: ' Develop';
-        color: var(--salmon);
+        color: var(--pink);
 
     }
 
     94.5% {
         content: ' Develo';
-        color: var(--salmon);
+        color: var(--pink);
 
     }
 
     94.75% {
         content: ' Devel';
-        color: var(--salmon);
+        color: var(--pink);
 
     }
 
     95% {
         content: ' Deve';
-        color: var(--salmon);
+        color: var(--pink);
 
     }
 
     95.25% {
         content: ' Dev';
-        color: var(--salmon);
+        color: var(--pink);
 
     }
 
     95.5% {
         content: ' De';
-        color: var(--salmon);
+        color: var(--pink);
 
     }
 
     95.75% {
         content: ' D';
-        color: var(--salmon);
+        color: var(--pink);
 
     }
 
     96% {
         content: ' ';
-        color: var(--teal);
+
     }
 }

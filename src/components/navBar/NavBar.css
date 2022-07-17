@@ -44,13 +44,13 @@
 }
 .navBtn:hover {
     cursor: pointer;
-    color: black;
-    background: var(--pink);
+    color: var(--bPurple);
+    background: var(--cultured);
 
 }
 
 .active span {
-    color: var(--violet);
+    color: var(--bPurple);
     /* color: black; */
-    background: var(--salmon);
+    background: var(--cultured);
 }

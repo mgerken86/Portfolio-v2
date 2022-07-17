@@ -3,6 +3,7 @@
 :root {
     --cultured: #edf2f4;
     /* purples */
+    --bPurple: #0d0217;
     --violet: #19042d;
     --dPurple: #26002e;
     --purple: #300638;
@@ -31,11 +32,14 @@
     /* font-family: 'Roboto Slab', serif; */
 }
 
+
 h1 {
     font-family: 'Titillium Web', sans-serif;
     font-family: 'League Spartan', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
 
-
+#home, #projects, #resume, #about {
+    background: linear-gradient(var(--bPurple), var(--violet), var(--bPurple));
+}
 
