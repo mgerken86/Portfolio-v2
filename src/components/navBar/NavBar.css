@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em 0;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, 1);
     z-index: 2;
     /* background-color: black; */
     
@@ -41,16 +41,18 @@
     background: linear-gradient(var(--pink), var(--teal));
     color: black;
     border-radius: 10px;
+    box-shadow: .1em .1em .2em var(--pink);
 }
 .navBtn:hover {
     cursor: pointer;
     color: var(--bPurple);
     background: var(--cultured);
-
+    border: 2px solid var(--pink);
 }
 
 .active span {
     color: var(--bPurple);
     /* color: black; */
     background: var(--cultured);
+    border: 1px solid var(--pink);
 }

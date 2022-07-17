@@ -21,3 +21,14 @@
     height: 90vh;
     width: 70vw;
 }
+
+.jobsContainer {
+    margin-top: 5em;
+    display: flex;
+    gap: 3em;
+    width: 90vw;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
