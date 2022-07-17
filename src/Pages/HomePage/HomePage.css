@@ -21,46 +21,69 @@
 .nameH1 {
     color: var(--teal);
     position: absolute;
-    top: -30%;
-    left: 0;
+    top: -20%;
+    left: 3vw;
     /* font-size: 5vh; */
-    font-size: 5vw;
+    font-size: 8vw;
 }
 
-#outerCont {
-    width: 60vw;
-    max-height: 65vh;
-    background: linear-gradient(var(--teal), var(--pink));
+#imgCont {
+    /* min-width: 70vw;
+    max-width: 80vw; */
+    width: 100vw;
+    max-height: 55vh !important;
+
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
-#middleCont {
-    width: 59.5vw;
-    max-height: 64vh;
-    background-color: var(--violet);
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#topRightGradient,
+#bottomLeftGradient {
+    width: 50%;
+    height: .5vh;
+    position: absolute;
 }
 
-#innerCont {
-    width: 52vw;
-    max-height: 55vh;
-    background: linear-gradient(var(--pink), var(--teal));
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#rightGradient,
+#leftGradient {
+    width: .5vw;
+    height: 50%;
+    position: absolute;
 }
+
+#topRightGradient {
+    background: linear-gradient(90deg, var(--pink), var(--teal));
+    top: -20%;
+    right: 5%;
+}
+
+#rightGradient {
+    background: linear-gradient(var(--teal), var(--pink));
+    top: -20%;
+    right: 5%;
+}
+
+#bottomLeftGradient {
+    background: linear-gradient(90deg, var(--teal), var(--pink));
+    bottom: -20%;
+    left: 5%;
+}
+
+#leftGradient {
+    background: linear-gradient(var(--pink), var(--teal));
+    bottom: -20%;
+    left: 5%;
+}
+
 
 #homeImg {
     /* width: 60vw;
     height: 30vh; */
-    width: 99%;
-    height: 100%;
+    width: 90%;
+    max-height: 55vh;
+    /* height: 100%; */
 }
 
 
@@ -70,9 +93,9 @@
     font-family: 'Roboto Slab', serif;
     color: var(--teal);
     position: absolute;
-    bottom: -30%;
-    right: 0;
-    font-size: 5vw;
+    bottom: -20%;
+    right: 3vw;
+    font-size: 7vw;
 }
 
 
@@ -81,54 +104,70 @@
 /*  MEDIA QUERIES */
 
 @media only screen and (max-width: 1000px) {
-    .navRoutes1, .navRoutes2 {
+
+    .navRoutes1,
+    .navRoutes2 {
         min-width: 100vw;
     }
 
     .navBtn {
         padding: 0.1em !important;
     }
-    .typewriter, .nameH1 {
+
+    .typewriter,
+    .nameH1 {
         font-size: 8vw !important;
     }
-    .navBar, .footer {
+
+    .navBar,
+    .footer {
         height: 8vh !important;
     }
-
-    #outerCont {
-        width: 95vw !important;
-    }
-    #middleCont {
-        width: 94vw !important;
-    }
-    #innerCont {
-        width: 87vw !important;
-    }
-   
 }
 
 @media only screen and (max-width: 660px) {
     .nameH1 {
         font-size: 10vw !important;
-        top: -20%;
+        top: -30%;
     }
+
     .typewriter {
-        bottom: -20%;
+        bottom: -30%;
+        font-size: 7vw !important;
     }
+
     #outerCont {
         height: 45vh !important;
     }
+
     #middleCont {
         height: 44vh !important;
         width: 100vw !important;
     }
+
     #innerCont {
         height: 39vh !important;
-    } 
-    #homeImg {
+    }
+
+    #topRightGradient,
+    #rightGradient {
+        top: -60%;
+        right: 5%;
+    }
+    #bottomLeftGradient, 
+    #leftGradient {
+        bottom: -60%;
+        left: 5%;
+    }
+    #rightGradient, 
+    #leftGradient {
+        width: 1.5vw;
+    }
+
+    /* #homeImg {
         width: 100vw;
         height: 100%;
-    }
+    } */
 }
 
 
@@ -155,42 +194,55 @@
     1% {
         content: ' P';
     }
+
     2% {
         content: ' Pr';
     }
+
     3% {
         content: ' Pro';
     }
+
     4% {
         content: 'Prob';
     }
+
     5% {
         content: ' Probl';
     }
+
     6% {
         content: ' Proble';
     }
+
     7% {
         content: ' Problem';
     }
+
     8% {
         content: ' Problem ';
     }
+
     9% {
         content: ' Problem S';
     }
+
     10% {
         content: ' Problem So';
     }
+
     11% {
         content: ' Problem Sol';
     }
+
     12% {
         content: ' Problem Solv';
     }
+
     13% {
         content: ' Problem Solve';
     }
+
     14% {
         content: ' Problem Solver';
         color: var(--pink);
@@ -202,66 +254,79 @@
         color: var(--pink);
 
     }
+
     18.25% {
         content: ' Problem Solv';
         color: var(--pink);
 
     }
+
     18.5% {
         content: ' Problem Sol';
         color: var(--pink);
 
     }
+
     18.75% {
         content: ' Problem So';
         color: var(--pink);
 
     }
+
     19% {
         content: ' Problem S';
         color: var(--pink);
 
     }
+
     19.25% {
         content: ' Problem ';
         color: var(--pink);
 
     }
+
     19.5% {
         content: ' Problem';
         color: var(--pink);
 
     }
+
     19.75% {
         content: ' Proble';
         color: var(--pink);
 
     }
+
     20% {
         content: ' Probl';
         color: var(--pink);
 
     }
+
     20.25% {
         content: ' Prob';
         color: var(--pink);
 
     }
+
     20.5% {
         content: ' Pro';
         color: var(--pink);
 
     }
+
     20.75% {
         content: ' Pr';
         color: var(--pink);
 
     }
+
     21% {
         content: ' P';
         color: var(--pink);
 
     }
+
     21.25% {
         content: ' ';
         color: var(--teal);
@@ -271,87 +336,108 @@
     25.25% {
         content: ' T';
     }
+
     26.25% {
         content: ' Te';
     }
+
     27.25% {
         content: ' Tea';
     }
+
     28.25% {
         content: ' Team';
     }
+
     29.25% {
         content: ' Team ';
     }
+
     30.25% {
         content: ' Team P';
     }
+
     31.25% {
         content: ' Team Pl';
     }
+
     32.25% {
         content: ' Team Pla';
     }
+
     33.25% {
         content: ' Team Play';
     }
+
     34.25% {
         content: ' Team Playe';
     }
+
     35.25% {
         content: ' Team Player';
         color: var(--pink);
     }
+
     39.25% {
         content: ' Team Playe';
         color: var(--pink);
 
     }
+
     40% {
         content: ' Team Play';
         color: var(--pink);
 
     }
+
     40.25% {
         content: ' Team Pla';
         color: var(--pink);
 
     }
+
     40.5% {
         content: ' Team Pl';
         color: var(--pink);
 
     }
+
     40.75% {
         content: ' Team P';
         color: var(--pink);
 
     }
+
     41% {
         content: ' Team ';
         color: var(--pink);
 
     }
+
     41.25% {
         content: ' Team';
         color: var(--pink);
 
     }
+
     41.5% {
         content: ' Tea';
         color: var(--pink);
 
     }
+
     41.75% {
         content: ' Te';
         color: var(--pink);
 
     }
+
     42% {
         content: ' T';
         color: var(--pink);
 
     }
+
     42.25% {
         content: ' ';
         color: var(--teal);
@@ -361,48 +447,63 @@
     46.25% {
         content: ' C';
     }
+
     47.25% {
         content: ' Cr';
     }
+
     48.25% {
         content: ' Cri';
     }
+
     49.25% {
         content: ' Crit';
     }
+
     50.25% {
         content: ' Criti';
     }
+
     51.25% {
         content: ' Critic';
     }
+
     52.25% {
         content: ' Critica';
     }
+
     53.25% {
         content: ' Critical';
     }
+
     54.25% {
         content: ' Critical ';
     }
+
     55.25% {
         content: ' Critical T';
     }
+
     56.25% {
         content: ' Critical Th';
     }
+
     57.25% {
         content: ' Critical Thi';
     }
+
     58.25% {
         content: ' Critical Thin';
     }
+
     59.25% {
         content: ' Critical Think';
     }
+
     60.25% {
         content: ' Critical Thinke';
     }
+
     61.25% {
         content: ' Critical Thinker';
         color: var(--pink);
@@ -414,64 +515,79 @@
         color: var(--pink);
 
     }
+
     65.5% {
         content: ' Critical Think';
         color: var(--pink);
 
     }
+
     65.75% {
         content: ' Critical Thin';
         color: var(--pink);
 
     }
+
     66% {
         content: ' Critical Thi';
         color: var(--pink);
 
     }
+
     66.25% {
         content: ' Critical Th';
         color: var(--pink);
 
     }
+
     66.5% {
         content: ' Critical T';
         color: var(--pink);
 
     }
+
     66.75% {
         content: ' Critical ';
         color: var(--pink);
 
     }
+
     67% {
         content: ' Critical';
         color: var(--pink);
 
     }
+
     67.25% {
         content: ' Critica';
         color: var(--pink);
 
     }
+
     67.5% {
         content: ' Critic';
     }
+
     67.75% {
         content: ' Criti';
     }
+
     68% {
         content: ' Crit';
     }
+
     68.25% {
         content: ' Cri';
     }
+
     68.5% {
         content: ' Cr';
     }
+
     68.75% {
         content: ' C';
     }
+
     69% {
         content: ' ';
         color: var(--teal);
@@ -481,27 +597,35 @@
     71% {
         content: ' D';
     }
+
     72% {
         content: ' De';
     }
+
     73% {
         content: ' Dev';
     }
+
     74% {
         content: ' Deve';
     }
+
     75% {
         content: ' Devel';
     }
+
     76% {
         content: ' Develo';
     }
+
     77% {
         content: ' Develop';
     }
+
     78% {
         content: ' Develope';
     }
+
     79% {
         content: ' Developer';
         color: var(--salmon);
@@ -511,6 +635,7 @@
         content: ' Developer';
         color: var(--salmon);
     }
+
     89% {
         content: ' Developer';
         color: var(--salmon);
@@ -521,41 +646,49 @@
         color: var(--salmon);
 
     }
+
     94.25% {
         content: ' Develop';
         color: var(--salmon);
 
     }
+
     94.5% {
         content: ' Develo';
         color: var(--salmon);
 
     }
+
     94.75% {
         content: ' Devel';
         color: var(--salmon);
 
     }
+
     95% {
         content: ' Deve';
         color: var(--salmon);
 
     }
+
     95.25% {
         content: ' Dev';
         color: var(--salmon);
 
     }
+
     95.5% {
         content: ' De';
         color: var(--salmon);
 
     }
+
     95.75% {
         content: ' D';
         color: var(--salmon);
 
     }
+
     96% {
         content: ' ';
         color: var(--teal);
