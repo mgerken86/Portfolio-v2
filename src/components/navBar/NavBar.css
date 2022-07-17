@@ -1,7 +1,4 @@
 .navBar {
-    font-family: 'Titillium Web', sans-serif;
-    font-family: 'League Spartan', sans-serif;
-    /* font-family: 'Roboto Slab', serif; */
     position: fixed;
     top: 0;
     height: 6vh;
@@ -28,7 +25,7 @@
     gap: 1.5em;
 }
 #navGradient {
-    width: 100vw;
+    width: 50vw;
     height: .25vh;
     background: linear-gradient(90deg, var(--pink), var(--teal));
     position: absolute;
@@ -53,6 +50,6 @@
 
 .active span {
     color: var(--violet);
-    color: black;
-    background: var(--pink);
+    /* color: black; */
+    background: var(--salmon);
 }

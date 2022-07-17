@@ -5,7 +5,7 @@ export default function HomePage() {
     return (
         <main id="home">
             <div className="homePage page">
-            <h1 className='nameH1'>Hi, I'm Mark</h1>
+                <h1 className='nameH1'>Hi, I'm Mark</h1>
                 <div id='outerCont'>
                     <div id="middleCont">
                         <div id="innerCont">
@@ -17,8 +17,8 @@ export default function HomePage() {
                     </div>
                 </div>
                 <h1 className='typewriter'>
-                        I am a 
-                    </h1>
+                    I am a
+                </h1>
             </div>
         </main >
     )

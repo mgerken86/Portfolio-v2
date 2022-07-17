@@ -22,7 +22,7 @@
 
 #footerGradient {
     height: .25vh;
-    width: 100vw;
+    width: 50vw;
     background: linear-gradient(90deg, var(--teal), var(--pink));
     position: absolute;
     top: 0;

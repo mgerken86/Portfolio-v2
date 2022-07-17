@@ -28,9 +28,6 @@
 }
 
 .nameH1 {
-    font-family: 'Titillium Web', sans-serif;
-    font-family: 'League Spartan', sans-serif;
-    font-family: 'Roboto Slab', serif;
     color: var(--teal);
     position: absolute;
     top: 10vh;
@@ -437,56 +434,56 @@
     }
     79% {
         content: ' Developer';
-        color: var(--pink);
+        color: var(--salmon);
     }
 
     84% {
         content: ' Developer';
-        color: var(--pink);
+        color: var(--salmon);
     }
     89% {
         content: ' Developer';
-        color: var(--pink);
+        color: var(--salmon);
     }
 
     94% {
         content: ' Develope';
-        color: var(--pink);
+        color: var(--salmon);
 
     }
     94.25% {
         content: ' Develop';
-        color: var(--pink);
+        color: var(--salmon);
 
     }
     94.5% {
         content: ' Develo';
-        color: var(--pink);
+        color: var(--salmon);
 
     }
     94.75% {
         content: ' Devel';
-        color: var(--pink);
+        color: var(--salmon);
 
     }
     95% {
         content: ' Deve';
-        color: var(--pink);
+        color: var(--salmon);
 
     }
     95.25% {
         content: ' Dev';
-        color: var(--pink);
+        color: var(--salmon);
 
     }
     95.5% {
         content: ' De';
-        color: var(--pink);
+        color: var(--salmon);
 
     }
     95.75% {
         content: ' D';
-        color: var(--pink);
+        color: var(--salmon);
 
     }
     96% {
