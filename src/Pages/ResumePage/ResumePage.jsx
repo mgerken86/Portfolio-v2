@@ -6,6 +6,7 @@ import resume from '../../images/resume.jpeg'
 
 export default function ResumePage() {
     const [jobs, setJobs] = useState(experienceArr)
+    
     return (
         <main id="resume">
             <div className="resumePage page">
