@@ -22,7 +22,7 @@ export default function ProjectCard({ project }) {
                         </a>
                         <button
                             onClick={() => setShowVideo(!showVideo)}
-                            className='projectBtn'>See Sample of Project
+                            className='projectBtn'>Sample Video
                         </button>
                         <a
                             href={project.github}
@@ -39,13 +39,14 @@ export default function ProjectCard({ project }) {
                 <div id="rColumn">
                     <img src={project.img} alt="" />
                 </div>
-            </> : <>
-            <button
-                            onClick={() => setShowVideo(!showVideo)}
-                            className='projectBtn'>See Sample of Project
-                        </button>
-                </>
-                }
+            </> : <div className='movieContainer'>
+                <button
+                    onClick={() => setShowVideo(!showVideo)}
+                    className='projectBtn'>Go Back
+                </button>
+                <video src={project.video} autoPlay muted></video>
+            </div>
+            }
         </div>
     )
 }

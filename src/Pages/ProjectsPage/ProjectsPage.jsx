@@ -20,7 +20,6 @@ export default function ProjectsPage() {
                     })}
                 </div>
             </div>
-            <video src="/pubImages/trucker-vid.mp4" autoPlay muted></video>
         </main>
     )
 }
