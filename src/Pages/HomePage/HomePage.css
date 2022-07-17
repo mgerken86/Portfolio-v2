@@ -10,7 +10,7 @@
 }
 
 .homePage {
-    height: 100vh;
+    max-height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
 
 #outerCont {
     width: 60vw;
-    max-height: 45vh;
+    max-height: 65vh;
     background: linear-gradient(var(--teal), var(--pink));
     display: flex;
     justify-content: center;
@@ -38,8 +38,8 @@
 }
 
 #middleCont {
-    width: 59vw;
-    max-height: 44vh;
+    width: 59.5vw;
+    max-height: 64vh;
     background-color: var(--violet);
     background-color: black;
     display: flex;
@@ -49,7 +49,7 @@
 
 #innerCont {
     width: 52vw;
-    max-height: 35vh;
+    max-height: 55vh;
     background: linear-gradient(var(--pink), var(--teal));
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@
     /* width: 60vw;
     height: 30vh; */
     width: 99%;
-    height: 98%;
+    height: 100%;
 }
 
 
@@ -74,6 +74,75 @@
     right: 0;
     font-size: 5vw;
 }
+
+
+
+
+/*  MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px) {
+    .navRoutes1, .navRoutes2 {
+        min-width: 100vw;
+    }
+
+    .navBtn {
+        padding: 0.1em !important;
+    }
+    .typewriter, .nameH1 {
+        font-size: 8vw !important;
+    }
+    .navBar, .footer {
+        height: 8vh !important;
+    }
+
+    #outerCont {
+        width: 95vw !important;
+    }
+    #middleCont {
+        width: 94vw !important;
+    }
+    #innerCont {
+        width: 87vw !important;
+    }
+   
+}
+
+@media only screen and (max-width: 660px) {
+    .nameH1 {
+        font-size: 10vw !important;
+        top: -20%;
+    }
+    .typewriter {
+        bottom: -20%;
+    }
+    #outerCont {
+        height: 45vh !important;
+    }
+    #middleCont {
+        height: 44vh !important;
+        width: 100vw !important;
+    }
+    #innerCont {
+        height: 39vh !important;
+    } 
+    #homeImg {
+        width: 100vw;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Animations for typewriter effect */
 .typewriter:after {
@@ -491,52 +560,4 @@
         content: ' ';
         color: var(--teal);
     }
-}
-
-
-/*  MEDIA QUERIES */
-
-@media only screen and (max-width: 950px) {
-    .navRoutes1, .navRoutes2 {
-        min-width: 100vw;
-    }
-
-    .navBtn {
-        padding: 0.1em !important;
-    }
-    .typewriter, .nameH1 {
-        font-size: 8vw !important;
-    }
-    .navBar, .footer {
-        height: 8vh !important;
-    }
-
-    #outerCont {
-        width: 90vw !important;
-    }
-    #middleCont {
-        width: 89vw !important;
-    }
-    #innerCont {
-        width: 82vw !important;
-    }
-   
-}
-
-@media only screen and (max-width: 660px) {
-    .nameH1 {
-        font-size: 10vw !important;
-    }
-    #outerCont {
-        height: 40vh !important;
-    }
-    #middleCont {
-        height: 39vh !important;
-    }
-    #innerCont {
-        height: 34vh !important;
-        /* width: 100vw !important; */
-        /* height: 35vh !important; */
-    } 
-    
 }
