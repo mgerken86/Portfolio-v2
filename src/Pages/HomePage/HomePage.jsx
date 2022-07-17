@@ -14,7 +14,7 @@ export default function HomePage() {
                     <div id="rightGradient"></div>
                     <div id="bottomLeftGradient"></div>
                     <div id="leftGradient"></div>
-                    <h1 className='nameH1'>Hi, I'm Mark</h1>
+                    <h1 className='nameH1'>Hi, I'm <span id="teal">Mark</span></h1>
                     <img
                         src={projectsImg}
                         id="homeImg"
