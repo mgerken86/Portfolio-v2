@@ -32,6 +32,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
 }
 .jobTitle2 {
     display: flex;
@@ -51,7 +52,6 @@
     object-fit: fill;
     max-width: 100%;
     max-height: 50vh;
-    /* height: 100%; */
 }
 .jobDuties {
     width: 80%;
@@ -71,7 +71,7 @@
     width: 100%;
     position: absolute;
     /* background-color: black; */
-    bottom: 2em;
+    bottom: 5em;
     right: 0;
     left: 0;
     margin-left: auto;
@@ -91,7 +91,8 @@
 .jobsBtn {
     background-color: var(--bPurple);
     color: var(--cultured);
-    padding: 1em 2em;
+    font-weight: bold;
+    padding: 1.3em 3.5em;
     border-radius: 10px;
 }
 .evenJob button {
