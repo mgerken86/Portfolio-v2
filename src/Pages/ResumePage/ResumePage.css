@@ -1,6 +1,6 @@
 #resume {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -10,8 +10,8 @@
 }
 
 .resumePage {
-    height: 90vh;
-    margin-top: 8vh;
+    min-height: 100vh;
+    margin-top: 10vh;
 }
 
 .resumePage h1 {

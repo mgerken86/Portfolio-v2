@@ -1,6 +1,6 @@
 #projects {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -10,7 +10,7 @@
 
 .projectsPage {
     min-height: 100vh;
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 
 .projectsPage h1 {
