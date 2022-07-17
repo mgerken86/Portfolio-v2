@@ -22,8 +22,12 @@ export default function ProjectCard({ job, id }) {
                         <h3>{job.employer}</h3>
                         <h3>{job.dates}</h3>
                     </div>
-                    <span>hello</span>
-                    <span>hello</span>
+                    <div className='jobDuties'>
+                        <h3>Duties:</h3>
+                        {job.duties.map(duty => {
+                            return <li>{duty}</li>
+                        })}
+                    </div>
                     <button className='jobsBtn' onClick={() => setShowJob(!showJob)}>Go Back</button>
                 </div>
             }
