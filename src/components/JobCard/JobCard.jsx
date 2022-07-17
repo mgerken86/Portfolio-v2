@@ -9,7 +9,7 @@ export default function ProjectCard({ job, id }) {
             {!showJob ?
                     <div className='jobImgContainer'>
                         <img className='jobImage' src={job.img} alt="" />
-                        <h5 id='jobTitle'>{job.title}</h5>
+                        <h5 className='jobTitle'>{job.title}</h5>
                     </div>
             :
                 <>
