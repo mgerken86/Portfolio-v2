@@ -10,7 +10,7 @@ export default function ProjectCard({ project }) {
         <div className="projectCardDiv">
             <div id="lColumn">
                 <h2>{project.name}</h2>
-                <h5>Description: {project.description}</h5>
+                <h5>{project.description}</h5>
                 <h5>Technologies Used: {project.technologies}</h5>
                 <div className='linksContainer'>
                     <a
@@ -18,7 +18,7 @@ export default function ProjectCard({ project }) {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className='projectBtn'>Browse To Project</button>
+                        <button className='projectBtn'>See Deployed Project</button>
                     </a>
                     <a
                         href={project.github}

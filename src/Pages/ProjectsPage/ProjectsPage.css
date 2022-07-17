@@ -20,6 +20,7 @@
 
 .projectsContainer {
     display: flex;
+    gap: 3em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
