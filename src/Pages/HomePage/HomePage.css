@@ -5,7 +5,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(var(--violet), var(--maroon));
+    /* background: linear-gradient(var(--violet), var(--maroon)); */
+    background-color: black;
 }
 
 .homePage {
@@ -19,7 +20,7 @@
 #outerCont {
     width: 60vw;
     height: 45vh;
-    background: linear-gradient(90deg, var(--teal), var(--pink));
+    background: linear-gradient(var(--teal), var(--pink));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +52,7 @@
 #innerCont {
     width: 52vw;
     height: 35vh;
-    background: linear-gradient(90deg, var(--pink), var(--teal));
+    background: linear-gradient(var(--pink), var(--teal));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +61,7 @@
 #homeImg {
     /* width: 60vw;
     height: 30vh; */
-    width: 100%;
+    width: 99%;
     height: 98%;
 }
 
@@ -492,6 +493,62 @@
         content: ' ';
         color: var(--teal);
     }
-    
+}
 
+
+/*  MEDIA QUERIES */
+
+@media only screen and (max-width: 950px) {
+    .navRoutes1, .navRoutes2 {
+        min-width: 100vw;
+    }
+
+    .navBtn {
+        padding: 0.1em !important;
+    }
+    .typewriter, .nameH1 {
+        font-size: 8vw !important;
+    }
+    .navBar, .footer {
+        height: 8vh !important;
+    }
+
+    #outerCont {
+        width: 90vw !important;
+    }
+    #middleCont {
+        width: 89vw !important;
+    }
+    #innerCont {
+        width: 82vw !important;
+    }
+    .typewriter {
+        bottom: 7vh;
+        width: 100vw;
+        left: 0;
+        right: 0;
+    }
+    .nameH1 {
+        width: 100vw;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .nameH1 {
+        font-size: 13vw !important;
+    }
+    #outerCont {
+        height: 40vh !important;
+    }
+    #middleCont {
+        height: 39vh !important;
+    }
+    #innerCont {
+        height: 34vh !important;
+        /* width: 100vw !important; */
+        /* height: 35vh !important; */
+    } 
+    
 }
