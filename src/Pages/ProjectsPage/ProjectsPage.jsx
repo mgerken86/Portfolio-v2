@@ -9,7 +9,7 @@ export default function ProjectsPage() {
     return (
         <main id="projects">
             <div className="projectsPage page">
-                <h1>Professional Work</h1>
+                <h1>My work</h1>
                 <div className='projectsContainer'>
                     {projects.map((project, idx) => {
                         return <ProjectCard

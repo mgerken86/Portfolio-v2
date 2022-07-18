@@ -1,13 +1,57 @@
-.aboutMePage {
+#about {
     width: 100vw;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMePage {
+    margin-top: 10vh;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+    margin-bottom: 15vh;
+}
+.aboutMePage h1 {
+    font-size: 3em;
+    color: var(--cultured);
+}
+
+.contactInfo {
+    width: 25em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.aboutContact {
+    color: var(--bPurple);
+    background-color: var(--teal);
+    font-size: 2em;
+    border-radius: 10px;
+}
+.aboutContact.pink {
+    background-color: var(--pink);
 }
 
 .markImg {
     height: 25em;
     width: 25em;
     border-radius: 50%;
+}
+
+.brandStatement {
+    width: 70vw;
+    min-height: 20vh;
+    color: var(--cultured);
+    font-size: 1.5em;
+    background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
+    padding: 1em;
+    border: 2px solid var(--teal);
 }

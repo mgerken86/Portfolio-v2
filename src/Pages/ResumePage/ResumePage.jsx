@@ -6,11 +6,11 @@ import resume from '../../images/resume.jpeg'
 
 export default function ResumePage() {
     const [jobs, setJobs] = useState(experienceArr)
-    
+
     return (
         <main id="resume">
             <div className="resumePage page">
-                <h1>Experience</h1>
+                <h1>My work experience</h1>
                 <div className='jobsContainer'>
                     {jobs.map((job, idx) => {
                         return <JobCard

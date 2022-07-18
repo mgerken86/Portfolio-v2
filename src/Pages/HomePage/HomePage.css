@@ -23,7 +23,7 @@
 .nameH1 {
     color: var(--cultured);
     position: absolute;
-    top: -20%;
+    top: -35%;
     left: 3vw;
     /* font-size: 5vh; */
     font-size: 7vw;
@@ -137,11 +137,11 @@
 @media only screen and (max-width: 660px) {
     .nameH1 {
         font-size: 10vw !important;
-        top: -30%;
+        top: -45%;
     }
 
     .typewriter {
-        bottom: -30%;
+        bottom: -40%;
         font-size: 7vw !important;
     }
 
