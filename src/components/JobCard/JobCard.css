@@ -14,16 +14,17 @@
 }
 .evenJob {
     box-shadow: .25em .25em var(--pink);
-    box-shadow: .25em .25em 1em var(--pink);
+    box-shadow: .25em .25em 1em var(--teal);
 }
 .oddJob {
     box-shadow: -.25em .25em var(--teal);
-    box-shadow: -.25em .25em 1em var(--teal);
+    box-shadow: -.25em .25em 1em var(--pink);
 }
 
-.jobImageContainer {
+.jobImgContainer {
     /* max-width: 60vw !important; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
