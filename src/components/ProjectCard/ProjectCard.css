@@ -17,12 +17,14 @@
 #rColumn {
     flex: 1;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #rColumn img {
-    width: 100%;
+    width: 90%;
     object-fit: cover;
-    max-height: 100%;
+    height: 90%;
 }
 
 .projectCardDiv h2 {
@@ -42,6 +44,7 @@
 
 .projectBtn {
     background-color: var(--teal);
+    background: linear-gradient(var(--pink), var(--teal));
     padding: 1em;
     color: var(--bPurple);
     font-weight: bolder;
@@ -50,7 +53,7 @@
 }
 .projectBtn:hover {
     cursor: pointer;
-    background-color: var(--pink);
+    background: var(--pink);
     color: var(--bPurple);
 }
 

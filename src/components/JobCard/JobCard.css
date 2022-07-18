@@ -96,23 +96,43 @@
     color: var(--bPurple);
 }
 .jobsBtn {
-    background-color: var(--bPurple);
-    color: var(--cultured);
+    background: var(--bPurple);
+    background: linear-gradient(var(--pink), var(--teal));;
+    color: var(--bPurple);
     font-weight: bold;
     padding: 1.3em 3.5em;
     border-radius: 10px;
+    box-shadow: 0 0 5em var(--bPurple);
 }
-.evenJob button {
+.jobsBtn:hover {
+    background: var(--pink);
+}
+/* .evenJob button {
     box-shadow: .2em .2em var(--teal);
 }
 .oddJob button {
     box-shadow: .2em .2em var(--pink);
-}
+} */
 
 .evenJob h5{
+    color: var(--cultured);
     background: linear-gradient(90deg, var(--pink), var(--teal));    /* width: 40vw; */
+    background: linear-gradient(90deg, var(--maroon), var(--purple1), var(--violet));
 }
 .oddJob h5 {
+    color: var(--cultured);
     background: linear-gradient(90deg, var(--teal), var(--pink));
-    /* width: 40vw; */
+    background: linear-gradient(90deg, var(--violet), var(--purple1), var(--maroon));
+}
+.dutiesH1 {
+    width: 80%;
+    font-size: 2em;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .4em;
+    color: var(--teal);
+    background-color: var(--bPurple) !important;
+    border-radius: 20px;
 }

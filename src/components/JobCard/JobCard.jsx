@@ -18,7 +18,7 @@ export default function ProjectCard({ job, id }) {
                 :
                 <div className='jobDetailsContainer'>
                     <div className='jobTitle2'>
-                        <h5 className='jobH5'>{job.title}</h5>
+                        <h4 className='dutiesH1'>{job.title}</h4>
                         <h3>{job.employer}</h3>
                         <h3>{job.dates}</h3>
                     </div>
