@@ -18,12 +18,8 @@ export default function ProjectCard({ project }) {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <button className='projectBtn'>See Deployed Project</button>
+                            <button className='projectBtn'>Deployed Project</button>
                         </a>
-                        <button
-                            onClick={() => setShowVideo(!showVideo)}
-                            className='projectBtn'>Sample Video
-                        </button>
                         <a
                             href={project.github}
                             target="_blank"
@@ -34,6 +30,10 @@ export default function ProjectCard({ project }) {
                                 src={githubIcon} alt=""
                             />
                         </a>
+                        <button
+                            onClick={() => setShowVideo(!showVideo)}
+                            className='projectBtn'>Sample Video
+                        </button>
                     </div>
                 </div>
                 <div id="rColumn">
