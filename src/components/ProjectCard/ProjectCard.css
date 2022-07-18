@@ -34,10 +34,10 @@
 }
 
 .linksContainer {
-    width: 30vw;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .projectBtn {
@@ -74,4 +74,13 @@
     position: absolute;
     bottom: 1em;
     z-index: 3;
+}
+
+
+
+@media only screen and (max-width: 660px) {
+    .projectBtn {
+        padding: .3em 0;
+        font-size: .8em;
+    }
 }
