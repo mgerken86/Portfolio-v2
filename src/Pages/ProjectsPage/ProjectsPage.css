@@ -9,10 +9,11 @@
 .projectsPage {
     min-height: 100vh;
     margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .projectsPage h1 {
-    font-size: 4em;
+    font-size: 3em;
     color: var(--cultured)
 }
 

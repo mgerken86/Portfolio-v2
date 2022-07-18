@@ -1,9 +1,42 @@
-.aboutMePage {
+#about {
     width: 100vw;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMePage {
+    margin-top: 10vh;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+}
+.aboutMePage h1 {
+    font-size: 3em;
+    color: var(--cultured);
+}
+
+.contactInfo {
+    width: 25em;
+    background-color: var(--cultured);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.aboutContact {
+    color: var(--bPurple);
+    background-color: var(--teal);
+    font-size: 2em;
+}
+.aboutContact.pink {
+    background-color: var(--pink);
 }
 
 .markImg {

@@ -10,6 +10,7 @@
 .resumePage {
     min-height: 100vh;
     margin-top: 10vh;
+    margin-bottom: 10vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -18,7 +19,7 @@
 }
 
 .resumePage h1 {
-    font-size: 5em;
+    font-size: 3em;
     color: var(--cultured);
 }
 

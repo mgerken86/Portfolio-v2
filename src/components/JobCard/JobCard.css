@@ -37,6 +37,7 @@
 .jobDetailsContainer * {
     color: var(--cultured);
 }
+
 .jobTitle2 {
     display: flex;
     flex-direction: column;
