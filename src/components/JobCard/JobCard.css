@@ -14,9 +14,11 @@
 }
 .evenJob {
     box-shadow: .25em .25em var(--pink);
+    box-shadow: .25em .25em 1em var(--pink);
 }
 .oddJob {
     box-shadow: -.25em .25em var(--teal);
+    box-shadow: -.25em .25em 1em var(--teal);
 }
 
 .jobImageContainer {
