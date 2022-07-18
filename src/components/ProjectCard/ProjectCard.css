@@ -44,6 +44,7 @@
 
 .projectBtn {
     background-color: var(--teal);
+    background: linear-gradient(var(--pink), var(--teal));
     padding: 1em;
     color: var(--bPurple);
     font-weight: bolder;
@@ -52,7 +53,7 @@
 }
 .projectBtn:hover {
     cursor: pointer;
-    background-color: var(--pink);
+    background: var(--pink);
     color: var(--bPurple);
 }
 
