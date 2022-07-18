@@ -17,6 +17,7 @@
     gap: 4em;
     margin-bottom: 15vh;
 }
+
 .aboutMePage h1 {
     font-size: 3em;
     color: var(--cultured);
@@ -32,26 +33,36 @@
 
 .aboutContact {
     color: var(--bPurple);
-    background-color: var(--teal);
+    background: linear-gradient(90deg, var(--teal), var(--pink));
     font-size: 2em;
     border-radius: 10px;
 }
+
 .aboutContact.pink {
-    background-color: var(--pink);
+    background: linear-gradient(90deg, var(--pink), var(--teal));
+}
+
+.markImgContainer {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .markImg {
-    height: 25em;
-    width: 25em;
+    margin-top: 1em;
+    height: 15em;
+    width: 15em;
     border-radius: 50%;
 }
 
 .brandStatement {
-    width: 70vw;
+    width: 85vw;
     min-height: 20vh;
     color: var(--cultured);
     font-size: 1.5em;
     background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
     padding: 1em;
-    border: 2px solid var(--teal);
+    box-shadow: 0 0 .5em var(--pink);
+    text-align: left;
 }

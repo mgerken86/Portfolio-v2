@@ -2,7 +2,8 @@
     display: flex;
     width: 80vw;
     min-height: 25vh;
-    border: 3px solid var(--teal);
+    /* border: 3px solid var(--teal); */
+    box-shadow: 0 0 1em var(--pink);
     background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
 }
 
@@ -40,14 +41,16 @@
 }
 
 .projectBtn {
-    background-color: var(--pink);
+    background-color: var(--teal);
     padding: 1em;
     color: var(--bPurple);
     font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: .2em .2em 1em rgba(0,0,0,.8);
 }
 .projectBtn:hover {
     cursor: pointer;
-    background-color: var(--teal);
+    background-color: var(--pink);
     color: var(--bPurple);
 }
 
