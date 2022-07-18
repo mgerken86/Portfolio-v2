@@ -41,8 +41,8 @@ h1 {
 }
 
 #home, #projects, #resume, #about {
-    /* background: linear-gradient(var(--bPurple), var(--violet), var(--bPurple)); */
-    background-color: black;
-    background-color: var(--bPurple);
+    background: linear-gradient(90deg, black, var(--violet), black);
+    /* background-color: black; */
+    /* background-color: var(--bPurple); */
 }
 
