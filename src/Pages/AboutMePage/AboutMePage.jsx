@@ -13,13 +13,13 @@ export default function AboutMePage() {
                         value={{ size: '1em' }}
                     >
                         <div className='contactInfo'>
-                        <h3 className="aboutContact pink">
+                            <h3 className="aboutContact pink">
                                 <FaEnvelope /> mgerken86@gmail.com
                             </h3>
                             <br />
                             <h3 className='aboutContact'>
                                 <FaPhoneAlt /> (240)750-0263
-                            </h3> 
+                            </h3>
                         </div>
                         <img
                             className='markImg'
