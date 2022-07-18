@@ -29,10 +29,11 @@
 
 .projectCardDiv h2 {
     color: var(--teal);
-    font-size: 2em;
+    font-size: 3em;
 }
 .projectCardDiv h5 {
     color: var(--cultured);
+    font-size: 2em;
 }
 
 .linksContainer {
@@ -88,16 +89,18 @@
     }
 } */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     .projectCardDiv {
         flex-direction: column;
     }
-    l#lColumn {
-        flex: 2;
-        justify-content: space-between;
+    .projectCardDiv h5 {
+        font-size: 1.2em;
     }
-    #rColumnImg {
-        height: 50%;
-        object-fit: contain;
+    #lColumn {
+        flex: 5 !important;
+        justify-content: space-apart;
+    }
+    #rColumn {
+        flex: 1 !important;
     }
 }
