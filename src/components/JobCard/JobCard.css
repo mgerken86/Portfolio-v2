@@ -78,7 +78,7 @@
     width: 100%;
     position: absolute;
     /* background-color: black; */
-    bottom: 3em;
+    bottom: .2em;
     right: 0;
     left: 0;
     margin-left: auto;
@@ -95,6 +95,13 @@
     margin-bottom: .4em;
     color: var(--bPurple);
 }
+
+.jobBtnCont {
+    background-color: black;
+    width: 100%;
+    padding: 1em;
+}
+
 .jobsBtn {
     background: var(--bPurple);
     background: linear-gradient(var(--pink), var(--teal));;
