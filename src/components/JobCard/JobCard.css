@@ -126,6 +126,7 @@
 }
 .dutiesH1 {
     width: 80%;
+    width: 100%;
     font-size: 2em;
     height: 8vh;
     display: flex;
@@ -134,5 +135,5 @@
     margin-bottom: .4em;
     color: var(--teal);
     background-color: var(--bPurple) !important;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
