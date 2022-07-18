@@ -20,7 +20,7 @@
 .projectsContainer {
     margin-top: 6em;
     display: flex;
-    gap: 3em;
+    gap: 5em;
     flex-direction: column;
     justify-content: center;
     align-items: center;

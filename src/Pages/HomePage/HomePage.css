@@ -103,7 +103,7 @@
     color: var(--cultured);
     position: absolute;
     bottom: -20%;
-    right: 3vw;
+    left: 20%;
     font-size: 6vw;
 }
 
@@ -123,7 +123,9 @@
         padding: 0.1em !important;
     }
 
-    .typewriter,
+    .typewriter {
+        font-size: 7vw !important;
+    }
     .nameH1 {
         font-size: 8vw !important;
     }
@@ -215,7 +217,7 @@
     }
 
     4% {
-        content: 'Prob';
+        content: ' Prob';
     }
 
     5% {
