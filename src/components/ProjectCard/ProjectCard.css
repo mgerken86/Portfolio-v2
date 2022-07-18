@@ -2,7 +2,7 @@
     display: flex;
     width: 80vw;
     min-height: 25vh;
-    border: 3px solid var(--blue1);
+    border: 3px solid var(--teal);
     background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
 }
 
@@ -40,14 +40,15 @@
 }
 
 .projectBtn {
-    background-color: var(--blue1);
+    background-color: var(--pink);
     padding: 1em;
-    color: black;
+    color: var(--bPurple);
+    font-weight: bolder;
 }
 .projectBtn:hover {
     cursor: pointer;
-    background-color: var(--salmon);
-    color: var(--violet);
+    background-color: var(--teal);
+    color: var(--bPurple);
 }
 
 .githubIcon {

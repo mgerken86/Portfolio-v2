@@ -13,10 +13,10 @@
     /* max-height: 100%; */
 }
 .evenJob {
-    box-shadow: 1em 1em var(--pink);
+    box-shadow: .5em .5em var(--pink);
 }
 .oddJob {
-    box-shadow: -1em 1em var(--teal);
+    box-shadow: -.5em .5em var(--teal);
 }
 
 .jobImageContainer {
