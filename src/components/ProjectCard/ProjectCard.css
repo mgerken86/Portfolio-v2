@@ -7,20 +7,6 @@
     background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
 }
 
-@media only screen and (max-width: 800px) {
-    .projectCardDiv {
-        flex-direction: column;
-    }
-    l#lColumn {
-        flex: 2;
-        justify-content: space-between;
-    }
-    #rColumnImg {
-        height: 50%;
-        object-fit: contain;
-    }
-}
-
 #lColumn {
     flex: 7;
     display: flex;
@@ -95,9 +81,23 @@
 
 
 
-@media only screen and (max-width: 660px) {
+/* @media only screen and (max-width: 660px) {
     .projectBtn {
         padding: .3em 0;
         font-size: .8em;
+    }
+} */
+
+@media only screen and (max-width: 1000px) {
+    .projectCardDiv {
+        flex-direction: column;
+    }
+    l#lColumn {
+        flex: 2;
+        justify-content: space-between;
+    }
+    #rColumnImg {
+        height: 50%;
+        object-fit: contain;
     }
 }
