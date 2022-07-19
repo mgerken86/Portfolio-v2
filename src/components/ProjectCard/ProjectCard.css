@@ -64,9 +64,10 @@
 
 .movieContainer {
     width: 100%;
-    max-height: 50vh !important;
+    max-height: 60vh !important;
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -78,6 +79,7 @@
     position: absolute;
     bottom: 1em;
     z-index: 3;
+    width: 20em;
 }
 
 
@@ -92,6 +94,8 @@
 @media only screen and (max-width: 800px) {
     .projectCardDiv {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .projectCardDiv h5 {
         font-size: 1.2em;
