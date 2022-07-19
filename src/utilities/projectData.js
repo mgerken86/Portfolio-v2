@@ -9,7 +9,7 @@ export const projectsArr = [
         github: "https://github.com/mgerken86/Project-3-Travel-Companion"
     },
     {
-        name: "Coaches Corner",
+        name: "Coaches' Corner",
         description: "A full-CRUD application that tracks your athletes’ workouts and converts workouts to a rock-climbing grade.",
         technologies: "Built with Node.js, Express, MongoDB, Mongoose, and Liquid.",
         img: "/pubImages/coaches-corner.jpeg",

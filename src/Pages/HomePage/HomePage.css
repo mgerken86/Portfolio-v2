@@ -121,7 +121,7 @@
     }
 
     .navBtn {
-        padding: 0.1em !important;
+        padding: .5em 0.1em !important;
     }
 
     .typewriter {
@@ -175,6 +175,9 @@
     #rightGradient, 
     #leftGradient {
         width: 1.25vw;
+    }
+    .navBtn {
+        padding: .3em 0.1em !important;
     }
 
     /* #homeImg {
