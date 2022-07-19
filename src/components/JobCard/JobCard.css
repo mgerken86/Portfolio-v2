@@ -144,3 +144,20 @@
     background-color: var(--bPurple) !important;
     /* border-radius: 20px; */
 }
+
+/* Animation to fade images */
+
+@keyframes fade {
+    0% { opacity: 0; }
+	20% { opacity: 0; }
+	50% { opacity: 1; }
+	100% { opacity: 1; }
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
