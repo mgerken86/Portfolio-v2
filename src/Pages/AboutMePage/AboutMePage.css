@@ -33,14 +33,17 @@
 
 
 .aboutContact {
-    color: var(--bPurple);
-    background: linear-gradient(90deg, var(--teal), var(--pink));
+    color: var(--cultured);
+    /* background: linear-gradient(90deg, var(--teal), var(--pink)); */
     font-size: 2em;
     border-radius: 10px;
+    box-shadow: -.1em .1em .1em var(--pink);
 }
 
 .aboutContact.pink {
-    background: linear-gradient(90deg, var(--pink), var(--teal));
+    /* background: linear-gradient(90deg, var(--pink), var(--teal)); */
+    /* color: var(--pink); */
+    box-shadow: .1em -.1em .1em var(--teal);
 }
 
 .markImgContainer {
