@@ -21,6 +21,7 @@
 .aboutMePage h1 {
     font-size: 3em;
     color: var(--cultured);
+    margin-bottom: -.8em;
 }
 
 .contactInfo {
