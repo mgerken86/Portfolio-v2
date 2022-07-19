@@ -1,7 +1,7 @@
 .contactForm {
-    max-width: 40.75rem;
+    max-width: 80vw;
     margin: 0 auto;
-    padding: 0.938rem;
+    padding: 1em;
     border-radius: 5px;
     box-shadow: 0 0 1em var(--teal);
     margin-top: -.5em;
