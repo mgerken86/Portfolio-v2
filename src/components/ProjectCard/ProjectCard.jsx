@@ -11,6 +11,7 @@ export default function ProjectCard({ project }) {
                 <div id="lColumn">
                     <h2>{project.name}</h2>
                     <h5>{project.description}</h5>
+                    <br />
                     <h5>Technologies Used: {project.technologies}</h5>
                     <div className='linksContainer'>
                         <a

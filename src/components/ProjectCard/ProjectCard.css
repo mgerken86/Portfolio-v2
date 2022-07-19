@@ -33,7 +33,9 @@
 }
 .projectCardDiv h5 {
     color: var(--cultured);
-    font-size: 1.7em;
+    font-size: 2.2em;
+    text-align: left;
+    width: 90%;
 }
 
 .linksContainer {

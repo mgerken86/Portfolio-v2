@@ -37,7 +37,7 @@
 
 .navBtn {
     display: inline-block;
-    padding: .3em;
+    padding: .5em;
     background: linear-gradient(var(--pink), var(--teal));
     color: var(--bPurple);
     border-radius: 10px;
