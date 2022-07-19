@@ -24,6 +24,16 @@
     --teal: #80effd;
     /* --teal: #5adff9; */
     /* --teal: #05f6fa; */
+    --cultured: #F6F6F6;
+    /* --teal: #408697; */
+    --pink: #408697;
+    --bPurple: #363538;
+    --bPurple: #00181b;
+    --violet: #8D8C8A;
+    --pink: #80fdcd;
+    --pink: #fdcd80;
+    --pink: #fd8e80;
+    --pink: #33848f;
 
 
 }
@@ -46,8 +56,8 @@ h1 {
 }
 
 #home, #projects, #resume, #about {
-    background: linear-gradient(90deg, black, var(--violet), black);
-    /* background-color: black; */
+    background: linear-gradient(90deg, var(--cultured), white, var(--cultured));
+    background: linear-gradient(90deg, black, var(--bPurple), black);    /* background-color: black; */
     /* background-color: var(--bPurple); */
 }
 
