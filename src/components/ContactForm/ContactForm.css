@@ -17,6 +17,13 @@
 .contactForm textarea {
     min-height: 6em;
     font-size: 1.5em;
+    color: var(--cultured);
+    outline: none;
+}
+
+.contactForm textarea::placeholder {
+    padding: 0.5rem;
+    color: var(--pink);
 }
 
 .contactForm .input-field {
@@ -28,11 +35,13 @@
     font-size: 1em;
     border: none;
     outline: none;
-    background: linear-gradient(var(--violet), var(--purple1), var(--maroon));}
+    background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
+    color: var(--cultured);
+}
 
 .input-field::placeholder {
     padding: 0.5rem;
-    color: var(--cultured);
+    color: var(--pink);
 }
 
 .submitBtn {
@@ -41,8 +50,10 @@
     color: var(--bPurple);
     font-weight: bold;
     padding: 1.3em 3.5em;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    width: 100%;
     border: 4px solid var(--bPurple);
+    z-index: 5;
 }
 .submitBtn:hover {
     background: var(--pink);
