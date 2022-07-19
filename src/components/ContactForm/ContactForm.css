@@ -23,7 +23,7 @@
 
 .contactForm textarea::placeholder {
     padding: 0.5rem;
-    color: var(--pink);
+    color: var(--cultured);
 }
 
 .contactForm .input-field {
@@ -41,7 +41,7 @@
 
 .input-field::placeholder {
     padding: 0.5rem;
-    color: var(--pink);
+    color: var(--cultured);
 }
 
 .submitBtn {

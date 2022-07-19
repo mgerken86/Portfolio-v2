@@ -14,7 +14,7 @@ export const experienceArr = [
         title: "Program Director",
         employer: "Boulder Adventure Lodge",
         dates: 'Dec 2017 - Mar 2019',
-        imgs: ['/pubImages/guiding.jpeg','/pubImages/tyrolean.png', '/pubImages/domeGuide.png'],
+        imgs: ['/pubImages/guiding.jpeg','/pubImages/meGuiding.jpeg','/pubImages/tyrolean.png', '/pubImages/domeGuide.png', '/pubImages/fistBump.jpeg',],
         duties: [
             'Developed an Outdoor Recreational Guide program from ground up. Created program frameworks, established marketing, and facilitated programs as Lead Guide. Generated $32k in profit with 100% positive reviews.',
             'Identified program risks and developed mitigation plans. Maintained all relevant records and obtained required insurance and permits through local partnerships. Held a perfect record of zero incidents or near-misses.'
