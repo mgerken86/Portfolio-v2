@@ -56,7 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    object-fit: cover;
+    object-fit: contain;
     max-width: 90%;
     height: 50vh;
 }
@@ -149,8 +149,8 @@
 
 @keyframes fade {
     0% { opacity: 0; }
-	20% { opacity: 0; }
-	50% { opacity: 1; }
+	/* 25% { opacity: 0; } */
+	30% { opacity: 1; }
 	100% { opacity: 1; }
 }
 
