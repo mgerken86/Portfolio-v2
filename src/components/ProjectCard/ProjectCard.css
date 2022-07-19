@@ -3,8 +3,9 @@
     width: 80vw;
     min-height: 60vh;
     /* border: 3px solid var(--teal); */
-    box-shadow: 0 0 1em var(--teal);
-    background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
+    box-shadow: 0 0 1em var(--pink);
+    background: linear-gradient(var(--bPurple), var(--violet), var(--bPurple));
+    background: linear-gradient(black, var(--bPurple), black);
 }
 
 #lColumn {
@@ -56,7 +57,7 @@
 }
 .projectBtn:hover {
     cursor: pointer;
-    background: var(--pink);
+    background: var(--teal);
     color: var(--bPurple);
 }
 

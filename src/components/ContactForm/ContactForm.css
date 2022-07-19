@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 1em;
     border-radius: 5px;
-    box-shadow: 0 0 1em var(--teal);
+    box-shadow: 0 0 1em var(--pink);
     margin-top: -.5em;
     background-color: black;
 }
@@ -36,6 +36,7 @@
     border: none;
     outline: none;
     background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
+    background: linear-gradient(black, var(--bPurple), black);
     color: var(--cultured);
 }
 

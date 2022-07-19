@@ -3,7 +3,7 @@ export const experienceArr = [
         title: "Assistant General Manager",
         employer: "Boulder Adventure Lodge",
         dates: 'Mar 2019 - May 2022',
-        imgs: ['/pubImages/lobby.jpeg','/pubImages/dogsLobby.jpeg','/pubImages/aLodge.jpeg'],
+        imgs: ['/pubImages/lobby.jpeg', '/pubImages/gunner.jpeg', '/pubImages/aLodge.jpeg', '/pubImages/dogsLobby.jpeg', '/pubImages/lobby2.jpeg'],
         duties: [
             'Supervised daily operations and sales functions to maximize revenue, customer satisfaction and employee productivity. Assisted in increasing annual revenue from $850k to $1.3 million.',
             'Managed human resource goals by recruiting, training, coaching and disciplining around 25 employees.',
@@ -14,7 +14,7 @@ export const experienceArr = [
         title: "Program Director",
         employer: "Boulder Adventure Lodge",
         dates: 'Dec 2017 - Mar 2019',
-        imgs: ['/pubImages/guiding.jpeg','/pubImages/meGuiding.jpeg','/pubImages/tyrolean.png', '/pubImages/domeGuide.png', '/pubImages/fistBump.jpeg',],
+        imgs: ['/pubImages/guiding.jpeg', '/pubImages/tyrolean.png', '/pubImages/fistBump.jpeg', '/pubImages/domeGuide.png', '/pubImages/meGuiding.jpeg'],
         duties: [
             'Developed an Outdoor Recreational Guide program from ground up. Created program frameworks, established marketing, and facilitated programs as Lead Guide. Generated $32k in profit with 100% positive reviews.',
             'Identified program risks and developed mitigation plans. Maintained all relevant records and obtained required insurance and permits through local partnerships. Held a perfect record of zero incidents or near-misses.'

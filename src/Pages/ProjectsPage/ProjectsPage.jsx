@@ -12,7 +12,7 @@ export default function ProjectsPage() {
             <div className="projectsPage page">
                 <h1>My work</h1>
                 <div className='skillIcons'>
-                    <i class="devicon-javascript-plain" color='white'></i>
+                    <i class="devicon-javascript-plain"></i>
                     <i class="devicon-react-original-wordmark"></i>
                     <i class="devicon-mongodb-plain-wordmark"></i>
                     <i class="devicon-express-original"></i>
