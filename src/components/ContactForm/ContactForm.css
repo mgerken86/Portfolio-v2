@@ -24,7 +24,7 @@
     padding-top: 1em;
     padding-bottom: 1em;
     border-radius: 5px;
-    /* box-shadow: 0 0 1em var(--teal); */
+    box-shadow: 0 0 .2em var(--pink);
     font-size: 1em;
     border: none;
     outline: none;
