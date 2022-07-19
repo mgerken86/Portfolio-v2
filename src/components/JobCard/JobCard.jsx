@@ -53,7 +53,11 @@ export default function ProjectCard({ job, id }) {
                             return <li>{duty}</li>
                         })}
                     </div>
-                    <button className='jobsBtn' onClick={() => setShowJob(!showJob)}>Go Back</button>
+                    <button className='jobsBtn' onClick={() => {
+                        setShowJob(!showJob)
+                        setIndex(0)
+                        }}>
+                            Go Back</button>
                 </div>
             }
         </div>
