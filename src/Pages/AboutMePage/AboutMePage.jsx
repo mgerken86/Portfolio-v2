@@ -25,15 +25,15 @@ export default function AboutMePage() {
                 </div>
                 <h1 id='smallerH1'>Let's chat</h1>
                 <div className='contactInfo'>
-                            <h3 className="aboutContact pink">
-                                <FaEnvelope /> mgerken86@gmail.com
-                            </h3>
-                            <br />
-                            <h3 className='aboutContact'>
-                                <FaPhoneAlt /> (240)750-0263
-                            </h3>
-                        </div>
-                <ContactForm/>
+                    <h3 className="aboutContact pink">
+                        <FaEnvelope color="white !important" />  mgerken86@gmail.com
+                    </h3>
+                    <br />
+                    <h3 className='aboutContact'>
+                        <FaPhoneAlt />  (240)750-0263
+                    </h3>
+                </div>
+                <ContactForm />
             </div>
         </main>
     )

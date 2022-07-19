@@ -38,6 +38,7 @@
     font-size: 2em;
     border-radius: 10px;
     box-shadow: -.1em .1em .1em var(--pink);
+    padding: .5em;
 }
 
 .aboutContact.pink {
@@ -74,4 +75,10 @@
 #smallerH1 {
     font-size: 2.8em;
     margin: 1.4em 0 .3em 0;
+}
+
+h3 svg {
+    color: white;
+    background-color: var(--cultured);
+    padding: .1em;
 }
