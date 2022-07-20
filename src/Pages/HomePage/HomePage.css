@@ -160,22 +160,22 @@
 @media only screen and (max-width: 660px) {
     .nameH1 {
         font-size: 10vw !important;
-        top: -30%;
+        top: -38%;
     }
 
     .typewriter {
-        bottom: -23%;
+        bottom: -31%;
         font-size: 7vw !important;
     }
 
     #topRightGradient,
     #rightGradient {
-        top: -30%;
+        top: -45%;
         right: 4%;
     }
     #bottomLeftGradient, 
     #leftGradient {
-        bottom: -30%;
+        bottom: -45%;
         left: 4%;
     }
     #rightGradient, 
