@@ -21,7 +21,7 @@
 }
 
 .nameH1 {
-    color: var(--cultured);
+    color: var(--blue);
     position: absolute;
     top: -35%;
     left: 3vw;
@@ -101,7 +101,7 @@
     font-family: 'Titillium Web', sans-serif;
     font-family: 'League Spartan', sans-serif;
     font-family: 'Roboto Slab', serif;
-    color: var(--cultured);
+    color: var(--blue);
     position: absolute;
     bottom: -30%;
     left: 20%;

@@ -37,6 +37,18 @@
     --pink: #fdcd80;
     --pink: #fd8e80;
     --pink: #33848f;
+    /* --pink: #99ffdd; */
+    --pink: #133C55;
+    /* --pink: #337357; */
+    --manatee: #8D99ae;
+    --orange: #dd6e42;
+    --teal: #157145;
+
+   --teal: #3fd2c7;
+   --pink: #99ddff;
+   --blue: #00458b;
+
+
 
 
 }
@@ -61,6 +73,7 @@ h1 {
 #home, #projects, #resume, #about {
     background: linear-gradient(90deg, var(--cultured), white, var(--cultured));
     background: linear-gradient(90deg, black, var(--bPurple), black);    /* background-color: black; */
+    background: linear-gradient(90deg, var(--cultured), white, var(--cultured));    /* background-color: black; */
     /* background-color: var(--bPurple); */
 }
 
