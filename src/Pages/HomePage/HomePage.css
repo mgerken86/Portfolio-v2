@@ -126,11 +126,11 @@
 
     .typewriter {
         font-size: 7vw !important;
-        bottom: -20%;
+        bottom: -23%;
     }
     .nameH1 {
         font-size: 8vw !important;
-        top: -25%;
+        top: -28%;
     }
 
     .navBar {
@@ -142,12 +142,12 @@
 
     #topRightGradient,
     #rightGradient {
-        top: -20%;
+        top: -30%;
         right: 2%;
     }
     #bottomLeftGradient, 
     #leftGradient {
-        bottom: -20%;
+        bottom: -30%;
         left: 2%;
     }
     #rightGradient, 
