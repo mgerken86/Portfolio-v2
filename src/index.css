@@ -41,7 +41,7 @@
     --pink: #133C55;
     /* --pink: #337357; */
     --manatee: #8D99ae;
-    --orange: #dd6e42;
+    --bright: #dd6e42;
     --teal: #157145;
 
    /* --teal: #3fd2c7;
@@ -50,11 +50,11 @@
 
    --cultured: #e9e9e9;
    --plaster: #cdcdcd;
-   --teal: #88bbd6;
-   --pink: #99d3df;
+   /* --bright: #88bbd6; */
+   --teal2: #99d3df;
 
    --pink: #003b6d;
-   --teal: #6699cc;
+   --teal: #8cb3d9;
    --cultured: #ebedf3;
    --gray: #bdbdbd;
    --gray2: #e6e6e6;
@@ -64,6 +64,11 @@
 
 
 
+}
+html, body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100vw !important;
 }
 
 * {

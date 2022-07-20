@@ -23,7 +23,7 @@
 
 .contactForm textarea::placeholder {
     padding: 0.5rem;
-    color: var(--teal);
+    color: var(--bright);
 }
 
 .contactForm .input-field {
@@ -42,23 +42,23 @@
 
 .input-field::placeholder {
     padding: 0.5rem;
-    color: var(--teal);
+    color: var(--bright);
 }
 
 .submitBtn {
-    background: var(--bPurple);
-    background: linear-gradient(var(--pink), var(--teal));;
-    color: var(--cultured);
+    background: linear-gradient(var(--teal2), var(--teal));
+    box-shadow: .2em .2em 1em rgba(0,0,0,.8);
+    color: var(--pink);
     font-weight: bold;
     padding: 1.3em 3.5em;
     border-radius: 10px;
     width: 50%;
-    border: 4px solid var(--bPurple);
     z-index: 5;
     margin-top: 2.5em;
 }
 .submitBtn:hover {
-    background: var(--pink);
+    background: var(--bright);
+    color: var(--cultured);
 }
 
 @media screen and (max-width: 800px) {

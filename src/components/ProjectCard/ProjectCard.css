@@ -2,12 +2,18 @@
     display: flex;
     width: 80vw;
     min-height: 60vh;
-    /* border: 3px solid var(--teal); */
-    box-shadow: 0em 0em .1em .2em var(--teal);
+    box-shadow: 0 0 .25em .25em var(--teal);
     background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2));
     /* background: linear-gradient(black, var(--bPurple), black); */
     /* background-color: var(--gray); */
 }
+/* .evenProj {
+    box-shadow: .25em .25em 0em .25em var(--bright);
+}
+.oddProj {
+    box-shadow: -.25em .25em 0em .25em var(--bright);
+} */
+
 
 #lColumn {
     flex: 7;
@@ -30,12 +36,12 @@
 }
 
 .projectCardDiv h2 {
-    color: var(--teal);
-    font-size: 3.4em;
+    color: var(--bright);
+    font-size: 3em;
 }
 .projectCardDiv h5 {
     color: var(--cultured);
-    font-size: 2.2em;
+    font-size: 2em;
     text-align: left;
     width: 90%;
 }
@@ -48,18 +54,18 @@
 }
 
 .projectBtn {
-    background-color: var(--teal);
-    background: linear-gradient(var(--pink), var(--teal));
+    /* background-color: var(--teal); */
+    background: linear-gradient(var(--teal), var(--teal2));
     padding: 1em;
-    color: var(--cultured);
+    color: var(--pink);
     font-weight: bolder;
     border-radius: 10px;
     box-shadow: .2em .2em 1em rgba(0,0,0,.8);
 }
 .projectBtn:hover {
     cursor: pointer;
-    background: var(--teal);
-    color: var(--bPurple);
+    background: var(--bright);
+    color: var(--cultured);
 }
 
 .githubIcon {

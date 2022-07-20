@@ -2,11 +2,11 @@ import './ProjectCard.css'
 import githubIcon from '../../images/githubIcon.png'
 import { useState } from 'react'
 
-export default function ProjectCard({ project }) {
+export default function ProjectCard({ project, id }) {
     const [showVideo, setShowVideo] = useState(false)
 
     return (
-        <div className="projectCardDiv">
+        <div className={id % 2 === 0 ? 'projectCardDiv evenProj' : 'projectCardDiv oddProj'}>
             {!showVideo ? <>
                 <div id="lColumn">
                     <h2>{project.name}</h2>
