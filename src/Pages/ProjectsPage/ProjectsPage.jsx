@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './ProjectsPage.css'
 import { projectsArr } from '../../utilities/projectData'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
-
+import projectsImg from '../../images/mediaProjects.jpg'
 
 
 export default function ProjectsPage() {
@@ -10,7 +10,11 @@ export default function ProjectsPage() {
     return (
         <main id="projects">
             <div className="projectsPage page">
+                <div className="projectsImg">
                 <h1>My work</h1>
+                <img src={projectsImg} alt="" />
+                </div>
+                
                 <div className='skillIcons'>
                     <i class="devicon-javascript-plain"></i>
                     <i class="devicon-react-original-wordmark"></i>

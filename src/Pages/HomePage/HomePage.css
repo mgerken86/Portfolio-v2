@@ -82,11 +82,11 @@
 #homeImg {
     /* width: 60vw;
     height: 30vh; */
-    width: 90%;
-    max-width: 700px;
-    max-height: 55vh;
+    max-width: 90%;
+    /* max-width: 700px; */
+    max-height: 45vh;
     /* height: 100%; */
-    object-fit: cover;
+    object-fit: contain;
     box-shadow: 0em 0em 2em var(--pink);
     /* box-shadow: 1.5em 1em 5em var(--teal); */
     /* box-shadow: 6em 3em 5px var(--pink); */
