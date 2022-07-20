@@ -1,14 +1,9 @@
 import './HomePage.css'
-import projectsImg from '../../images/mediaProjects.jpg'
 
 export default function HomePage() {
     return (
         <main id="home">
             <div className="homePage page">
-
-
-
-
                 <div id="imgCont">
                     <div id="topRightGradient"></div>
                     <div id="rightGradient"></div>
@@ -16,7 +11,7 @@ export default function HomePage() {
                     <div id="leftGradient"></div>
                     <h1 className='nameH1'>Hi, I'm <span id="teal">Mark</span></h1>
                     <img
-                        src={projectsImg}
+                        src='/pubImages/flatiron.png'
                         id="homeImg"
                         alt="property of https://wallpapersafari.com/w/ZcVzSn" 
                     />
