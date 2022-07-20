@@ -20,7 +20,7 @@
 
 .aboutMePage h1 {
     font-size: 3em;
-    color: var(--cultured);
+    color: var(--dGray2);
     margin-bottom: -.8em;
 }
 
@@ -33,7 +33,7 @@
 
 
 .aboutContact {
-    color: var(--cultured);
+    color: var(--dGray2);
     /* background: linear-gradient(90deg, var(--teal), var(--pink)); */
     font-size: 2em;
     border-radius: 10px;
@@ -64,10 +64,10 @@
 .brandStatement {
     width: 85vw;
     min-height: 20vh;
-    color: var(--cultured);
+    color: var(--pink);
     font-size: 1.5em;
     background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
-    background: linear-gradient(black, var(--bPurple), black);
+    background: linear-gradient(var(--gray), var(--gray2), var(--gray));
     padding: 1em;
     box-shadow: 0 0 .5em var(--pink);
     text-align: left;

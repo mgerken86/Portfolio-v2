@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './ProjectsPage.css'
 import { projectsArr } from '../../utilities/projectData'
 import ProjectCard from '../../components/ProjectCard/ProjectCard'
-import projectsImg from '../../images/mediaProjects.jpg'
+// import projectsImg from '../../images/mediaProjects.jpg'
+import projectsImg from '../../images/projectsNoBg.png'
 
 
 export default function ProjectsPage() {

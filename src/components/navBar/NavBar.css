@@ -8,7 +8,7 @@
     align-items: center;
     padding: 1em 0;
     background-color: rgba(0, 0, 0, 1);
-    background-color: var(--cultured);
+    background-color: var(--dGray2);
     z-index: 2;
     /* background-color: black; */
     
@@ -40,7 +40,7 @@
     display: inline-block;
     padding: .5em;
     background: linear-gradient(var(--pink), var(--teal));
-    color: var(--bPurple);
+    color: var(--cultured);
     border-radius: 10px;
     box-shadow: .1em .1em .2em var(--pink);
 }

@@ -44,9 +44,22 @@
     --orange: #dd6e42;
     --teal: #157145;
 
-   --teal: #3fd2c7;
+   /* --teal: #3fd2c7;
    --pink: #99ddff;
-   --blue: #00458b;
+   --blue: #00458b; */
+
+   --cultured: #e9e9e9;
+   --plaster: #cdcdcd;
+   --teal: #88bbd6;
+   --pink: #99d3df;
+
+   --pink: #003b6d;
+   --teal: #6699cc;
+   --cultured: #ebedf3;
+   --gray: #bdbdbd;
+   --gray2: #e6e6e6;
+   --dGray: #676767;
+   --dGray2: #4d4d4d;
 
 
 
@@ -54,7 +67,7 @@
 }
 
 * {
-    color: var(--bPurple);
+    color: var(--cultured);
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
@@ -72,8 +85,8 @@ h1 {
 
 #home, #projects, #resume, #about {
     background: linear-gradient(90deg, var(--cultured), white, var(--cultured));
-    background: linear-gradient(90deg, black, var(--bPurple), black);    /* background-color: black; */
-    background: linear-gradient(90deg, var(--cultured), white, var(--cultured));    /* background-color: black; */
-    /* background-color: var(--bPurple); */
+    /* background: linear-gradient(90deg, black, var(--bPurple), black);     */
+    /* background: linear-gradient(90deg, var(--gray), white, var(--gray));     */
+    background-color: var(--gray);
 }
 
