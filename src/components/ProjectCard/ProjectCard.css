@@ -1,9 +1,13 @@
 .projectCardDiv {
+    cursor: pointer;
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80vw;
     min-height: 60vh;
     box-shadow: 0 0 .25em .25em var(--teal);
     background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2));
+    padding: 1em;
     /* background: linear-gradient(black, var(--bPurple), black); */
     /* background-color: var(--gray); */
 }
@@ -13,6 +17,34 @@
 .oddProj {
     box-shadow: -.25em .25em 0em .25em var(--bright);
 } */
+
+.projClick {
+    cursor: pointer;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    min-height: 60vh;
+    position: relative;
+}
+
+.largeProjImg {
+    object-fit: contain;
+    max-width: 80vw;
+    max-height: 60vh;
+    box-shadow: 0 0 .75em var(--bright);
+}
+#projH1 {
+    /* width: 100%; */
+    position: absolute;
+    bottom: 50%;
+    color: var(--cultured);
+    background: var(--dGray2);
+    padding: .2em;
+    border-radius: 10px;
+    font-size: 2em;
+}
 
 
 #lColumn {
