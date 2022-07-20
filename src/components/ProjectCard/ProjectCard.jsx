@@ -14,10 +14,7 @@ export default function ProjectCard({ project, id }) {
 
                     {!showVideo ?
                         <>
-                            <div
-                                id="lColumn"
-                                onClick={() => setShowImage(!showImage)}
-                            >
+                            <div id="lColumn">
                                 <h2>{project.name}</h2>
                                 <h5>{project.description}</h5>
                                 <br />
