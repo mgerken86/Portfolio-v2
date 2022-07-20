@@ -114,7 +114,6 @@
 /*  MEDIA QUERIES */
 
 @media only screen and (max-width: 1000px) {
-
     .navRoutes1,
     .navRoutes2 {
         min-width: 100vw;
@@ -133,12 +132,6 @@
         top: -28%;
     }
 
-    .navBar {
-        height: 9vh !important;
-    }
-    .footer {
-        height: 7vh !important;
-    }
 
     #topRightGradient,
     #rightGradient {
@@ -158,6 +151,13 @@
 }
 
 @media only screen and (max-width: 660px) {
+    .navBar {
+        height: 11vh !important;
+    }
+    .footer {
+        height: 11vh !important;
+    }
+    
     .nameH1 {
         font-size: 10vw !important;
         top: -38%;
