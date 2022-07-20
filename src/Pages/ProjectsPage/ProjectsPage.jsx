@@ -40,6 +40,7 @@ export default function ProjectsPage() {
                         return <ProjectCard
                             project={project}
                             key={idx}
+                            id={idx}
                         />
                     })}
                 </div>

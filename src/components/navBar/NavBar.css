@@ -29,7 +29,7 @@
     width: 50vw;
     width: 100vw;
     height: .6vh;
-    background: linear-gradient(90deg, var(--pink), var(--teal));
+    background: linear-gradient(90deg, var(--pink), var(--teal2));
     position: absolute;
     bottom: 0;
     left: 0;
@@ -39,21 +39,23 @@
 .navBtn {
     display: inline-block;
     padding: .5em;
-    background: linear-gradient(var(--pink), var(--teal));
-    color: var(--cultured);
+    background: linear-gradient(var(--teal), var(--teal2));
+    color: var(--pink);
     border-radius: 10px;
-    box-shadow: .1em .1em .2em var(--pink);
+    box-shadow: .2em .2em 1em rgba(0,0,0,.8);
+    border: none;
 }
 .navBtn:hover {
     cursor: pointer;
-    color: var(--bPurple);
-    background: var(--teal);
-    border: 2px solid var(--teal);
+    color: var(--cultured);
+    background: var(--bright);
+    /* border: 2px solid var(--teal); */
 }
 
 .active span {
-    color: var(--bPurple);
-    background: var(--teal);
-    border: 1px solid var(--teal);
+    color: var(--cultured);
+    background: var(--bright);
+    /* box-shadow: .1em .1em .2em  .1em var(--teal); */
+    /* border: 1px solid var(--teal2); */
 }
 

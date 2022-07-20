@@ -79,7 +79,7 @@
 }
 
 h3 svg {
-    color: white;
+    color: var(--cultured);
     /* background-color: var(--cultured); */
     padding: .1em;
     border-radius: 4px;
@@ -88,5 +88,5 @@ h3 svg {
     background-color: var(--pink);
 }
 .tealIcon {
-    background-color: var(--teal);
+    background-color: var(--teal2);
 }

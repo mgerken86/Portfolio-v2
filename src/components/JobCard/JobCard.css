@@ -15,11 +15,11 @@
 }
 .evenJob {
     box-shadow: .25em .25em var(--pink);
-    box-shadow: .25em .25em 0em .25em var(--pink);
+    box-shadow: .25em .25em 1em  var(--pink);
 }
 .oddJob {
     box-shadow: -.25em .25em var(--teal);
-    box-shadow: -.25em .25em 0em .25em var(--teal);
+    box-shadow: -.25em .25em 1em  var(--teal);
 }
 
 .jobImgContainer {
@@ -105,15 +105,16 @@
 
 .jobsBtn {
     background: var(--bPurple);
-    background: linear-gradient(var(--pink), var(--teal));;
+    background: linear-gradient(var(--teal), var(--teal2));
+    box-shadow: .2em .2em 1em rgba(0,0,0,.8);
     color: var(--bPurple);
     font-weight: bold;
     padding: 1.3em 3.5em;
     border-radius: 10px;
-    border: 4px solid var(--bPurple);
 }
 .jobsBtn:hover {
-    background: var(--teal);
+    background: var(--bright);
+    color: var(--cultured);
 }
 /* .evenJob button {
     box-shadow: .2em .2em var(--teal);
@@ -123,13 +124,13 @@
 } */
 
 .evenJob h5{
-    color: var(--pink);
+    color: var(--bright);
     /* background: linear-gradient(90deg, var(--pink), var(--teal));   
     background: linear-gradient(90deg, var(--maroon), var(--purple1), var(--violet)); */
     background-color: var(--gray2);
 }
 .oddJob h5 {
-    color: var(--pink);
+    color: var(--bright);
     /* background: linear-gradient(90deg, var(--teal), var(--pink));
     background: linear-gradient(90deg, var(--violet), var(--purple1), var(--maroon)); */
     background-color: var(--gray2);
