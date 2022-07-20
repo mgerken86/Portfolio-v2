@@ -126,13 +126,13 @@
     color: var(--pink);
     /* background: linear-gradient(90deg, var(--pink), var(--teal));   
     background: linear-gradient(90deg, var(--maroon), var(--purple1), var(--violet)); */
-    background-color: var(--gray);
+    background-color: var(--gray2);
 }
 .oddJob h5 {
     color: var(--pink);
     /* background: linear-gradient(90deg, var(--teal), var(--pink));
     background: linear-gradient(90deg, var(--violet), var(--purple1), var(--maroon)); */
-    background-color: var(--gray);
+    background-color: var(--gray2);
 }
 .dutiesH1 {
     width: 80%;

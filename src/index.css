@@ -86,7 +86,7 @@ h1 {
 #home, #projects, #resume, #about {
     background: linear-gradient(90deg, var(--cultured), white, var(--cultured));
     /* background: linear-gradient(90deg, black, var(--bPurple), black);     */
-    /* background: linear-gradient(90deg, var(--gray), white, var(--gray));     */
-    background-color: var(--gray);
+    background: linear-gradient(90deg, var(--gray), white, var(--gray));    
+    /* background-color: var(--gray); */
 }
 
