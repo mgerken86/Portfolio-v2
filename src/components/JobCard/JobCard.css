@@ -9,16 +9,17 @@
     height: 60vh;
     max-width: 80vw;
     background: linear-gradient(black, var(--bPurple), black);
+    background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2));
     position: relative;
     /* max-height: 100%; */
 }
 .evenJob {
     box-shadow: .25em .25em var(--pink);
-    box-shadow: .25em .25em 1em var(--pink);
+    box-shadow: .25em .25em 0em .25em var(--pink);
 }
 .oddJob {
     box-shadow: -.25em .25em var(--teal);
-    box-shadow: -.25em .25em 1em var(--pink);
+    box-shadow: -.25em .25em 0em .25em var(--teal);
 }
 
 .jobImgContainer {
@@ -122,16 +123,16 @@
 } */
 
 .evenJob h5{
-    color: var(--cultured);
+    color: var(--pink);
     /* background: linear-gradient(90deg, var(--pink), var(--teal));   
     background: linear-gradient(90deg, var(--maroon), var(--purple1), var(--violet)); */
-    background-color: black;
+    background-color: var(--gray2);
 }
 .oddJob h5 {
-    color: var(--cultured);
+    color: var(--pink);
     /* background: linear-gradient(90deg, var(--teal), var(--pink));
     background: linear-gradient(90deg, var(--violet), var(--purple1), var(--maroon)); */
-    background-color: black;
+    background-color: var(--gray2);
 }
 .dutiesH1 {
     width: 80%;

@@ -11,9 +11,8 @@ export default function HomePage() {
                     <div id="leftGradient"></div>
                     <h1 className='nameH1'>Hi, I'm <span id="teal">Mark</span></h1>
                     <img
-                        src='/pubImages/flatiron.png'
-                        id="homeImg"
-                        alt="property of https://wallpapersafari.com/w/ZcVzSn" 
+                        src='/pubImages/flatiron.jpeg'
+                        id="homeImg" 
                     />
                     <h1 className='typewriter'>
                         I am a

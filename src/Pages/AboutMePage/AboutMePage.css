@@ -20,7 +20,7 @@
 
 .aboutMePage h1 {
     font-size: 3em;
-    color: var(--cultured);
+    color: var(--dGray2);
     margin-bottom: -.8em;
 }
 
@@ -33,7 +33,7 @@
 
 
 .aboutContact {
-    color: var(--cultured);
+    color: var(--dGray2);
     /* background: linear-gradient(90deg, var(--teal), var(--pink)); */
     font-size: 2em;
     border-radius: 10px;
@@ -67,9 +67,9 @@
     color: var(--cultured);
     font-size: 1.5em;
     background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
-    background: linear-gradient(black, var(--bPurple), black);
+    background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2));
     padding: 1em;
-    box-shadow: 0 0 .5em var(--pink);
+    box-shadow: 0em 0em .1em .1em var(--teal);
     text-align: left;
 }
 

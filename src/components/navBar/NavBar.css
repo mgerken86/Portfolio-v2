@@ -8,6 +8,7 @@
     align-items: center;
     padding: 1em 0;
     background-color: rgba(0, 0, 0, 1);
+    background-color: var(--dGray2);
     z-index: 2;
     /* background-color: black; */
     
@@ -27,7 +28,7 @@
 #navGradient {
     width: 50vw;
     width: 100vw;
-    height: .25vh;
+    height: .6vh;
     background: linear-gradient(90deg, var(--pink), var(--teal));
     position: absolute;
     bottom: 0;
@@ -39,7 +40,7 @@
     display: inline-block;
     padding: .5em;
     background: linear-gradient(var(--pink), var(--teal));
-    color: var(--bPurple);
+    color: var(--cultured);
     border-radius: 10px;
     box-shadow: .1em .1em .2em var(--pink);
 }

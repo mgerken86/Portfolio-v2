@@ -21,7 +21,7 @@
 }
 
 .nameH1 {
-    color: var(--cultured);
+    color: var(--dGray2);
     position: absolute;
     top: -35%;
     left: 3vw;
@@ -55,26 +55,26 @@
 }
 
 #topRightGradient {
-    background: linear-gradient(90deg, var(--pink), var(--teal));
-    top: -30%;
+    background: linear-gradient(90deg, var(--teal), var(--pink));
+    top: -25%;
     right: 5%;
 }
 
 #rightGradient {
-    background: linear-gradient(var(--teal), var(--pink));
-    top: -30%;
+    background: linear-gradient(var(--pink), var(--teal));
+    top: -25%;
     right: 5%;
 }
 
 #bottomLeftGradient {
-    background: linear-gradient(90deg, var(--teal), var(--pink));
-    bottom: -30%;
+    background: linear-gradient(90deg, var(--pink), var(--teal));
+    bottom: -25%;
     left: 5%;
 }
 
 #leftGradient {
-    background: linear-gradient(var(--pink), var(--teal));
-    bottom: -30%;
+    background: linear-gradient(var(--teal), var(--pink));
+    bottom: -25%;
     left: 5%;
 }
 
@@ -87,7 +87,7 @@
     max-height: 45vh;
     /* height: 100%; */
     object-fit: contain;
-    box-shadow: 0em 0em 2em var(--pink);
+    box-shadow: 0em 0em .1em .3em var(--pink);
     /* box-shadow: 1.5em 1em 5em var(--teal); */
     /* box-shadow: 6em 3em 5px var(--pink); */
     /* box-shadow: 1em 1em var(--pink); */
@@ -101,7 +101,7 @@
     font-family: 'Titillium Web', sans-serif;
     font-family: 'League Spartan', sans-serif;
     font-family: 'Roboto Slab', serif;
-    color: var(--cultured);
+    color: var(--dGray2);
     position: absolute;
     bottom: -30%;
     left: 20%;
@@ -203,13 +203,13 @@
 .typewriter:after {
     content: '';
     animation: write 15s infinite linear;
-    color: var(--cultured);
+    color: var(--pink);
 }
 
 @keyframes write {
     1% {
         content: ' P';
-        color: var(--cultured);
+        color: var(--p);
 
     }
 
@@ -348,13 +348,13 @@
 
     21.25% {
         content: ' ';
-        color: var(--cultured);
+        color: var(--dGray);
     }
 
 
     25.25% {
         content: ' T';
-        color: var(--cultured);
+        color: var(--dGray);
 
     }
 
@@ -462,13 +462,13 @@
 
     42.25% {
         content: ' ';
-        color: var(--cultured);
+        color: var(--dGray);
     }
 
 
     46.25% {
         content: ' C';
-        color: var(--cultured);
+        color: var(--dGray);
 
     }
 
@@ -578,13 +578,13 @@
 
     67% {
         content: ' Critical';
-        color: var(--teal);
+        color: var(--pink);
 
     }
 
     67.25% {
         content: ' Critica';
-        color: var(--teal);
+        color: var(--pink);
 
     }
 
@@ -626,13 +626,13 @@
 
     69% {
         content: ' ';
-        color: var(--cultured);
+        color: var(--dGray);
     }
 
 
     71% {
         content: ' D';
-        color: var(--cultured);
+        color: var(--dGray);
 
     }
 
