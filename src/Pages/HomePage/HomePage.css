@@ -133,9 +133,11 @@
         top: -25%;
     }
 
-    .navBar,
-    .footer {
+    .navBar {
         height: 9vh !important;
+    }
+    .footer {
+        height: 7vh !important;
     }
 
     #topRightGradient,
