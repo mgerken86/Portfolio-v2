@@ -10,12 +10,14 @@ export default function ProjectCard({ project, id }) {
         <>
             {!showImage ?
                 <div
-                    onClick={() => setShowImage(!showImage)}
                     className={id % 2 === 0 ? 'projectCardDiv evenProj' : 'projectCardDiv oddProj'}>
 
                     {!showVideo ?
                         <>
-                            <div id="lColumn">
+                            <div
+                                id="lColumn"
+                                onClick={() => setShowImage(!showImage)}
+                            >
                                 <h2>{project.name}</h2>
                                 <h5>{project.description}</h5>
                                 <br />
@@ -45,7 +47,11 @@ export default function ProjectCard({ project, id }) {
                                 </div>
                             </div>
                             <div id="rColumn">
-                                <img src={project.img} alt="" />
+                                <img 
+                                onClick={() => setShowImage(!showImage)}
+                                src={project.img} 
+                                alt="" 
+                                />
                             </div>
                         </> : <div className='movieContainer'>
                             <button
@@ -55,9 +61,9 @@ export default function ProjectCard({ project, id }) {
                             <video src={project.video} autoPlay muted></video>
                         </div>
                     } </div> :
-                <div 
-                className='projClick'
-                onClick={() => setShowImage(!showImage)}
+                <div
+                    className='projClick'
+                    onClick={() => setShowImage(!showImage)}
                 >
                     <img
                         src={project.img}
