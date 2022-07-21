@@ -208,7 +208,543 @@
     color: var(--teal);
 }
 
+
 @keyframes write {
+    1% {
+        content: ' P';
+        color: var(--dGray2);
+    }
+
+    2% {
+        content: ' Pr';
+    }
+
+    3% {
+        content: ' Pro';
+    }
+
+    4% {
+        content: ' Prob';
+    }
+
+    5% {
+        content: ' Probl';
+
+    }
+
+    6% {
+        content: ' Proble';
+    }
+
+    7% {
+        content: ' Problem';
+    }
+
+    8% {
+        content: ' Problem ';
+    }
+
+    9% {
+        content: ' Problem S';
+    }
+
+    10% {
+        content: ' Problem So';
+    }
+
+    11% {
+        content: ' Problem Sol';
+    }
+
+    12% {
+        content: ' Problem Solv';
+    }
+
+    13% {
+        content: ' Problem Solve';
+    }
+
+    14% {
+        content: ' Problem Solver';
+        color: var(--teal);
+    }
+
+
+    18% {
+        content: ' Problem Solver';
+        color: var(--teal);
+
+    }
+
+    18.25% {
+        content: ' Problem Solver';
+        color: var(--teal);
+
+    }
+
+    18.5% {
+        content: ' Problem Solver';
+        color: var(--teal);
+    }
+
+    18.75% {
+        content: ' Problem Solver';
+        color: var(--teal);
+    }
+
+    19% {
+        content: ' Problem Solver';
+        color: var(--teal);
+        opacity: .9;
+    }
+
+    19.25% {
+        content: ' Problem Solver ';
+        color: var(--teal);
+        opacity: .8;
+    }
+
+    19.5% {
+        content: ' Problem Solver';
+        color: var(--teal);
+        opacity: .7;
+    }
+
+    19.75% {
+        content: ' Problem Solver';
+        color: var(--teal);
+        opacity: .6;
+    }
+
+    20% {
+        content: ' Problem Solver';
+        color: var(--teal);
+        opacity: .5;
+    }
+
+    20.25% {
+        content: ' Problem Solver';
+        color: var(--teal);
+        opacity: .4;
+    }
+
+    20.5% {
+        content: ' Problem Solver';
+        color: var(--teal);
+        opacity: .3;
+    }
+
+    20.75% {
+        content: ' Problem Solver';
+        color: var(--teal);
+        opacity: .2;
+    }
+
+    21% {
+        content: ' Problem Solver';
+        color: var(--teal);
+        opacity: .1;
+    }
+
+    21.25% {
+        content: ' ';
+        color: var(--dGray2);
+        opacity: 0;
+    }
+
+
+    25.25% {
+        content: ' T';
+        color: var(--dGray2);
+        opacity: 1;
+    }
+
+    26.25% {
+        content: ' Te';
+    }
+
+    27.25% {
+        content: ' Tea';
+    }
+
+    28.25% {
+        content: ' Team';
+    }
+
+    29.25% {
+        content: ' Team ';
+
+    }
+
+    30.25% {
+        content: ' Team P';
+    }
+
+    31.25% {
+        content: ' Team Pl';
+    }
+
+    32.25% {
+        content: ' Team Pla';
+    }
+
+    33.25% {
+        content: ' Team Play';
+    }
+
+    34.25% {
+        content: ' Team Playe';
+    }
+
+    35.25% {
+        content: ' Team Player';
+        color: var(--teal);
+    }
+
+    39.25% {
+        content: ' Team Player';
+        color: var(--teal);
+    }
+
+    40% {
+        content: ' Team Player';
+        color: var(--teal);
+        opacity: .9;
+    }
+
+    40.25% {
+        content: ' Team Player';
+        color: var(--teal);
+        opacity: .8;
+    }
+
+    40.5% {
+        content: ' Team Player';
+        color: var(--teal);
+        opacity: .7;
+    }
+
+    40.75% {
+        content: ' Team Player';
+        color: var(--teal);
+        opacity: .6;
+    }
+
+    41% {
+        content: ' Team Player';
+        color: var(--teal);
+        opacity: .5;
+    }
+
+    41.25% {
+        content: ' Team Player';
+        color: var(--teal);
+        opacity: .4;
+    }
+
+    41.5% {
+        content: ' Team Player';
+        color: var(--teal);
+        opacity: .3;
+    }
+
+    41.75% {
+        content: ' Team Player';
+        color: var(--teal);
+        opacity: .2;
+    }
+
+    42% {
+        content: ' Team Player';
+        color: var(--teal);
+        opacity: .1;
+    }
+
+    42.25% {
+        content: ' ';
+        color: var(--dGray2);
+        opacity: 0;
+    }
+
+
+    46.25% {
+        content: ' C';
+        color: var(--dGray2);
+        opacity: 1;
+    }
+
+    47.25% {
+        content: ' Cr';
+    }
+
+    48.25% {
+        content: ' Cri';
+    }
+
+    49.25% {
+        content: ' Crit';
+    }
+
+    50.25% {
+        content: ' Criti';
+    }
+
+    51.25% {
+        content: ' Critic';
+    }
+
+    52.25% {
+        content: ' Critica';
+    }
+
+    53.25% {
+        content: ' Critical';
+    }
+
+    54.25% {
+        content: ' Critical ';
+    }
+
+    55.25% {
+        content: ' Critical T';
+    }
+
+    56.25% {
+        content: ' Critical Th';
+    }
+
+    57.25% {
+        content: ' Critical Thi';
+    }
+
+    58.25% {
+        content: ' Critical Thin';
+    }
+
+    59.25% {
+        content: ' Critical Think';
+    }
+
+    60.25% {
+        content: ' Critical Thinke';
+    }
+
+    61.25% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+    }
+
+
+    65.25% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+
+    }
+
+    65.5% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+
+    }
+
+    65.75% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+
+    }
+
+    66% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+
+    }
+
+    66.25% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+
+    }
+
+    66.5% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+
+    }
+
+    66.75% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+        opacity: .9;
+    }
+
+    67% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+        opacity: .8;
+    }
+
+    67.25% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+        opacity: .7;
+    }
+
+    67.5% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+        opacity: .6;
+    }
+
+    67.75% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+        opacity: .5;
+    }
+
+    68% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+        opacity: .4;
+    }
+
+    68.25% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+        opacity: .3;
+    }
+
+    68.5% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+        opacity: .2;
+    }
+
+    68.75% {
+        content: ' Critical Thinker';
+        color: var(--teal);
+        opacity: .1;
+    }
+
+    69% {
+        content: ' ';
+        color: var(--dGray2);
+        opacity: 0;
+    }
+
+
+    71% {
+        content: ' D';
+        color: var(--dGray2);
+        opacity: 1;
+    }
+
+    72% {
+        content: ' De';
+    }
+
+    73% {
+        content: ' Dev';
+    }
+
+    74% {
+        content: ' Deve';
+    }
+
+    75% {
+        content: ' Devel';
+    }
+
+    76% {
+        content: ' Develo';
+    }
+
+    77% {
+        content: ' Develop';
+    }
+
+    78% {
+        content: ' Develope';
+    }
+
+    79% {
+        content: ' Developer';
+        color: var(--bright);
+    }
+
+    84% {
+        content: ' Developer';
+        color: var(--bright);
+    }
+
+    89% {
+        content: ' Developer';
+        color: var(--bright);
+        opacity: .9;
+    }
+
+    94% {
+        content: ' Developer';
+        color: var(--bright);
+        opacity: .8;
+    }
+
+    94.25% {
+        content: ' Developer';
+        color: var(--bright);
+        opacity: .7;
+    }
+
+    94.5% {
+        content: ' Developer';
+        color: var(--bright);
+        opacity: .6;
+    }
+
+    94.75% {
+        content: ' Developer';
+        color: var(--bright);
+        opacity: .5;
+    }
+
+    95% {
+        content: ' Developer';
+        color: var(--bright);
+        opacity: .4;
+    }
+
+    95.25% {
+        content: ' Developer';
+        color: var(--bright);
+        opacity: .3;
+    }
+
+    95.5% {
+        content: ' Developer';
+        color: var(--bright);
+        opacity: .2;
+    }
+
+    95.75% {
+        content: ' D';
+        color: var(--bright);
+        opacity: .1;
+    }
+
+    96% {
+        content: ' ';
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+/* KEEPING THIS HERE IN CASE I WANT TO COME BACK TO IT. */
+/* THIS DELETES THE TYPEWRITE EFFECT INSTEAD OF FADING OUT */
+
+/* @keyframes write {
     1% {
         content: ' P';
     }
@@ -731,4 +1267,4 @@
         content: ' ';
 
     }
-}
+} */
