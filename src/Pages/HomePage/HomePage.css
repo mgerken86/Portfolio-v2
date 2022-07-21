@@ -212,7 +212,7 @@
 @keyframes write {
     1% {
         content: ' P';
-        color: var(--dGray2);
+        color: var(--pink);
     }
 
     2% {
@@ -348,14 +348,14 @@
 
     21.25% {
         content: ' ';
-        color: var(--dGray2);
+        color: var(--pink);
         opacity: 0;
     }
 
 
     25.25% {
         content: ' T';
-        color: var(--dGray2);
+        color: var(--pink);
         opacity: 1;
     }
 
@@ -462,14 +462,14 @@
 
     42.25% {
         content: ' ';
-        color: var(--dGray2);
+        color: var(--pink);
         opacity: 0;
     }
 
 
     46.25% {
         content: ' C';
-        color: var(--dGray2);
+        color: var(--pink);
         opacity: 1;
     }
 
@@ -671,66 +671,66 @@
         color: var(--bright);
     }
 
-    84% {
+    80% {
         content: ' Developer';
         color: var(--bright);
     }
 
-    89% {
+    82% {
         content: ' Developer';
         color: var(--bright);
         opacity: .9;
     }
 
-    94% {
+    84% {
         content: ' Developer';
         color: var(--bright);
         opacity: .8;
     }
 
-    94.25% {
+    86% {
         content: ' Developer';
         color: var(--bright);
         opacity: .7;
     }
 
-    94.5% {
+    88% {
         content: ' Developer';
         color: var(--bright);
         opacity: .6;
     }
 
-    94.75% {
+    90% {
         content: ' Developer';
         color: var(--bright);
         opacity: .5;
     }
 
-    95% {
+    92% {
         content: ' Developer';
         color: var(--bright);
         opacity: .4;
     }
 
-    95.25% {
+    94% {
         content: ' Developer';
         color: var(--bright);
         opacity: .3;
     }
 
-    95.5% {
+    96% {
         content: ' Developer';
         color: var(--bright);
         opacity: .2;
     }
 
-    95.75% {
-        content: ' D';
+    98% {
+        content: ' Developer';
         color: var(--bright);
         opacity: .1;
     }
 
-    96% {
+    100% {
         content: ' ';
         opacity: 0;
     }
