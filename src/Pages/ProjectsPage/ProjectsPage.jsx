@@ -31,9 +31,9 @@ export default function ProjectsPage() {
                     <i class="devicon-github-original-wordmark"></i>
                     <i class="devicon-css3-plain-wordmark"></i>
                     <i class="devicon-vscode-plain"></i>
-                    <i class="devicon-typescript-plain"></i>
+                    {/* <i class="devicon-typescript-plain"></i> */}
                     <i class="devicon-slack-plain"></i>
-                    <i class="devicon-jquery-plain-wordmark"></i>
+                    {/* <i class="devicon-jquery-plain-wordmark"></i> */}
                 </div>
                 <div className='projectsContainer'>
                     {projects.map((project, idx) => {
