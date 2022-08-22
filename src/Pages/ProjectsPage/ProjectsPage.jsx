@@ -12,7 +12,7 @@ export default function ProjectsPage() {
         <main id="projects">
             <div className="projectsPage page">
                 <div className="projectsImg">
-                <h1>My work</h1>
+                <h1>Projects</h1>
                 <img src={projectsImg} alt="" />
                 </div>
                 

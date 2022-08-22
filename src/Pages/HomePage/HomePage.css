@@ -26,7 +26,7 @@
     /* font-size: 5vh; */
     font-size: 6vw;
     width: 100vw;
-    margin: .8em auto;
+    margin: 1em auto .4em;
 
 }
 
@@ -122,13 +122,13 @@
 
 
 #homeImg {
-    max-width: 80vw;
-    max-height: 40vh;
-
+    width: 70vw;
+    max-height: 50vh;
+    max-width: 1060px;
     /* max-width: 700px;
     max-height: 45vh; */
     /* height: 100%; */
-    object-fit: contain;
+    object-fit: fill;
     box-shadow: 0em 0em .5em .3em var(--pink);
     /* box-shadow: 1.5em 1em 5em var(--teal); */
     /* box-shadow: 6em 3em 5px var(--pink); */
