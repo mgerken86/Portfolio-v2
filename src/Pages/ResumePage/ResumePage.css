@@ -66,3 +66,13 @@
     color: var(--bright);
 }
 
+#resumeDownload {
+    margin: 2em;
+    font-size: 3em;
+    color: var(--pink);
+    text-decoration: none;
+    background-color: var(--gray2);
+    padding: 1em;
+    border-radius: 20px;
+}
+

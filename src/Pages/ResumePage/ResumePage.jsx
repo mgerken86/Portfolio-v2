@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { experienceArr } from '../../utilities/experienceData'
 import './ResumePage.css'
 import JobCard from '../../components/JobCard/JobCard'
-import resume from '../../images/resume.jpeg'
+
 
 export default function ResumePage() {
     const [jobs, setJobs] = useState(experienceArr)
@@ -40,9 +40,8 @@ export default function ResumePage() {
                         <span className='arrowIcon'>➡︎</span><br/> {jobs[index+1].title} 
                         </button>}
                     </div>
-                    
-                    
                 </div>
+                <a href="Resume/Mark-Gerken-resume.pdf" download id='resumeDownload'>Download my resume</a>
             </div>
         </main>
     )

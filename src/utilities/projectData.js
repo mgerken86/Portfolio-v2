@@ -4,7 +4,7 @@ export const projectsArr = [
         description: "Provides Boulder Adventure Lodge guests a way to rent gear and connect through a message board.",
         technologies: "Built with Python, Django, React, and Postgresql",
         img: ['/pubImages/b1.png', '/pubImages/b2.png', '/pubImages/b3.png', '/pubImages/b4.png', '/pubImages/b5.png'],
-        video: "/pubImages/travel-companion.mp4",
+        video: "/pubImages/basecamp.mp4",
         link: "https://a-lodge-basecamp.vercel.app/",
         github: "https://github.com/mgerken86/basecamp"
     },
