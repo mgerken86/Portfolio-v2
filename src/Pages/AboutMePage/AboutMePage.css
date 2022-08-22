@@ -58,6 +58,7 @@
     /* background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2)); */
     background-color: var(--cultured);
     box-shadow: 0 0 .55em .2em var(--bright);
+    margin: 3em auto 0;
 }
 
 .markImg {
