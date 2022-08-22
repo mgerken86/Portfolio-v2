@@ -17,7 +17,7 @@
 }
 #teal {
     color: var(--bright);
-    color: var(--pink);
+    /* color: var(--pink); */
     font-family: 'Roboto Slab', serif;
 }
 
@@ -26,7 +26,8 @@
     /* font-size: 5vh; */
     font-size: 6vw;
     width: 100vw;
-    margin: .6em auto;
+    margin: .8em auto;
+
 }
 
 #imgCont {
