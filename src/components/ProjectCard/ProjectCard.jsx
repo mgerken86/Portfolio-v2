@@ -67,10 +67,11 @@ export default function ProjectCard({ project, id }) {
                             </div>
                             <div id="rColumn">
                                 <img
+                                    className='fade'
                                     onClick={() => {
                                         setShowImage(!showImage)
-                                        setIndex(0)}}
-                                    src={project.img[0]}
+                                        }}
+                                    src={images[index]}
                                     alt=""
                                 />
                             </div>
@@ -84,11 +85,14 @@ export default function ProjectCard({ project, id }) {
                     } </div> :
                 <div
                     className='projClick'
-                    onClick={() => setShowImage(!showImage)}
+                    onClick={() => {
+                        setShowImage(!showImage)
+                        setIndex(0)
+                    }}
                 >
                     <img
-                        src={images[index]}
-                        className="largeProjImg fade"
+                        src={images[0]}
+                        className="largeProjImg"
                         alt="Project"
                         key={index}
                     />
