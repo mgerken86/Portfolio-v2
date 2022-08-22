@@ -31,10 +31,38 @@
 .jobsContainer {
     margin-top: 3em;
     display: flex;
+    flex-direction: column;
     gap: 3em;
     width: 90vw;
     min-height: 80vh;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
 }
+
+#nextJobBtn {
+    /* position: absolute; */
+    /* top: 40%; */
+    /* bottom: 0; */
+    /* right: 0; */
+    margin: 1em;
+}
+#previousJobBtn {
+    /* position: absolute; */
+    /* top: 40%; */
+    /* bottom: 0; */
+    /* left: 0; */
+    margin: 1em;
+}
+#nextJobBtn, #previousJobBtn {
+    margin: 1em;
+    height: 8em;
+    width: 20em;
+}
+
+.arrowIcon {
+    font-size: 2em;
+    color: var(--bright);
+}
+

@@ -8,7 +8,7 @@ export default function AboutMePage() {
     return (
         <main id="about">
             <div className="aboutMePage page">
-                <h1>Get to know me</h1>
+                <h1 className='normalH1'>About me</h1>
                 <div className='markImgContainer'>
                     <IconContext.Provider
                         value={{ size: '1em' }}

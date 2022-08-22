@@ -91,7 +91,14 @@ h1 {
 #home, #projects, #resume, #about {
     background: linear-gradient(90deg, var(--cultured), white, var(--cultured));
     /* background: linear-gradient(90deg, black, var(--bPurple), black);     */
-    background: linear-gradient(90deg, var(--gray), white, var(--gray));    
+    background: linear-gradient(90deg, var(--gray), white, white, var(--gray));    
     /* background-color: var(--gray); */
 }
 
+.normalH1 {
+    font-size: 5em !important;
+    background-color: var(--dGray2);
+    color: var(--cultured) !important;
+    width: 100%;
+    margin-bottom: 1.2em;
+}

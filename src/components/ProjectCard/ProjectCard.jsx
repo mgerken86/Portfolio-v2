@@ -1,13 +1,35 @@
 import './ProjectCard.css'
 import githubIcon from '../../images/githubIcon.png'
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
+
 
 export default function ProjectCard({ project, id }) {
     const [showVideo, setShowVideo] = useState(false)
     const [showImage, setShowImage] = useState(true)
+    const [index, setIndex] = useState(0)
+    const timeout = useRef(null)
+    const images = project.img
+
+    const resetTimeout = () => {
+        if (timeout.current) {
+            clearTimeout(timeout.current);
+        }
+    }
+    //continously clear and re-set timeout
+    useEffect(() => {
+        resetTimeout();
+        timeout.current = setTimeout(
+            () =>
+                setIndex((prevIndex) =>
+                    prevIndex === images.length - 1 ? 0 : prevIndex + 1
+                ), 5000)
+        return () => {
+            resetTimeout()
+        };
+    }, [index])
 
     return (
-        <>
+        <div>
             {!showImage ?
                 <div
                     className={id % 2 === 0 ? 'projectCardDiv evenProj' : 'projectCardDiv oddProj'}>
@@ -44,10 +66,13 @@ export default function ProjectCard({ project, id }) {
                                 </div>
                             </div>
                             <div id="rColumn">
-                                <img 
-                                onClick={() => setShowImage(!showImage)}
-                                src={project.img} 
-                                alt="" 
+                                <img
+                                    className='fade'
+                                    onClick={() => {
+                                        setShowImage(!showImage)
+                                        }}
+                                    src={images[index]}
+                                    alt=""
                                 />
                             </div>
                         </> : <div className='movieContainer'>
@@ -60,15 +85,19 @@ export default function ProjectCard({ project, id }) {
                     } </div> :
                 <div
                     className='projClick'
-                    onClick={() => setShowImage(!showImage)}
+                    onClick={() => {
+                        setShowImage(!showImage)
+                        setIndex(0)
+                    }}
                 >
                     <img
-                        src={project.img}
+                        src={images[0]}
                         className="largeProjImg"
                         alt="Project"
+                        key={index}
                     />
-                    <h1 id="projH1">Click For More Info!</h1>
+                    <h1 id="projH1">{project.name}</h1>
                 </div>}
-        </>
+        </div>
     )
 }
