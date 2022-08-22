@@ -20,12 +20,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    margin: 2em;
 }
 .projectsImg img {
     max-width: 90%;
     max-height: 45vh;
     object-fit: contain;
     border-radius: 0px;
+    opacity: .4;
 }
 
 .projectsPage h1 {
@@ -46,13 +49,14 @@
 
 .skillIcons {
     min-height: 15vh;
-    width: 90vw;
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 1em;
     margin: 3em auto;
+    position: absolute;
 }
 i {
     color: var(--pink);

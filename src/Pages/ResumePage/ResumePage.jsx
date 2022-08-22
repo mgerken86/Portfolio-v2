@@ -10,7 +10,7 @@ export default function ResumePage() {
     return (
         <main id="resume">
             <div className="resumePage page">
-                <h1>My work experience</h1>
+                <h1 className='normalH1'>Resume</h1>
                 <div className='jobsContainer'>
                     {jobs.map((job, idx) => {
                         return <JobCard

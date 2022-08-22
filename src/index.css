@@ -95,3 +95,10 @@ h1 {
     /* background-color: var(--gray); */
 }
 
+.normalH1 {
+    font-size: 5em !important;
+    background-color: var(--dGray2);
+    color: var(--cultured) !important;
+    width: 100%;
+    margin-bottom: 1.2em;
+}

@@ -19,7 +19,7 @@
 
 .projClick {
     cursor: pointer;
-    background: none;
+    /* background: var(--dGray); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,11 +37,12 @@
 }
 #projH1 {
     /* width: 100%; */
+    width: 50%;
     position: absolute;
     bottom: 50%;
     color: var(--cultured);
-    background: var(--dGray2);
-    padding: .2em;
+    background: var(--pink);
+    padding: .4em;
     border-radius: 10px;
     font-size: 3em;
 }
