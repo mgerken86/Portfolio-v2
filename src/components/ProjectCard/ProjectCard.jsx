@@ -93,7 +93,7 @@ export default function ProjectCard({ project, id }) {
                 >
                     <img
                         src={images[0]}
-                        className="largeProjImg"
+                        className={id % 2 === 0 ? 'evenProject largeProjImg' : 'oddProject largeProjImg'}
                         alt="Project"
                     />
                     <h1 id="projH1">{project.name}</h1>

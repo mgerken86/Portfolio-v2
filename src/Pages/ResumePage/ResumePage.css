@@ -42,17 +42,17 @@
 }
 
 #nextJobBtn {
-    /* position: absolute; */
+    position: absolute;
     /* top: 40%; */
-    /* bottom: 0; */
-    /* right: 0; */
+    bottom: 30%;
+    right: 5%;
     margin: 1em;
 }
 #previousJobBtn {
-    /* position: absolute; */
+    position: absolute;
     /* top: 40%; */
-    /* bottom: 0; */
-    /* left: 0; */
+    bottom: 30%;
+    left: 5%;
     margin: 1em;
 }
 #nextJobBtn, #previousJobBtn {
