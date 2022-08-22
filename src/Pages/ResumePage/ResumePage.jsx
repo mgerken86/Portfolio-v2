@@ -6,19 +6,42 @@ import resume from '../../images/resume.jpeg'
 
 export default function ResumePage() {
     const [jobs, setJobs] = useState(experienceArr)
+    const [index, setIndex] = useState(0)
 
     return (
         <main id="resume">
             <div className="resumePage page">
                 <h1 className='normalH1'>Resume</h1>
                 <div className='jobsContainer'>
-                    {jobs.map((job, idx) => {
+                <JobCard
+                            job={jobs[index]}
+                            id={index}
+                        />
+                    {/* {jobs.map((job, idx) => {
                         return <JobCard
                             job={job}
                             id={idx}
                             key={idx}
                         />
-                    })}
+                    })} */}
+                    <div id='changeJobCont'>
+                    {index > 0 && 
+                    <button 
+                    onClick={()=> setIndex(index-1)}
+                    className="jobsBtn"
+                    id='previousJobBtn'>
+                        <span className='arrowIcon'>⬅︎</span><br/> {jobs[index-1].title}
+                        </button>}
+                    {index < jobs.length -1 && 
+                    <button 
+                    onClick={()=> setIndex(index+1)}
+                    className="jobsBtn"
+                    id='nextJobBtn'>
+                        <span className='arrowIcon'>➡︎</span><br/> {jobs[index+1].title} 
+                        </button>}
+                    </div>
+                    
+                    
                 </div>
             </div>
         </main>

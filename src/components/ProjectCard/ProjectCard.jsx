@@ -2,6 +2,7 @@ import './ProjectCard.css'
 import githubIcon from '../../images/githubIcon.png'
 import { useState, useRef, useEffect } from 'react'
 
+
 export default function ProjectCard({ project, id }) {
     const [showVideo, setShowVideo] = useState(false)
     const [showImage, setShowImage] = useState(true)
@@ -28,7 +29,7 @@ export default function ProjectCard({ project, id }) {
     }, [index])
 
     return (
-        <>
+        <div>
             {!showImage ?
                 <div
                     className={id % 2 === 0 ? 'projectCardDiv evenProj' : 'projectCardDiv oddProj'}>
@@ -66,7 +67,9 @@ export default function ProjectCard({ project, id }) {
                             </div>
                             <div id="rColumn">
                                 <img
-                                    onClick={() => setShowImage(!showImage)}
+                                    onClick={() => {
+                                        setShowImage(!showImage)
+                                        setIndex(0)}}
                                     src={project.img[0]}
                                     alt=""
                                 />
@@ -87,10 +90,10 @@ export default function ProjectCard({ project, id }) {
                         src={images[index]}
                         className="largeProjImg fade"
                         alt="Project"
-                        // key={index}
+                        key={index}
                     />
                     <h1 id="projH1">{project.name}</h1>
                 </div>}
-        </>
+        </div>
     )
 }
