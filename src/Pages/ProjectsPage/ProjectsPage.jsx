@@ -33,7 +33,7 @@ export default function ProjectsPage() {
                     <i class="devicon-vscode-plain"></i>
                     {/* <i class="devicon-typescript-plain"></i> */}
                     <i class="devicon-slack-plain"></i>
-                    {/* <i class="devicon-jquery-plain-wordmark"></i> */}
+                    <i class="devicon-jquery-plain-wordmark"></i>
                 </div>
                 <div className='projectsContainer'>
                     {projects.map((project, idx) => {
