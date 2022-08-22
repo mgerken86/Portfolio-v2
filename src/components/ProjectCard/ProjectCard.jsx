@@ -72,6 +72,7 @@ export default function ProjectCard({ project, id }) {
                                         setShowImage(!showImage)
                                         }}
                                     src={images[index]}
+                                    key={index}
                                     alt=""
                                 />
                             </div>
@@ -94,7 +95,6 @@ export default function ProjectCard({ project, id }) {
                         src={images[0]}
                         className="largeProjImg"
                         alt="Project"
-                        key={index}
                     />
                     <h1 id="projH1">{project.name}</h1>
                 </div>}
