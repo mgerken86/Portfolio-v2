@@ -11,16 +11,17 @@
     background: linear-gradient(black, var(--bPurple), black);
     background: linear-gradient(90deg, var(--dGray2), var(--gray), var(--dGray2));
     position: relative;
+    box-shadow: .2em .2em 1em var(--dGray2)
     /* max-height: 100%; */
 }
 .evenJob {
-    box-shadow: .25em .25em var(--pink);
-    box-shadow: 1em 1em var(--pink);
+    /* box-shadow: .25em .25em var(--pink); */
+    /* box-shadow: 1em 1em var(--pink); */
     /* box-shadow: .25em .25em 1em  var(--pink); */
 }
 .oddJob {
-    box-shadow: -.25em .25em var(--teal);
-    box-shadow: -1em 1em var(--teal);
+    /* box-shadow: -.25em .25em var(--teal); */
+    /* box-shadow: -1em 1em var(--teal); */
     /* box-shadow: -.25em .25em 1em  var(--teal); */
 }
 
@@ -163,3 +164,4 @@
 	animation-direction: alternate;
 	animation-timing-function: linear;
 }
+
