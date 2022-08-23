@@ -1,5 +1,7 @@
 import './ProjectCard.css'
 import githubIcon from '../../images/githubIcon.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { useState, useRef, useEffect } from 'react'
 
 
@@ -28,8 +30,14 @@ export default function ProjectCard({ project, id }) {
         };
     }, [index])
 
+    //initialize animate-on-scroll
+    useEffect(()=> {
+        Aos.init({duration: 1500})
+    }, [])
+
     return (
         <div 
+        data-aos={id % 2 === 0 ? 'slide-left' : 'slide-right'}
         id='clickDiv'>
             {!showImage ?
                 <div
