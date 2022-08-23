@@ -45,22 +45,22 @@
     box-shadow: -1em 1em var(--teal);
 }
 .oddProject h1 {
-    background: var(--pink);
+    border: 5px solid var(--pink);
 }
 .evenProject h1 {
-    background: var(--dGray2);
+    border: 5px solid var(--teal);
+
 }
 
 #projH1 {
-    /* width: 100%; */
     width: 80vw;
     position: absolute;
-    /* bottom: 50%; */
     top: 0;
     color: var(--cultured);
     padding: .4em;
-    /* border-radius: 10px; */
     font-size: 3em;
+    background-color: var(--gray2);
+    color: var(--bright);
 }
 
 
