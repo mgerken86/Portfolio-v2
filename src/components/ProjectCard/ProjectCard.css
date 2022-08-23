@@ -5,6 +5,7 @@
     width: 80vw;
     min-height: 60vh;
     box-shadow: 0 0 .25em .25em var(--teal);
+    box-shadow: 0 0 1em .6em var(--dGray2);
     background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2));
     padding: 1em;
     /* background: linear-gradient(black, var(--bPurple), black); */
@@ -21,10 +22,11 @@
     cursor: pointer;
     /* background: var(--dGray); */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     width: 80vw;
-    max-height: 60vh;
+    max-height: 80vh;
     height: 100%;
     position: relative;
     /* box-shadow: 0 0 .75em var(--bright); */
@@ -39,28 +41,29 @@
 }
 
 .evenProject {
-    box-shadow: 1em 1em 1em var(--pink);
+    box-shadow: .1em .1em 1em var(--pink);
 }
 .oddProject {
-    box-shadow: -1em 1em 1em var(--teal);
+    box-shadow: -.1em .1em 1em var(--teal);
 }
 .oddProject h1 {
-    border: 5px solid var(--pink);
+    border-bottom: 5px solid var(--bright);
+    background-color: var(--dGray2);
 }
 .evenProject h1 {
-    border: 5px solid var(--teal);
-
+    border-bottom: 5px solid var(--bright);
+    background-color: var(--pink);
 }
 
 #projH1 {
     width: 80vw;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     color: var(--cultured);
     padding: .4em;
     font-size: 3em;
-    background-color: var(--gray2);
-    color: var(--bright);
+    /* background-color: var(--gray2);
+    color: var(--bright); */
 }
 
 

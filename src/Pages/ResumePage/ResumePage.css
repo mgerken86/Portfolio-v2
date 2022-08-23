@@ -32,7 +32,7 @@
     margin-top: 3em;
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    /* gap: 3em; */
     width: 90vw;
     min-height: 80vh;
     justify-content: center;
@@ -45,8 +45,8 @@
     height: 10em;
     /* height: auto; */
     display: flex;
-    align-items: space-between;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
 
 #nextJobBtn {
@@ -55,17 +55,23 @@
     right: 5%;
     margin: 1em; */
 }
+
 #previousJobBtn {
     /* position: absolute;
     bottom: 30%;
     left: 5%;
     margin: 1em; */
 }
-#nextJobBtn, #previousJobBtn {
+
+#nextJobBtn,
+#previousJobBtn {
     /* margin: 1em; */
-    height: 8em;
-    width: 20em;
+    height: 6em;
+    width: 15em;
     display: inline-block;
+    z-index: 2;
+    padding: .4em;
+    margin: 0 1em;
 }
 
 .arrowIcon {
@@ -86,16 +92,14 @@
 /*  MEDIA QUERIES */
 
 @media only screen and (max-width: 1000px) {
-    #nextJobBtn, #previousJobBtn {
+
+    #nextJobBtn,
+    #previousJobBtn {
         width: 10em;
-        padding: .4em;
-        height: 10em;
+        padding: .2em;
+        height: 6em;
     }
-    
-}
-
-@media only screen and (max-width: 660px) {
-    
 
 }
 
+@media only screen and (max-width: 660px) {}

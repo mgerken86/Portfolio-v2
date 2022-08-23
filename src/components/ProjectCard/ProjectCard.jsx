@@ -89,14 +89,13 @@ export default function ProjectCard({ project, id }) {
                     onClick={() => {
                         setShowImage(!showImage)
                         setIndex(0)
-                    }}
-                >
+                    }}>
+                        <h1 id="projH1">{project.name}</h1>
                     <img
                         src={images[0]}
                         className="largeProjImg"
                         alt="Project"
                     />
-                    <h1 id="projH1">{project.name}</h1>
                 </div>}
         </div>
     )

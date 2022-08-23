@@ -6,12 +6,12 @@
     align-items: center;
     justify-content: center;
     width: 90vw;
-    height: 60vh;
+    max-height: 75vh;
     max-width: 80vw;
-    background: linear-gradient(black, var(--bPurple), black);
-    background: linear-gradient(90deg, var(--dGray2), var(--gray), var(--dGray2));
+    /* background: linear-gradient(black, var(--bPurple), black);
+    background: linear-gradient(90deg, var(--dGray2), var(--gray), var(--dGray2)); */
     position: relative;
-    box-shadow: 0 0 1em .3em var(--dGray2);
+    /* box-shadow: 0 0 1em .3em var(--dGray2); */
     cursor: pointer;
     
     /* max-height: 100%; */
@@ -33,6 +33,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-height: 70vh;
+    width: 80vw;
 }
 .jobDetailsContainer {
     width: 80vw;
@@ -42,7 +44,9 @@
     justify-content: space-evenly;
     align-items: center;
     background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
-    background: linear-gradient(--dGray2, var(--dGray), --dGray2);
+    background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2));
+    box-shadow: 0 0 1em 1em var(--dGray2);
+
 }
 .jobDetailsContainer * {
     color: var(--cultured);
@@ -60,12 +64,12 @@
 }
 
 .jobImage {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    object-fit: contain;
-    max-width: 100%;
-    height: 60vh;
+    /* object-fit: contain; */
+    max-width: 80vw;
+    height: 65vh;
+    box-shadow: 0 0 1em 1em var(--dGray2);
+
+    /* margin-top: 10vh; */
 }
 .jobDuties {
     width: 80%;
@@ -93,19 +97,17 @@
 }
 .jobH5 {
     width: 100%;
+    /* height: 12vh; */
     font-size: 2em;
     /* height: 10vh; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: .4em;
+    /* margin-bottom: .4em; */
     padding: .4em;
-    position: absolute;
+    /* position: absolute;
     top: 0em;
     right: 0;
     left: 0;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 .jobBtnCont {
@@ -139,8 +141,8 @@
 } */
 
 .evenJob h5, .oddJob h5 {
-    color: var(--bright);
-    background-color: var(--gray2);
+    color: var(--cultured);
+    background-color: var(--pink);
     font-size: 3em;
 }
 .dutiesH1 {
