@@ -45,7 +45,7 @@
     align-items: center;
     background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
     background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2));
-    box-shadow: 0 0 1em 1em var(--dGray2);
+    /* box-shadow: 0 0 1em 1em var(--dGray2); */
 
 }
 .jobDetailsContainer * {
@@ -144,6 +144,8 @@
     color: var(--cultured);
     background-color: var(--pink);
     font-size: 3em;
+    z-index: 2;
+    /* margin-bottom: .3em; */
 }
 .dutiesH1 {
     width: 80%;

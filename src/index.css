@@ -97,7 +97,7 @@ h1 {
 
 .normalH1 {
     font-size: 5em !important;
-    background-color: var(--pink);
+    background-color: var(--dGray2);
     color: var(--cultured) !important;
     width: 100%;
     margin-bottom: 1.2em;

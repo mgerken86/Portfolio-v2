@@ -85,7 +85,7 @@
     color: var(--pink);
     text-decoration: none;
     background-color: var(--gray2);
-    padding: 1em;
+    padding: .5em 1em;
     border-radius: 20px;
 }
 
