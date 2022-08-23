@@ -1,6 +1,6 @@
 
 .evenJob, .oddJob {
-    margin-top: 2em;
+    margin-bottom: -1em;
     display: flex;
     flex-direction: column;
     align-items: center;
