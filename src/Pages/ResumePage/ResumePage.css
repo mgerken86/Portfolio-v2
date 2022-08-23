@@ -41,22 +41,28 @@
     position: relative;
 }
 
+#changeJobCont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #nextJobBtn {
-    position: absolute;
-    /* top: 40%; */
+    /* position: absolute;
     bottom: 30%;
     right: 5%;
-    margin: 1em;
+    margin: 1em; */
 }
 #previousJobBtn {
-    position: absolute;
-    /* top: 40%; */
+    /* position: absolute;
     bottom: 30%;
     left: 5%;
-    margin: 1em;
+    margin: 1em; */
 }
 #nextJobBtn, #previousJobBtn {
-    margin: 1em;
+    /* margin: 1em; */
     height: 8em;
     width: 20em;
 }
@@ -74,5 +80,21 @@
     background-color: var(--gray2);
     padding: 1em;
     border-radius: 20px;
+}
+
+/*  MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px) {
+    #nextJobBtn, #previousJobBtn {
+        width: 10em;
+        padding: .4em;
+        height: 10em;
+    }
+    
+}
+
+@media only screen and (max-width: 660px) {
+    
+
 }
 
