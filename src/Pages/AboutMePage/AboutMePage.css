@@ -10,10 +10,11 @@
 .aboutMePage {
     margin-top: 10vh;
     width: 100vw;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* justify-content: space-around; */
     gap: 4em;
     margin-bottom: 15vh;
 }
@@ -82,7 +83,7 @@
 
 #smallerH1 {
     font-size: 2.8em;
-    margin: 1.4em 0 .3em 0;
+    margin-bottom: .3em;
 }
 
 h3 svg {

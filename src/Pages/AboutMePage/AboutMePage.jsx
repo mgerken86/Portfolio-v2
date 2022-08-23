@@ -23,7 +23,12 @@ export default function AboutMePage() {
                     "I'm a Software Engineer with a background in Administrative Management, Program Development, and Facilitation.
                     <br /><br />My insatiable curiosity keeps me seeking out puzzles, problems, and challenges that force me to find solutions through creativity, critical thinking, perseverance, and collaboration. The speed of evolution in the tech industry excites me, and my passion for knowledge motivates me to adapt my skill-set to match the demands of the industry."
                 </div>
-                <h1 id='smallerH1'>Let's chat</h1>
+                <h1 id='smallerH1'></h1>
+                <h1 id='smallerH1'></h1>
+                <h1 id='smallerH1'>
+                    Want to know what I can bring to your team? <br/> 
+                    Have a freelance project for me to assist you with? <br/>
+                    Let's chat!</h1>
                 <div className='contactInfo'>
                     <h3 className="aboutContact pink">
                         <FaEnvelope className='pinkIcon' />  mgerken86@gmail.com

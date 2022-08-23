@@ -30,10 +30,7 @@ export default function ProjectCard({ project, id }) {
 
     return (
         <div 
-        id='clickDiv'
-        onClick={() => {
-            setShowImage(!showImage)
-            }}>
+        id='clickDiv'>
             {!showImage ?
                 <div
                     className={id % 2 === 0 ? 'projectCardDiv evenProj' : 'projectCardDiv oddProj'}>
@@ -66,7 +63,11 @@ export default function ProjectCard({ project, id }) {
                                     </button>
                                 </div>
                             </div>
-                            <div id="rColumn">
+                            <div 
+                            id="rColumn"
+                            onClick={() => {
+                                setShowImage(!showImage)
+                                }}>
                                 <img
                                     className='fade'
                                     src={images[index]}
