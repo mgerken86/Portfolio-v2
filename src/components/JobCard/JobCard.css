@@ -1,6 +1,6 @@
 
 .evenJob, .oddJob {
-    margin-bottom: -1em;
+    /* margin-bottom: -1em; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,9 @@
     background: linear-gradient(black, var(--bPurple), black);
     background: linear-gradient(90deg, var(--dGray2), var(--gray), var(--dGray2));
     position: relative;
-    box-shadow: .2em .2em 1em var(--dGray2)
+    box-shadow: 0 0 1em .3em var(--dGray2);
+    cursor: pointer;
+    
     /* max-height: 100%; */
 }
 .evenJob {
@@ -40,7 +42,7 @@
     justify-content: space-evenly;
     align-items: center;
     background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
-    background: linear-gradient(black, var(--bPurple), black);
+    background: linear-gradient(--dGray2, var(--dGray), --dGray2);
 }
 .jobDetailsContainer * {
     color: var(--cultured);
@@ -82,14 +84,12 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    position: absolute;
-    /* background-color: black; */
-    /* bottom: .2em; */
+    /* position: absolute;
     top: 0em;
     right: 0;
     left: 0;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 .jobH5 {
     width: 100%;
@@ -100,12 +100,22 @@
     justify-content: center;
     margin-bottom: .4em;
     padding: .4em;
+    position: absolute;
+    top: 0em;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .jobBtnCont {
     /* background-color: black; */
     width: 100%;
-    padding: 1em;
+    bottom: 0em;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .jobsBtn {
@@ -115,7 +125,7 @@
     color: var(--bPurple);
     font-weight: bold;
     padding: 1.3em 3.5em;
-    border-radius: 10px;
+    border-radius: 10px;    
 }
 .jobsBtn:hover {
     background: var(--bright);
@@ -142,9 +152,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: .4em;
-    color: var(--teal);
-    background-color: var(--bPurple) !important;
-    background-color: black !important;
+    color: var(--pink);
+    background-color: var(--gray2) !important;
     /* border-radius: 20px; */
 }
 

@@ -38,7 +38,7 @@ export default function ResumePage() {
                     onClick={()=> setIndex(index+1)}
                     className="jobsBtn"
                     id='nextJobBtn'>
-                        <span className='arrowIcon'>➡︎</span><br/> {jobs[index+1].title} 
+                        <span className='arrowIcon'>⮕</span><br/> {jobs[index+1].title} 
                         </button>}
                     </div>
                 </div>
