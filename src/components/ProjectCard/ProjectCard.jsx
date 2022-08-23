@@ -32,7 +32,7 @@ export default function ProjectCard({ project, id }) {
 
     //initialize animate-on-scroll
     useEffect(()=> {
-        Aos.init({duration: 1500})
+        Aos.init({duration: 2500})
     }, [])
 
     return (
