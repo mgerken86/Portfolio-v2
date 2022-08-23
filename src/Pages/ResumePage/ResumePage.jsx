@@ -16,6 +16,7 @@ export default function ResumePage() {
                 <JobCard
                             job={jobs[index]}
                             id={index}
+                            key={index}
                         />
                     {/* {jobs.map((job, idx) => {
                         return <JobCard

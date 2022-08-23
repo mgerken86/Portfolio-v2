@@ -27,23 +27,34 @@
     max-height: 60vh;
     height: 100%;
     position: relative;
+    /* box-shadow: 0 0 .75em var(--bright); */
+
 }
 
 .largeProjImg {
-    object-fit: contain;
-    max-width: 80vw;
+    object-fit: fill;
+    width: 80vw;
     max-height: 60vh;
     box-shadow: 0 0 .75em var(--bright);
 }
+
+.evenProject {
+    box-shadow: 1em 1em var(--pink);
+}
+.oddProject {
+    box-shadow: -1em 1em var(--teal);
+}
+
 #projH1 {
     /* width: 100%; */
-    width: 50%;
+    width: 80vw;
     position: absolute;
-    bottom: 50%;
+    /* bottom: 50%; */
+    top: 0;
     color: var(--cultured);
-    background: var(--pink);
+    background: var(--dGray);
     padding: .4em;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     font-size: 3em;
 }
 
@@ -125,6 +136,7 @@
     z-index: 3;
     width: 20em;
 }
+
 
 
 
