@@ -1,4 +1,6 @@
 import './JobCard.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { useState, useRef, useEffect } from 'react'
 
 
@@ -26,9 +28,15 @@ export default function ProjectCard({ job, id }) {
         };
     }, [index])
 
+    //initialize animate-on-scroll
+    useEffect(() => {
+        Aos.init({ duration: 2500 })
+    }, [])
+
 
     return (
         <div
+            data-aos='flip-up'
             onClick={() => setShowJob(!showJob)}
             className={id % 2 === 0 ? "evenJob" : "oddJob"}>
             {!showJob ?
@@ -40,10 +48,10 @@ export default function ProjectCard({ job, id }) {
                         key={index}
                         alt="Jobs"
                     />
-                        {/* <div className="jobBtnCont">
+                    {/* <div className="jobBtnCont">
                             <button className='jobsBtn' onClick={() => setShowJob(!showJob)}>More Info</button>
                         </div> */}
-                    
+
 
                 </div>
                 :
@@ -59,10 +67,12 @@ export default function ProjectCard({ job, id }) {
                             return <li>{duty}</li>
                         })}
                     </div>
-                    <button className='jobsBtn' onClick={() => {
-                        setShowJob(!showJob)
-                        setIndex(0)
-                    }}>
+                    <button
+                        className='jobsBtn'
+                        onClick={() => {
+                            setShowJob(!showJob)
+                            setIndex(0)
+                        }}>
                         Go Back</button>
                 </div>
             }

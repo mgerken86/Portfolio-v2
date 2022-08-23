@@ -1,5 +1,7 @@
 import './ProjectCard.css'
 import githubIcon from '../../images/githubIcon.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { useState, useRef, useEffect } from 'react'
 
 
@@ -28,12 +30,15 @@ export default function ProjectCard({ project, id }) {
         };
     }, [index])
 
+    //initialize animate-on-scroll
+    useEffect(()=> {
+        Aos.init({duration: 1500})
+    }, [])
+
     return (
         <div 
-        id='clickDiv'
-        onClick={() => {
-            setShowImage(!showImage)
-            }}>
+        data-aos={id % 2 === 0 ? 'slide-left' : 'slide-right'}
+        id='clickDiv'>
             {!showImage ?
                 <div
                     className={id % 2 === 0 ? 'projectCardDiv evenProj' : 'projectCardDiv oddProj'}>
@@ -66,7 +71,11 @@ export default function ProjectCard({ project, id }) {
                                     </button>
                                 </div>
                             </div>
-                            <div id="rColumn">
+                            <div 
+                            id="rColumn"
+                            onClick={() => {
+                                setShowImage(!showImage)
+                                }}>
                                 <img
                                     className='fade'
                                     src={images[index]}
