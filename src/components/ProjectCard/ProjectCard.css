@@ -35,7 +35,7 @@
     object-fit: fill;
     width: 80vw;
     max-height: 60vh;
-    box-shadow: 0 0 .75em var(--bright);
+    /* box-shadow: 0 0 .75em var(--bright); */
 }
 
 .evenProject {
@@ -43,6 +43,12 @@
 }
 .oddProject {
     box-shadow: -1em 1em var(--teal);
+}
+.oddProject h1 {
+    background: var(--pink);
+}
+.evenProject h1 {
+    background: var(--dGray2);
 }
 
 #projH1 {
@@ -52,7 +58,6 @@
     /* bottom: 50%; */
     top: 0;
     color: var(--cultured);
-    background: var(--dGray);
     padding: .4em;
     /* border-radius: 10px; */
     font-size: 3em;

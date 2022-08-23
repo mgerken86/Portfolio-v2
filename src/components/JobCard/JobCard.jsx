@@ -28,20 +28,22 @@ export default function ProjectCard({ job, id }) {
 
 
     return (
-        <div className={id % 2 === 0 ? "evenJob" : "oddJob"}>
+        <div
+            onClick={() => setShowJob(!showJob)}
+            className={id % 2 === 0 ? "evenJob" : "oddJob"}>
             {!showJob ?
                 <div className='jobImgContainer'>
-                    <img 
-                    className='jobImage fade' 
-                    src={images[index]} 
-                    key={index}
-                    alt="Jobs" 
+                    <img
+                        className='jobImage fade'
+                        src={images[index]}
+                        key={index}
+                        alt="Jobs"
                     />
                     <div className='jobTitle'>
                         <h5 className='jobH5'>{job.title}</h5>
-                        <div className="jobBtnCont">
+                        {/* <div className="jobBtnCont">
                             <button className='jobsBtn' onClick={() => setShowJob(!showJob)}>More Info</button>
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>
@@ -61,8 +63,8 @@ export default function ProjectCard({ job, id }) {
                     <button className='jobsBtn' onClick={() => {
                         setShowJob(!showJob)
                         setIndex(0)
-                        }}>
-                            Go Back</button>
+                    }}>
+                        Go Back</button>
                 </div>
             }
         </div>
