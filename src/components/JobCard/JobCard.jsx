@@ -33,18 +33,17 @@ export default function ProjectCard({ job, id }) {
             className={id % 2 === 0 ? "evenJob" : "oddJob"}>
             {!showJob ?
                 <div className='jobImgContainer'>
+                    <h5 className='jobH5'>{job.title}</h5>
                     <img
                         className='jobImage fade'
                         src={images[index]}
                         key={index}
                         alt="Jobs"
                     />
-                    <div className='jobTitle'>
-                        <h5 className='jobH5'>{job.title}</h5>
                         {/* <div className="jobBtnCont">
                             <button className='jobsBtn' onClick={() => setShowJob(!showJob)}>More Info</button>
                         </div> */}
-                    </div>
+                    
 
                 </div>
                 :

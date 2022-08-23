@@ -29,7 +29,11 @@ export default function ProjectCard({ project, id }) {
     }, [index])
 
     return (
-        <div>
+        <div 
+        id='clickDiv'
+        onClick={() => {
+            setShowImage(!showImage)
+            }}>
             {!showImage ?
                 <div
                     className={id % 2 === 0 ? 'projectCardDiv evenProj' : 'projectCardDiv oddProj'}>
@@ -45,19 +49,16 @@ export default function ProjectCard({ project, id }) {
                                     <a
                                         href={project.link}
                                         target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
+                                        rel="noopener noreferrer">
                                         <button className='projectBtn'>Deployed Project</button>
                                     </a>
                                     <a
                                         href={project.github}
                                         target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
+                                        rel="noopener noreferrer">
                                         <img
                                             className='githubIcon'
-                                            src={githubIcon} alt=""
-                                        />
+                                            src={githubIcon} alt="" />
                                     </a>
                                     <button
                                         onClick={() => setShowVideo(!showVideo)}
@@ -68,9 +69,6 @@ export default function ProjectCard({ project, id }) {
                             <div id="rColumn">
                                 <img
                                     className='fade'
-                                    onClick={() => {
-                                        setShowImage(!showImage)
-                                        }}
                                     src={images[index]}
                                     key={index}
                                     alt=""
@@ -89,14 +87,13 @@ export default function ProjectCard({ project, id }) {
                     onClick={() => {
                         setShowImage(!showImage)
                         setIndex(0)
-                    }}
-                >
+                    }}>
+                    <h1 id="projH1">{project.name}</h1>
                     <img
                         src={images[0]}
                         className="largeProjImg"
                         alt="Project"
                     />
-                    <h1 id="projH1">{project.name}</h1>
                 </div>}
         </div>
     )

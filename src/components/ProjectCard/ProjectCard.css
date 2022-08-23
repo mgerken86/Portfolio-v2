@@ -10,25 +10,22 @@
     /* background: linear-gradient(black, var(--bPurple), black); */
     /* background-color: var(--gray); */
 }
-/* .evenProj {
-    box-shadow: .25em .25em 0em .25em var(--bright);
+
+#clickDiv {
+    cursor: pointer;
 }
-.oddProj {
-    box-shadow: -.25em .25em 0em .25em var(--bright);
-} */
 
 .projClick {
     cursor: pointer;
     /* background: var(--dGray); */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     width: 80vw;
-    max-height: 60vh;
+    max-height: 80vh;
     height: 100%;
     position: relative;
-    /* box-shadow: 0 0 .75em var(--bright); */
-
 }
 
 .largeProjImg {
@@ -39,36 +36,38 @@
 }
 
 .evenProject {
-    box-shadow: 1em 1em 1em var(--pink);
+    box-shadow: 1em 1em 1.5em .5em var(--dGray2);
 }
 .oddProject {
-    box-shadow: -1em 1em 1em var(--teal);
+    box-shadow: -1em 1em 1.5em .5em var(--dGray2);
 }
 .oddProject h1 {
-    border: 5px solid var(--pink);
+    border-bottom: 5px solid var(--bright);
+    background-color: var(--dGray2);
 }
 .evenProject h1 {
-    border: 5px solid var(--teal);
-
+    border-bottom: 5px solid var(--bright);
+    background-color: var(--pink);
 }
 
 #projH1 {
     width: 80vw;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     color: var(--cultured);
     padding: .4em;
     font-size: 3em;
-    background-color: var(--gray2);
-    color: var(--bright);
+    /* background-color: var(--gray2);
+    color: var(--bright); */
 }
 
 
 #lColumn {
     flex: 7;
+    height: 55vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 #rColumn {
@@ -79,9 +78,9 @@
     align-items: center;
 }
 #rColumn img {
-    width: 90%;
-    object-fit: cover;
-    height: 90%;
+    width: 100%;
+    object-fit: fill;
+    height: 40vh;
     cursor: pointer;
 }
 
@@ -152,6 +151,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 2em;
     }
     .projectCardDiv h5 {
         font-size: 1.2em;

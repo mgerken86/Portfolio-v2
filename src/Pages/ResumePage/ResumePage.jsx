@@ -42,7 +42,10 @@ export default function ResumePage() {
                         </button>}
                     </div>
                 </div>
-                <a href="Resume/Mark-Gerken-resume.pdf" download id='resumeDownload'>Download my resume</a>
+                <a href="Resume/Mark-Gerken-resume.pdf" download id='resumeDownload'>
+                    <img src="pubImages/download.png" alt="" /><br />
+                    Download my resume
+                    </a>
             </div>
         </main>
     )
