@@ -94,12 +94,12 @@
 .jobH5 {
     width: 100%;
     font-size: 2em;
-    height: 10vh;
+    /* height: 10vh; */
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: .4em;
-    color: var(--bPurple);
+    padding: .4em;
 }
 
 .jobBtnCont {
