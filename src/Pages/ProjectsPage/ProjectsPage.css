@@ -39,7 +39,7 @@
 .projectsContainer {
     margin-top: 6em;
     display: flex;
-    gap: 5em;
+    gap: 9em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
