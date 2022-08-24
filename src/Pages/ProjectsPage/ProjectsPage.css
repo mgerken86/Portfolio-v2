@@ -63,9 +63,3 @@ i {
     font-size: 3em;
 }
 
-.evenProject {
-    box-shadow: 1em 1em var(--pink);
-}
-.oddProject {
-    box-shadow: -1em 1em var(--teal);
-}
