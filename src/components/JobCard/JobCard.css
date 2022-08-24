@@ -66,10 +66,10 @@
 .jobImage {
     /* object-fit: contain; */
     max-width: 80vw;
-    height: 55vh;
+    height: 45vh;
     box-shadow: 0 0 1em 1em var(--dGray2);
 
-    /* margin-top: 10vh; */
+    margin-top: 5vh;
 }
 .jobDuties {
     width: 80%;

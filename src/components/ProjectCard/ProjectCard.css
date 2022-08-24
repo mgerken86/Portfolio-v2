@@ -19,16 +19,16 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 80vw;
-    max-height: 80vh;
-    height: 100%;
+    width: 60vw;
+    max-height: 60vh;
+    /* height: 100%; */
     position: relative;
 }
 
 .largeProjImg {
     object-fit: fill;
-    width: 80vw;
-    max-height: 60vh;
+    width: 60vw;
+    max-height: 50vh;
     /* box-shadow: 0 0 .75em var(--bright); */
 }
 
@@ -50,7 +50,7 @@
 }
 
 #projH1 {
-    width: 80vw;
+    width: 60vw;
     /* position: absolute; */
     top: 0;
     color: var(--cultured);

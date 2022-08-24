@@ -12,7 +12,7 @@ export default function ResumePage() {
 
     //initialize animate-on-scroll
     useEffect(() => {
-        Aos.init({ duration: 1500 })
+        Aos.init({})
     }, [])
 
     return (
@@ -36,6 +36,7 @@ export default function ResumePage() {
                         {index > 0 &&
                             <button
                                 data-aos='fade-up-right'
+                                data-aos-duration="1500"
                                 onClick={() => setIndex(index - 1)}
                                 className="jobsBtn"
                                 id='previousJobBtn'>
@@ -44,6 +45,7 @@ export default function ResumePage() {
                         {index < jobs.length - 1 &&
                             <button
                                 data-aos='fade-up-left'
+                                data-aos-duration="1500"
                                 onClick={() => setIndex(index + 1)}
                                 className="jobsBtn"
                                 id='nextJobBtn'>

@@ -32,12 +32,13 @@ export default function ProjectCard({ project, id }) {
 
     //initialize animate-on-scroll
     useEffect(()=> {
-        Aos.init({duration: 4000})
+        Aos.init({})
     }, [])
 
     return (
         <div 
         data-aos={id % 2 === 0 ? 'slide-left' : 'slide-right'}
+        data-aos-duration="7000"
         id='clickDiv'>
             {!showImage ?
                 <div
