@@ -63,3 +63,9 @@ i {
     font-size: 3em;
 }
 
+
+@media only screen and (max-width: 660px) {
+    .projectsContainer {
+        gap: 5em;
+    }
+}
