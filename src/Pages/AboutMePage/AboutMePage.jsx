@@ -33,7 +33,7 @@ export default function AboutMePage() {
                 </div>
                 <div className='brandStatement'>
                     "I'm a Software Engineer with a background in Administrative Management, Program Development, and Facilitation.
-                    <br /><br />My insatiable curiosity keeps me seeking out puzzles, problems, and challenges that force me to find solutions through creativity, critical thinking, perseverance, and collaboration. The speed of evolution in the tech industry excites me, and my passion for knowledge motivates me to adapt my skill-set to match the demands of the industry."
+                    <br /><br />My insatiable curiosity keeps me seeking out puzzles, problems, and challenges that inspire me to find solutions through creativity, critical thinking, perseverance, and collaboration. The speed of evolution in the tech industry excites me, and my passion for knowledge motivates me to adapt my skill-set to match the demands of the industry."
                 </div>
                 <h1 id='smallerH1'></h1>
                 <h1 id='smallerH1'></h1>
