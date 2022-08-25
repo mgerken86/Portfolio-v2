@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 60vw;
+    width: 70vw;
     max-height: 60vh;
     /* height: 100%; */
     position: relative;
@@ -27,7 +27,7 @@
 
 .largeProjImg {
     object-fit: fill;
-    width: 60vw;
+    width: 70vw;
     max-height: 50vh;
     /* box-shadow: 0 0 .75em var(--bright); */
 }
@@ -50,7 +50,7 @@
 }
 
 #projH1 {
-    width: 60vw;
+    width: 70vw;
     /* position: absolute; */
     top: 0;
     color: var(--cultured);
