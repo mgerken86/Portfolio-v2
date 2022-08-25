@@ -6,17 +6,15 @@ export default function HomePage() {
 
     //initialize animate-on-scroll
     useEffect(() => {
-        Aos.init({duration: 3000})
+        Aos.init({ duration: 3000 })
     }, [])
 
     return (
         <main id="home">
             <div className="homePage page">
-                <h1 
-                data-aos='zoom-in'
-                className='nameH1'>
+                <h1 className='nameH1'>
                     Hi, I'm <span id="teal">Mark</span>
-                    </h1>
+                </h1>
                 <div id="imgCont">
                     <div id="topRightGradient"></div>
                     <div id="rightGradient"></div>
@@ -27,6 +25,7 @@ export default function HomePage() {
                     <div id="bottomRightGradient"></div>
                     <div id="rightRightGradient"></div>
                     <img
+                        data-aos='zoom-in'
                         src='/pubImages/flatiron.jpeg'
                         id="homeImg" />
                 </div>
