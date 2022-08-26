@@ -74,10 +74,16 @@
     margin: 0 1em;
 }
 
+#nextJobBtn:hover .arrowIcon,
+#previousJobBtn:hover .arrowIcon {
+    color: var(--cultured)
+}
+
 .arrowIcon {
     font-size: 2em;
     color: var(--bright);
 }
+
 
 #resumeDownload {
     margin: 2em;
@@ -87,6 +93,10 @@
     background-color: var(--gray2);
     padding: .5em 1em;
     border-radius: 20px;
+}
+#resumeDownload:hover {
+    background-color: var(--bright);
+    color: var(--cultured);
 }
 
 /*  MEDIA QUERIES */

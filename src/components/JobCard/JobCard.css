@@ -67,7 +67,7 @@
     /* object-fit: contain; */
     max-width: 80vw;
     height: 40vh;
-    box-shadow: 0 0 1em 1em var(--dGray2);
+    box-shadow: 0 .5em 1em .3em var(--dGray2);
 
     margin-top: 3vh;
 }

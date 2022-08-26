@@ -32,11 +32,11 @@
     /* box-shadow: 0 0 .75em var(--bright); */
 }
 
-.evenProject {
-    box-shadow: 1em 1em 1.5em .5em var(--dGray2);
+.evenProject .largeProjImg{
+    box-shadow: 1em 1em 1.5em .2em var(--dGray2);
 }
-.oddProject {
-    box-shadow: -1em 1em 1.5em .5em var(--dGray2);
+.oddProject .largeProjImg{
+    box-shadow: -1em 1em 1.5em .2em var(--dGray2);
 }
 .oddProject h1 {
     border-bottom: 5px solid var(--bright);

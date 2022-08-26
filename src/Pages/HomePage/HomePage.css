@@ -129,7 +129,8 @@
     max-height: 45vh; */
     /* height: 100%; */
     object-fit: fill;
-    box-shadow: 0em 0em .5em .3em var(--pink);
+    /* border: 3px solid var(--pink); */
+    box-shadow: 0em 0em 1.5em .2em var(--dGray2);
     /* box-shadow: 1.5em 1em 5em var(--teal); */
     /* box-shadow: 6em 3em 5px var(--pink); */
     /* box-shadow: 1em 1em var(--pink); */
