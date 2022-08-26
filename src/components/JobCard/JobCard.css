@@ -145,6 +145,7 @@
     background-color: var(--pink);
     font-size: 3em;
     z-index: 2;
+    border-bottom: 5px solid var(--bright);
     /* margin-bottom: .3em; */
 }
 .dutiesH1 {

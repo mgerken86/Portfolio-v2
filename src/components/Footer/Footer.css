@@ -27,6 +27,10 @@
     gap: 2em;
 }
 
+.navRoutes2 svg {
+    box-shadow: .2em .2em 1em rgba(0,0,0,.8);
+}
+
 
 .footerIcon:hover {
     font-size: 1.1em;
