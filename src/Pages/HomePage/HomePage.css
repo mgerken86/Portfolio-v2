@@ -124,12 +124,13 @@
 #homeImg {
     width: 70vw;
     max-height: 50vh;
-    max-width: 1060px;
+    max-width: 900px;
     /* max-width: 700px;
     max-height: 45vh; */
     /* height: 100%; */
     object-fit: fill;
-    box-shadow: 0em 0em .5em .3em var(--pink);
+    /* border: 3px solid var(--pink); */
+    box-shadow: 0em 0em 1.5em .2em var(--dGray2);
     /* box-shadow: 1.5em 1em 5em var(--teal); */
     /* box-shadow: 6em 3em 5px var(--pink); */
     /* box-shadow: 1em 1em var(--pink); */
@@ -250,14 +251,14 @@
 .typewriter:after {
     content: '';
     animation: write 15s infinite linear;
-    color: var(--teal);
+    color: var(--dGray2);
 }
 
 
 @keyframes write {
     1% {
         content: ' P';
-        color: var(--pink);
+        color: var(--dGray2);
     }
 
     2% {
@@ -311,96 +312,96 @@
 
     14% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
     }
 
 
     18% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
 
     }
 
     18.25% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
 
     }
 
     18.5% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
     }
 
     18.75% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
     }
 
     19% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .9;
     }
 
     19.25% {
         content: ' Problem Solver ';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .8;
     }
 
     19.5% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .7;
     }
 
     19.75% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .6;
     }
 
     20% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .5;
     }
 
     20.25% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .4;
     }
 
     20.5% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .3;
     }
 
     20.75% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .2;
     }
 
     21% {
         content: ' Problem Solver';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .1;
     }
 
     21.25% {
         content: ' ';
-        color: var(--pink);
+        color: var(--dGray2);
         opacity: 0;
     }
 
 
     25.25% {
         content: ' T';
-        color: var(--pink);
+        color: var(--dGray2);
         opacity: 1;
     }
 
@@ -443,78 +444,78 @@
 
     35.25% {
         content: ' Team Player';
-        color: var(--teal);
+        color: var(--pink);
     }
 
     39.25% {
         content: ' Team Player';
-        color: var(--teal);
+        color: var(--pink);
     }
 
     40% {
         content: ' Team Player';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .9;
     }
 
     40.25% {
         content: ' Team Player';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .8;
     }
 
     40.5% {
         content: ' Team Player';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .7;
     }
 
     40.75% {
         content: ' Team Player';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .6;
     }
 
     41% {
         content: ' Team Player';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .5;
     }
 
     41.25% {
         content: ' Team Player';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .4;
     }
 
     41.5% {
         content: ' Team Player';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .3;
     }
 
     41.75% {
         content: ' Team Player';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .2;
     }
 
     42% {
         content: ' Team Player';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .1;
     }
 
     42.25% {
         content: ' ';
-        color: var(--pink);
+        color: var(--dGray2);
         opacity: 0;
     }
 
 
     46.25% {
         content: ' C';
-        color: var(--pink);
+        color: var(--dGray2);
         opacity: 1;
     }
 
@@ -576,97 +577,97 @@
 
     61.25% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
     }
 
 
     65.25% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
 
     }
 
     65.5% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
 
     }
 
     65.75% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
 
     }
 
     66% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
 
     }
 
     66.25% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
 
     }
 
     66.5% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
 
     }
 
     66.75% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .9;
     }
 
     67% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .8;
     }
 
     67.25% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .7;
     }
 
     67.5% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .6;
     }
 
     67.75% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .5;
     }
 
     68% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .4;
     }
 
     68.25% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .3;
     }
 
     68.5% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .2;
     }
 
     68.75% {
         content: ' Critical Thinker';
-        color: var(--teal);
+        color: var(--pink);
         opacity: .1;
     }
 

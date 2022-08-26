@@ -29,7 +29,7 @@
     width: 50vw;
     width: 100vw;
     height: .6vh;
-    background: linear-gradient(90deg, var(--pink), var(--teal2));
+    background: linear-gradient(90deg, var(--pink), var(--teal));
     position: absolute;
     bottom: 0;
     left: 0;
