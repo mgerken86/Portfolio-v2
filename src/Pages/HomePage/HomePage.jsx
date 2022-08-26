@@ -13,7 +13,7 @@ export default function HomePage() {
         <main id="home">
             <div className="homePage page">
                 <h1 className='nameH1'>
-                    Hi, I'm <span id="teal">Mark</span>
+                    Hi, I'm <span id="teal">Mark Gerken</span>
                 </h1>
                 <div id="imgCont">
                     <div id="topRightGradient"></div>
