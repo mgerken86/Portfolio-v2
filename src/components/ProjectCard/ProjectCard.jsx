@@ -37,8 +37,8 @@ export default function ProjectCard({ project, id }) {
 
     return (
         <div 
-        data-aos={id % 2 === 0 ? 'slide-left' : 'slide-right'}
-        data-aos-duration="2500"
+        data-aos={id % 2 === 0 ? 'zoom-in-left' : 'zoom-in-right'}
+        data-aos-duration="2000"
         data-aos-offset="350"
         // data-aos-easing="ease-in-out-back"
         id='clickDiv'>
