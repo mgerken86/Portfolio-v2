@@ -28,6 +28,7 @@
 .largeProjImg {
     object-fit: fill;
     width: 65vw;
+    max-width: 950px;
     max-height: 50vh;
     /* box-shadow: 0 0 .75em var(--bright); */
 }
