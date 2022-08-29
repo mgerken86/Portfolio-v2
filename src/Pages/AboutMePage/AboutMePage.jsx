@@ -34,7 +34,8 @@ export default function AboutMePage() {
                 <div className='brandStatement'>
                     "I'm a Software Engineer with a background in Administrative Management, Program Development, and Facilitation.
                     <br /><br />My insatiable curiosity keeps me seeking out puzzles, problems, and challenges that inspire me to find solutions through creativity, critical thinking, perseverance, and collaboration. The speed of evolution in the tech industry excites me, and my passion for knowledge motivates me to adapt my skill-set to match the demands of the industry.
-                    <br /><br />I love riddles, puzzles, and problem-solving (ask me about escape-room boxes!). I get the same joy from programming that I do from solving puzzles. As a climber, I enjoy breaking large problems into smaller 'moves' and calculating the most efficient way of getting them done. And most importantly, I am not afraid to fall a thousand times until I find a solution."
+                    <br /><br />I love riddles, puzzles, and problem-solving (ask me about escape-room boxes!). Programming provides the critical thinking that I love, it feels like the closest thing to magic to me; through the power of my mind, I\'m able to translate my knowledge of computer languages into a manifestation of my imagination. 
+                    <br /><br />As a climber, I enjoy breaking large problems into smaller 'moves' and calculating the most efficient way of linking them together. I'm inspired by challenge and feel the highest sense of accomplishment from climbs that sometimes take years of pushing my mental and physical limits until I reach the top. I feel a similar joy when problem-solving while programming, and most importantly, I am not afraid to fall a thousand times until I find a solution."
                 </div>
                 <h1 id='smallerH1'></h1>
                 <h1 id='smallerH1'></h1>
