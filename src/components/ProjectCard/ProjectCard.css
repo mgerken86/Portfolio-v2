@@ -52,6 +52,7 @@
 
 #projH1 {
     width: 65vw;
+    max-width: 950px;
     /* position: absolute; */
     top: 0;
     color: var(--cultured);
