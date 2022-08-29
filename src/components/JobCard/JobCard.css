@@ -1,0 +1,181 @@
+
+.evenJob, .oddJob {
+    /* margin-bottom: -1em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-height: 75vh;
+    max-width: 80vw;
+    /* background: linear-gradient(black, var(--bPurple), black);
+    background: linear-gradient(90deg, var(--dGray2), var(--gray), var(--dGray2)); */
+    position: relative;
+    /* box-shadow: 0 0 1em .3em var(--dGray2); */
+    cursor: pointer;
+    
+    /* max-height: 100%; */
+}
+.evenJob {
+    /* box-shadow: .25em .25em var(--pink); */
+    /* box-shadow: 1em 1em var(--pink); */
+    /* box-shadow: .25em .25em 1em  var(--pink); */
+}
+.oddJob {
+    /* box-shadow: -.25em .25em var(--teal); */
+    /* box-shadow: -1em 1em var(--teal); */
+    /* box-shadow: -.25em .25em 1em  var(--teal); */
+}
+
+.jobImgContainer {
+    /* max-width: 60vw !important; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 60vh;
+    width: 80vw;
+}
+.jobDetailsContainer {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
+    background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2));
+    /* box-shadow: 0 0 1em 1em var(--dGray2); */
+
+}
+.jobDetailsContainer * {
+    color: var(--cultured);
+}
+
+.jobTitle2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.jobTitle2 h3 {
+    font-size: 1.5em;
+}
+
+.jobImage {
+    /* object-fit: contain; */
+    max-width: 80vw;
+    height: 40vh;
+    box-shadow: 0 .5em 1em .3em var(--dGray2);
+
+    margin-top: 3vh;
+}
+.jobDuties {
+    width: 80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.jobTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* position: absolute;
+    top: 0em;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.jobH5 {
+    width: 100%;
+    /* height: 12vh; */
+    font-size: 2em;
+    /* height: 10vh; */
+    /* margin-bottom: .4em; */
+    padding: .4em;
+    /* position: absolute;
+    top: 0em;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.jobBtnCont {
+    /* background-color: black; */
+    width: 100%;
+    bottom: 0em;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jobsBtn {
+    background: var(--bPurple);
+    background: linear-gradient(var(--teal), var(--teal2));
+    box-shadow: .2em .2em 1em rgba(0,0,0,.8);
+    color: var(--bPurple);
+    font-weight: bold;
+    padding: 1.3em 3.5em;
+    border-radius: 10px;    
+}
+.jobsBtn:hover {
+    background: var(--bright);
+    color: var(--cultured);
+}
+/* .evenJob button {
+    box-shadow: .2em .2em var(--teal);
+}
+.oddJob button {
+    box-shadow: .2em .2em var(--pink);
+} */
+
+.evenJob h5, .oddJob h5 {
+    color: var(--cultured);
+    background-color: var(--pink);
+    font-size: 3em;
+    z-index: 2;
+    border-bottom: 5px solid var(--bright);
+    /* margin-bottom: .3em; */
+}
+.dutiesH1 {
+    width: 80%;
+    width: 100%;
+    font-size: 2em;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .4em;
+    color: var(--pink);
+    background-color: var(--gray2) !important;
+    /* border-radius: 20px; */
+}
+
+/* Animation to fade images */
+
+@keyframes fade {
+    0% { opacity: 0; }
+	25% { opacity: .5; }
+	40% { opacity: .8; }
+	100% { opacity: 1; }
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+

@@ -3,23 +3,113 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    /* background: linear-gradient(var(--violet), var(--maroon)); */
-    background-color: black;
 }
 
 .resumePage {
     min-height: 100vh;
     margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .resumePage h1 {
-    font-size: 5em;
-    color: var(--cultured);
+    font-size: 3em;
+    color: var(--dGray2);
 }
 
 .resumeImg {
     height: 90vh;
     width: 70vw;
 }
+
+.jobsContainer {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    /* gap: 3em; */
+    width: 90vw;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#changeJobCont {
+    width: 80vw;
+    height: 10em;
+    /* height: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nextJobBtn {
+    /* position: absolute;
+    bottom: 30%;
+    right: 5%;
+    margin: 1em; */
+}
+
+#previousJobBtn {
+    /* position: absolute;
+    bottom: 30%;
+    left: 5%;
+    margin: 1em; */
+}
+
+#nextJobBtn,
+#previousJobBtn {
+    /* margin: 1em; */
+    height: 6em;
+    width: 15em;
+    display: inline-block;
+    z-index: 2;
+    padding: .4em;
+    margin: 0 1em;
+}
+
+#nextJobBtn:hover .arrowIcon,
+#previousJobBtn:hover .arrowIcon {
+    color: var(--cultured)
+}
+
+.arrowIcon {
+    font-size: 2em;
+    color: var(--bright);
+}
+
+
+#resumeDownload {
+    margin: 2em;
+    font-size: 3em;
+    color: var(--pink);
+    text-decoration: none;
+    background-color: var(--gray2);
+    padding: .5em 1em;
+    border-radius: 20px;
+}
+#resumeDownload:hover {
+    background-color: var(--bright);
+    color: var(--cultured);
+}
+
+/*  MEDIA QUERIES */
+
+@media only screen and (max-width: 1000px) {
+
+    #nextJobBtn,
+    #previousJobBtn {
+        width: 10em;
+        padding: .2em;
+        height: 6em;
+    }
+
+}
+
+@media only screen and (max-width: 660px) {}

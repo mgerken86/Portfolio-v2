@@ -1,0 +1,74 @@
+.contactForm {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0em 0em .1em .2em var(--teal);
+    margin-top: -.5em;
+    background-color: var(--dGray2);
+}
+
+.contactForm label {
+    line-height: 2em;
+    color: var(--cultured);
+    font-size: 1.5em;
+}
+
+.contactForm textarea {
+    min-height: 6em;
+    font-size: 1.5em;
+    color: var(--pink);
+    outline: none;
+}
+
+.contactForm textarea::placeholder {
+    padding: 0.5rem;
+    color: var(--bright);
+}
+
+.contactForm .input-field {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 .2em var(--teal);
+    font-size: 1em;
+    border: none;
+    outline: none;
+    background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
+    background: linear-gradient(var(--gray), var(--gray2), var(--gray));    
+    color: var(--pink);
+}
+
+.input-field::placeholder {
+    padding: 0.5rem;
+    color: var(--bright);
+}
+
+.submitBtn {
+    background: linear-gradient(var(--teal2), var(--teal));
+    box-shadow: .2em .2em 1em rgba(0,0,0,.8);
+    color: var(--pink);
+    font-weight: bold;
+    padding: 1.3em 3.5em;
+    border-radius: 10px;
+    width: 50%;
+    z-index: 5;
+    margin-top: 2.5em;
+}
+.submitBtn:hover {
+    background: var(--bright);
+    color: var(--cultured);
+}
+
+@media screen and (max-width: 800px) {
+    .contact-form-container {
+        max-width: 23.75rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .contact-form-container {
+        max-width: 17.75rem;
+    }
+}
