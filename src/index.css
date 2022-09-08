@@ -3,6 +3,7 @@
 :root {
     --cultured: #edf2f4;
     /* purples */
+    --bPurple: #0d0217;
     --violet: #19042d;
     --dPurple: #26002e;
     --purple: #300638;
@@ -18,11 +19,74 @@
     --blue: #256488;
     --blue1: #3aadc8;
     --teal: #43facc;
+    --teal: #74c5d8;
+    --teal: #95cdfd;
+    --teal: #80effd;
+    /* --teal: #5adff9; */
+    /* --teal: #05f6fa; */
+    --cultured: #F6F6F6;
+    /* --teal: #408697; */
+    --bright: #408697;
+    --bPurple: #363538;
+    --bPurple: #00181b;
+    --bPurple: #303030;
+    --bPurple: #1a1a1a;
+    --bPurple: #0c1719;
+    --violet: #8D8C8A;
+    --pink: #80fdcd;
+    --pink: #fdcd80;
+    --pink: #fd8e80;
+    --pink: #33848f;
+    /* --pink: #99ffdd; */
+    --pink: #133C55;
+    /* --pink: #337357; */
+    --manatee: #8D99ae;
+    
+    /* --bright: #157145; */
+
+   /* --teal: #3fd2c7;
+   --pink: #99ddff;
+   --blue: #00458b; */
+
+   --cultured: #e9e9e9;
+   --plaster: #cdcdcd;
+   /* --bright: #88bbd6; */
+   --teal2: #99d3df;
+
+
+   --bright: #F39237;
+   --bright: #06A77D;
+   --bright: #EE964B;
+   --bright: #519872;
+   --bright: #629677;
+   --bright: #A6A867;
+   --bright: #CF995F;
+   --bright: #B39C4D;
+   --bright: #B66D0D;
+   --bright: #AD8A64;
+   --bright: #DBA159;
+   --bright: #9C914F;
+  
+   --pink: #003b6d;
+   --teal: #8cb3d9;
+   --cultured: #ebedf3;
+   --gray: #bdbdbd;
+   --gray2: #e6e6e6;
+   --dGray: #676767;
+   --dGray2: #4d4d4d;
+
+
 
 
 }
+html, body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100vw !important;
+}
 
 * {
+    color: var(--cultured);
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
@@ -31,11 +95,24 @@
     /* font-family: 'Roboto Slab', serif; */
 }
 
+
 h1 {
     font-family: 'Titillium Web', sans-serif;
     font-family: 'League Spartan', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
 
+#home, #projects, #resume, #about {
+    background: linear-gradient(90deg, var(--cultured), white, var(--cultured));
+    /* background: linear-gradient(90deg, black, var(--bPurple), black);     */
+    background: linear-gradient(90deg, var(--gray), white, white, var(--gray));    
+    /* background-color: var(--gray); */
+}
 
-
+.normalH1 {
+    font-size: 5em !important;
+    background-color: var(--dGray2);
+    color: var(--cultured) !important;
+    width: 100%;
+    margin-bottom: 1.2em;
+}

@@ -1,15 +1,100 @@
-.aboutMePage {
+#about {
     width: 100vw;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    /* background: linear-gradient(var(--maroon), var(--violet)); */
-    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMePage {
+    margin-top: 10vh;
+    width: 100vw;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 4em;
+    margin-bottom: 15vh;
+}
+
+.aboutMePage h1 {
+    font-size: 3em;
+    color: var(--dGray2);
+    margin-bottom: -.8em;
+}
+
+.contactInfo {
+    width: 25em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.aboutContact {
+    color: var(--dGray2);
+    /* background: linear-gradient(90deg, var(--teal), var(--pink)); */
+    font-size: 2em;
+    border-radius: 10px;
+    box-shadow: -.1em .1em .1em var(--pink);
+    padding: .5em;
+}
+
+.aboutContact.pink {
+    /* background: linear-gradient(90deg, var(--pink), var(--teal)); */
+    /* color: var(--pink); */
+    box-shadow: .1em -.1em .1em var(--teal);
+}
+
+.markImgContainer {
+    width: 17em;
+    height: 17em;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2)); */
+    background-color: var(--cultured);
+    box-shadow: 0 0 .55em .2em var(--bright);
+    margin: 3em auto 0;
 }
 
 .markImg {
-    height: 25em;
-    width: 25em;
+    height: 15em;
+    width: 15em;
     border-radius: 50%;
+    box-shadow: 0 0 .75em var(--cultured);
+}
+
+.brandStatement {
+    width: 85vw;
+    min-height: 20vh;
+    color: var(--pink);
+    font-size: 1.5em;
+    /* background: linear-gradient(var(--violet), var(--purple1), var(--maroon)); */
+    /* background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2)); */
+    padding: 1em;
+    box-shadow: 0em 0em .1em .1em var(--teal);
+    text-align: left;
+}
+
+#smallerH1 {
+    font-size: 2.8em;
+    margin-bottom: .3em;
+}
+
+h3 svg {
+    color: var(--cultured);
+    /* background-color: var(--cultured); */
+    padding: .1em;
+    border-radius: 4px;
+}
+.pinkIcon {
+    background-color: var(--pink);
+}
+.tealIcon {
+    background-color: var(--teal2);
 }

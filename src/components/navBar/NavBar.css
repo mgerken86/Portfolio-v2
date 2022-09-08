@@ -1,14 +1,15 @@
 .navBar {
     position: fixed;
     top: 0;
-    height: 6vh;
+    height: 9vh;
     display: flex;
     width: 100vw;
     justify-content: space-between;
     align-items: center;
     padding: 1em 0;
-    background-color: rgba(0, 0, 0, .9);
-    z-index: 2;
+    background-color: rgba(0, 0, 0, 1);
+    background-color: var(--dGray2);
+    z-index: 5;
     /* background-color: black; */
     
     /* background: linear-gradient(90deg, var(--violet), var(--cobaltBlue), var(--catawba)); */
@@ -26,7 +27,8 @@
 }
 #navGradient {
     width: 50vw;
-    height: .25vh;
+    width: 100vw;
+    height: .6vh;
     background: linear-gradient(90deg, var(--pink), var(--teal));
     position: absolute;
     bottom: 0;
@@ -36,20 +38,24 @@
 
 .navBtn {
     display: inline-block;
-    padding: .3em;
-    background: linear-gradient(var(--pink), var(--teal));
-    color: black;
+    padding: .5em;
+    background: linear-gradient(var(--teal), var(--teal2));
+    color: var(--pink);
     border-radius: 10px;
+    box-shadow: .2em .2em 1em rgba(0,0,0,.8);
+    border: none;
 }
 .navBtn:hover {
     cursor: pointer;
-    color: black;
-    background: var(--pink);
-
+    color: var(--cultured);
+    background: var(--bright);
+    /* border: 2px solid var(--teal); */
 }
 
 .active span {
-    color: var(--violet);
-    /* color: black; */
-    background: var(--salmon);
+    color: var(--cultured);
+    background: var(--bright);
+    /* box-shadow: .1em .1em .2em  .1em var(--teal); */
+    /* border: 1px solid var(--teal2); */
 }
+

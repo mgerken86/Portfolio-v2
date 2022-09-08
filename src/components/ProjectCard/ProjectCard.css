@@ -1,55 +1,178 @@
 .projectCardDiv {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80vw;
-    height: 25vh;
-    border: 3px solid var(--blue1);
-    background: linear-gradient(var(--violet), var(--purple1), var(--maroon));
+    min-height: 60vh;
+    box-shadow: 0 0 .25em .25em var(--teal);
+    background: linear-gradient(var(--dGray2), var(--dGray), var(--dGray2));
+    padding: 1em;
+    /* background: linear-gradient(black, var(--bPurple), black); */
+    /* background-color: var(--gray); */
 }
 
-#lColumn {
-    flex: 2;
+
+.projClick {
+    cursor: pointer;
+    /* background: var(--dGray); */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: center;
+    width: 65vw;
+    max-height: 60vh;
+    /* height: 100%; */
+    position: relative;
+}
+
+.largeProjImg {
+    object-fit: fill;
+    width: 65vw;
+    max-width: 950px;
+    max-height: 50vh;
+    /* box-shadow: 0 0 .75em var(--bright); */
+}
+
+.evenProject .largeProjImg{
+    box-shadow: 1em 1em 1.5em .2em var(--dGray2);
+}
+.oddProject .largeProjImg{
+    box-shadow: -1em 1em 1.5em .2em var(--dGray2);
+}
+.oddProject h1 {
+    border-bottom: 5px solid var(--bright);
+    border-top: 5px solid var(--bright);
+    background-color: var(--dGray2);
+}
+.evenProject h1 {
+    border-bottom: 5px solid var(--bright);
+    border-top: 5px solid var(--bright);
+    background-color: var(--pink);
+}
+
+#projH1 {
+    width: 65vw;
+    max-width: 950px;
+    /* position: absolute; */
+    top: 0;
+    color: var(--cultured);
+    padding: .4em;
+    font-size: 3em;
+    /* background-color: var(--gray2);
+    color: var(--bright); */
+}
+
+
+#lColumn {
+    flex: 7;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 #rColumn {
-    flex: 1;
+    flex: 5;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 #rColumn img {
     width: 100%;
-    object-fit: cover;
-    max-height: 100%;
+    object-fit: fill;
+    height: 40vh;
 }
 
 .projectCardDiv h2 {
-    color: var(--pink);
-    font-size: 2em;
+    color: var(--bright);
+    font-size: 3em;
 }
 .projectCardDiv h5 {
     color: var(--cultured);
+    font-size: 2em;
+    text-align: left;
+    width: 90%;
 }
 
 .linksContainer {
-    width: 30vw;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .projectBtn {
-    background-color: var(--blue1);
+    /* background-color: var(--teal); */
+    background: linear-gradient(var(--teal), var(--teal2));
     padding: 1em;
-    color: black;
+    color: var(--pink);
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: .2em .2em 1em rgba(0,0,0,.8);
 }
 .projectBtn:hover {
     cursor: pointer;
-    background-color: var(--salmon);
-    color: var(--violet);
+    background: var(--bright);
+    color: var(--cultured);
 }
 
 .githubIcon {
     width: 3em;
+}
+
+.movieContainer {
+    width: 100%;
+    max-height: 60vh !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movieContainer video {
+    max-height: 50vh;
+    width: 100%;
+}
+.movieContainer button {
+    position: absolute;
+    bottom: 1em;
+    z-index: 3;
+    width: 20em;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .projectCardDiv {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+    }
+    .projectCardDiv h5 {
+        font-size: 1.2em;
+    }
+    #lColumn {
+        flex: 5 !important;
+        justify-content: space-apart;
+    }
+    #rColumn {
+        flex: 1 !important;
+    }
+    #projH1 {
+        padding: .3em;
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    #projH1 {
+        padding: .1em;
+        font-size: 1.5em;
+    }
 }

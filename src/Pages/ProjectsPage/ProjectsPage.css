@@ -3,27 +3,69 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
-    /* background: linear-gradient(var(--maroon), var(--violet)); */
-    background-color: rgba(0, 0, 0, 1);
 }
 
 .projectsPage {
     min-height: 100vh;
     margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.projectsImg {
+    width: 100vw;
+    max-height: 55vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 2em;
+}
+.projectsImg img {
+    max-width: 90%;
+    max-height: 45vh;
+    object-fit: contain;
+    border-radius: 0px;
+    opacity: .4;
 }
 
 .projectsPage h1 {
-    font-size: 4em;
-    color: var(--cultured)
+    font-size: 3em;
+    color: var(--dGray2)
 }
 
 .projectsContainer {
+    margin-top: 6em;
     display: flex;
-    gap: 3em;
+    gap: 9em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     min-height: 80vh;
+}
+
+.skillIcons {
+    min-height: 15vh;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin: 3em auto;
+    position: absolute;
+}
+i {
+    color: var(--pink);
+    font-size: 3em;
+}
+
+
+@media only screen and (max-width: 660px) {
+    .projectsContainer {
+        gap: 4em;
+    }
 }
