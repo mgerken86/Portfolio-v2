@@ -25,7 +25,7 @@ export default function HomePage() {
                     <div id="bottomRightGradient"></div>
                     <div id="rightRightGradient"></div>
                     <img
-                        data-aos='zoom-in'
+                        // data-aos='zoom-in'
                         src='/pubImages/flatiron.jpeg'
                         id="homeImg" />
                 </div>
